@@ -45,4 +45,4 @@ jobs:
             uses: JamesIves/github-pages-deploy-action@v4.4.0
             with:
               branch: gh-pages
-              folder: 'ayduria.github.io/build'
+              folder: build
