@@ -17,7 +17,7 @@ concurrency:
     cancel-in-progress: true
     
 jobs:
-    build:
+    build-and-deploy:
         runs-on: ubuntu-latest
         steps:
           - name: Checkout
@@ -36,13 +36,9 @@ jobs:
             uses: actions/upload-pages-artifact@v1
             with:
               path:
-                build
-                
-    deploy:
-        runs-on: ubuntu-latest
-        steps:
+                'build'
           - name: Deploy
             uses: JamesIves/github-pages-deploy-action@v4.4.0
             with:
-              branch: gh-pages
               folder: build
+              branch: gh-pages
