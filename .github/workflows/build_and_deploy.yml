@@ -44,6 +44,5 @@ jobs:
           - name: Deploy
             uses: JamesIves/github-pages-deploy-action@v4
             with:
-              github_token: $${{ secrets.TOKEN_KEY }}
               branch: gh-pages
-              folder: 'work/build'
+              folder: 'front-app/build'
