@@ -1,8 +1,8 @@
 // src/components/Skills.js
-
+import "./index.css"
+import { skills } from "./data"
 import React from "react"
 import { CheckBadgeIcon, CpuChipIcon } from "@heroicons/react/24/solid"
-import { skills } from "../data"
 
 function Skills() {
     return (

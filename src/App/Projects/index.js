@@ -1,8 +1,8 @@
 // src/components/Projects.js
-
+import "./index.css"
+import { projects } from "./data"
 import React from "react"
 import { CodeBracketIcon } from "@heroicons/react/24/solid"
-import { projects } from "../data"
 
 function Projects() {
     return (

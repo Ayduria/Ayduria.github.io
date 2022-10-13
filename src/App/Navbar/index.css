@@ -1,0 +1,22 @@
+@media (max-width: 767px){
+    header {
+        position:sticky;
+        margin-bottom:20px;
+    }
+
+    .navlink {
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid grey;
+        margin-right:0px;
+    }
+
+    .mainnav {
+        text-align: left;
+    }
+
+    .namelink {
+        display:none
+    }
+}
+

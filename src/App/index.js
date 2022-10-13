@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import About from "./components/About"
-import Navbar from "./components/Navbar"
-import Contact from "./components/Contact"
-import Skills from "./components/Skills"
-import Projects from "./components/Projects"
-
-import { Link, animateScroll as scroll } from "react-scroll"
+import './index.css';
+import About from "./About"
+import Navbar from "./Navbar"
+import Contact from "./Contact"
+import Skills from "./Skills"
+import Projects from "./Projects"
 
 function App() {
   return (
