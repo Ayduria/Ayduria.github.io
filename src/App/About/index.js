@@ -1,7 +1,7 @@
 // src/components/About.js
 import "./index.css"
 import React from "react"
-import { Link, animateScroll as scroll } from "react-scroll"
+import { Link } from "react-scroll"
 
 function About() {
     return (
@@ -20,7 +20,7 @@ function About() {
                     </p>
                     <div className="flex justify-center">
                         <Link
-                            className="ninline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg hover:cursor-pointer"
+                            className="about-btn ninline-flex text-gray-100 bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-700 rounded hover:text-white text-lg hover:cursor-pointer"
                             activeClass="active"
                             to="contact"
                             spy={true}
@@ -31,7 +31,7 @@ function About() {
                         </Link>
                         <a
                             href=""
-                            className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                            className="about-btn ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                             Voir mon CV
                         </a>
                     </div>
