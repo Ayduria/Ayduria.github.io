@@ -20,7 +20,7 @@ function About() {
                     </p>
                     <div className="flex justify-center">
                         <Link
-                            className="about-btn ninline-flex text-gray-100 bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-700 rounded hover:text-white text-lg hover:cursor-pointer"
+                            className="about-btn ninline-flex text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-700 rounded hover:text-white text-lg hover:cursor-pointer"
                             activeClass="active"
                             to="contact"
                             spy={true}

@@ -1,3 +1,20 @@
 .info-overlay {
+    background-color: rgba(17, 24, 39, 0.9);
     transition: opacity 0.3s ease;
+}
+
+.project-box:hover {
+    cursor:pointer;
+}
+
+.project-box {
+    height:250px;
+}
+
+.project-box img {
+    padding:1px;
+}
+
+.project-box:hover img {
+    filter: blur(1px);
 }
