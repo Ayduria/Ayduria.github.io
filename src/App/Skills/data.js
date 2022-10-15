@@ -1,10 +1,17 @@
- export const skills = [
-    "C++",
-    "C#",
-    "Unity",
-    "Unreal Engine",
-    "Git",
-    "Perforce",
-    "JavaScript",
-    "HTML/CSS",
-  ];
+ export const progskills = [
+  "C++",
+  "C#",
+  "Java",
+  "JavaScript",
+  "React",
+  "PHP",
+];
+
+export const toolskills = [
+  "Unreal Engine",
+  "Unity",
+  "Rider",
+  "Visual Studio",
+  "Git",
+  "Perforce",
+];

@@ -64,7 +64,7 @@ export const projects = [
     },
     {
       title: "Centre national d'exposition",
-      subtitle: "HTML/CSS, JavaScript, php",
+      subtitle: "HTML/CSS, JavaScript, PHP",
       description:
         "Nouveau site web du Centre national d'exposition réalisé dans le cadre de mon projet final de Techniques d'intégration multimédia au Cégep de Jonquière.",
       thumbnail: "./img/cne_thumbnail.jpg",

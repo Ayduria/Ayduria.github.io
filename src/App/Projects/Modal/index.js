@@ -7,8 +7,7 @@ import BackgroundImage from '../../../Assets/img/white-diamond-dark.png'
 
 function Modal( {isVisible, title, image, close} ) {
 
-    const key = [title];
-    const Project = projects[key];
+    const Project = projects[title];
 
     return (
         <div className="modal-container">
