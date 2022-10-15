@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: 'League Spartan';
-  src: local('League Spartan'), url('./webfont/LeagueSpartan-Bold.eot');
-  src: local('League Spartan'), url('./webfont/LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
-      url('./webfont/LeagueSpartan-Bold.woff2') format('woff2'),
-      url('./webfont/LeagueSpartan-Bold.woff') format('woff'),
-      url('./webfont/LeagueSpartan-Bold.ttf') format('truetype'),
-      url('./webfont/LeagueSpartan-Bold.svg#LeagueSpartan-Bold') format('svg');
+  src: local('League Spartan'), url('./Assets/webfont/LeagueSpartan-Bold.eot');
+  src: local('League Spartan'), url('./Assets/webfont/LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./Assets//webfont/LeagueSpartan-Bold.woff2') format('woff2'),
+      url('./Assets/webfont/LeagueSpartan-Bold.woff') format('woff'),
+      url('./Assets/webfont/LeagueSpartan-Bold.ttf') format('truetype'),
+      url('./Assets/webfont/LeagueSpartan-Bold.svg#LeagueSpartan-Bold') format('svg');
   font-style: normal;
   font-weight: bold;
   font-display: swap;
@@ -17,8 +17,8 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans'), url('./webfont/OpenSans-Regular.woff2') format('woff2'),
-      url('./webfont/OpenSans-Regular.woff') format('woff');
+  src: local('Open Sans'), url('./Assets/webfont/OpenSans-Regular.woff2') format('woff2'),
+      url('./Assets/webfont/OpenSans-Regular.woff') format('woff');
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -26,8 +26,8 @@
 
 @font-face {
   font-family: 'Open Sans';
-  src: local('Open Sans'), url('./webfont/OpenSans-SemiBold.woff2') format('woff2'),
-      url('./webfont/OpenSans-SemiBold.woff') format('woff');
+  src: local('Open Sans'), url('./Assets/webfont/OpenSans-SemiBold.woff2') format('woff2'),
+      url('./Assets/webfont/OpenSans-SemiBold.woff') format('woff');
   font-style: normal;
   font-weight: 600;
   font-display: swap;
