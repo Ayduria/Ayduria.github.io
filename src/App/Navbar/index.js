@@ -35,22 +35,22 @@ function Navbar() {
                     <Link
                         className="navlink"
                         activeClass="active"
-                        to="skills"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>
-                            Compétences
-                    </Link>
-                    <Link
-                        className="navlink"
-                        activeClass="active"
                         to="projects"
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={500}>
                             Projets
+                    </Link>
+                    <Link
+                        className="navlink"
+                        activeClass="active"
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}>
+                            Compétences
                     </Link>
                 </nav>
                 <Link

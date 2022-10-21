@@ -9,6 +9,15 @@ export const projects = [
       categorie: "Jeux",
     },
     {
+      title: "Alka",
+      subtitle: "Unreal Engine et C++ ",
+      description:
+        "Jeu de tir à la première personne multijoueur en ligne sur lequel je vais travailler durant les mois à venir dans le cadre du baccalauréat en développement de jeux vidéo à l'UQAC.",
+      thumbnail: "./img/alka_thumbnail.jpg",
+      image: "/img/alka_thumbnail.jpg",
+      categorie: "Jeux",
+    },
+    {
       title: "Feature Hunter",
       subtitle: "Unity et C#",
       description:
@@ -45,48 +54,30 @@ export const projects = [
       categorie: "Jeux",
     },
     {
-      title: "Alka",
-      subtitle: "Unreal Engine et C++ ",
-      description:
-        "Jeu de tir à la première personne multijoueur en ligne sur lequel je vais travailler durant les mois à venir dans le cadre du baccalauréat en développement de jeux vidéo à l'UQAC.",
-      thumbnail: "./img/alka_thumbnail.jpg",
-      image: "/img/alka_thumbnail.jpg",
-      categorie: "Jeux",
-    },
-    {
       title: "Gamer's Guess",
       subtitle: "Android Studio et Java",
       description:
         "Application Android ludique de quiz sur le sujet des jeux vidéo réalisée dans le cadre d'un cours d'informatique mobile à l'UQAC.",
       thumbnail: "./img/gamersguess_thumbnail.jpg",
       image: "/img/gamersguess_thumbnail.jpg",
-      categorie: "Autre",
-    },
-    {
-      title: "Centre national d'exposition",
-      subtitle: "HTML/CSS, JavaScript, PHP",
-      description:
-        "Nouveau site web du Centre national d'exposition réalisé dans le cadre de mon projet final de Techniques d'intégration multimédia au Cégep de Jonquière.",
-      thumbnail: "./img/cne_thumbnail.jpg",
-      image: "/img/cne_thumbnail.jpg",
-      categorie: "Autre",
+      categorie: "Applications",
     },
     {
       title: "Location de films",
-      subtitle: "Netbeans, Oracle, Java",
+      subtitle: "Netbeans, Oracle et Java",
       description:
-        "Application fictive permettant à des utilisateurs de rechercher des films selon plusieurs critères et de les louer réalisé dans le cadre d'un cours de base de données avancées à l'UQAC.",
+        "Application Windows fictive permettant à des utilisateurs de rechercher des films selon plusieurs critères et de les louer réalisé dans le cadre d'un cours de base de données avancées à l'UQAC.",
       thumbnail: "./img/locationfilm_thumbnail.jpg",
       image: "/img/locationfilm_thumbnail.jpg",
-      categorie: "Autre",
+      categorie: "Applications",
     },
     {
-      title: "Yes Man",
-      subtitle: "Maya et Substance Painter",
+      title: "Centre national d'exposition",
+      subtitle: "HTML/CSS, jQuery, PHP et MySQL",
       description:
-        "Modèle 3D de Yes Man dans Fallout que j'ai modélisé, déplié et texturé dans le cadre d'un cours d'introduction à la création 3D à l'UQAC.",
-      thumbnail: "./img/yesman_thumbnail.jpg",
-      image: "/img/yesman_thumbnail.jpg",
-      categorie: "Autre",
+        "Nouveau site web dynamique du Centre national d'exposition réalisé dans le cadre de mon projet final de Techniques d'intégration multimédia au Cégep de Jonquière.",
+      thumbnail: "./img/cne_thumbnail.jpg",
+      image: "/img/cne_thumbnail.jpg",
+      categorie: "Web",
     },
   ];

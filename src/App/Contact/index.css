@@ -1,3 +1,7 @@
+#contact {
+    padding-top: 10px;
+}
+
 .filter-white {
     transition: opacity linear 0.2s;
     filter: brightness(0) invert(1);
