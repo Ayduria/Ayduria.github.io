@@ -14,12 +14,12 @@ function Navbar() {
     }
 
     return (
-        <header className="bg-gray-800 md:fixed top-0 z-10 w-full shadow-lg">
+        <header className="bg-gray-800 fixed top-0 z-10 w-full shadow-lg">
             <div className="fullnavbar container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center h-full">
                 <Link
                     className="namelink title-font font-medium text-white mb-4 md:mb-0 h-full hover:cursor-pointer"
                     activeClass="active"
-                    to="about"
+                    to="landing"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -32,6 +32,16 @@ function Navbar() {
                         </a>
                 </Link>
                 <nav className="mainnav md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+                    <Link
+                        className="navlink"
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}>
+                            À propos
+                    </Link>
                     <Link
                         className="navlink"
                         activeClass="active"

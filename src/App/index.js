@@ -1,5 +1,6 @@
 import './index.css';
 import About from "./About"
+import Landing from "./Landing"
 import Navbar from "./Navbar"
 import Contact from "./Contact"
 import Skills from "./Skills"
@@ -11,6 +12,7 @@ function App() {
     <div className="App text-gray-400 bg-gray-900 body-font">
       <Navbar />
         <main>
+          <Landing />
           <About />
           <Projects />
           <Skills />
