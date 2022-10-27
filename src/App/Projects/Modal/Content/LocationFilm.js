@@ -4,7 +4,22 @@ import React from "react"
 
 function LocationFilm( {} ) {
     return (
-        <p>LocationFilm</p>
+        <div>
+            <div className="project-section">
+                <h1>Description du projet</h1>
+                
+            </div>
+
+            <div className="project-section">
+                <h1>Mon implication</h1>
+                
+            </div>
+
+            <div className="project-section">
+                <h1>Défis de conception</h1>
+            
+            </div>
+        </div>
     )
 }
 

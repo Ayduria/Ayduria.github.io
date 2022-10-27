@@ -11,19 +11,24 @@ function Projects() {
     const [show, setShow] = useState(false);
     const [title, setTitle] = useState(null);
     const [image, setImage] = useState(null);
+    const [subtitle, setSubtitle] = useState(null);
 
     const [showGames, setShowGames] = useState(true);
     const [showApps, setShowApps] = useState(false);
     const [showWeb, setShowWeb] = useState(false);
 
-    function showModal(title, image) {
+    function showModal(title, image, subtitle) {
         setShow(true);
         setTitle(title);
         setImage(image);
+        setSubtitle(subtitle);
     }
 
     function hideModal() {
         setShow(false);
+        setTitle(null);
+        setImage(null);
+        setSubtitle(null);
     }
 
     function showGameProjects() {
@@ -72,7 +77,7 @@ function Projects() {
                     {projects.map((project) => (
                         <div className="sm:w-1/2 w-100 p-4" style={{ display: (project.categorie == 'Jeux'  && showGames || project.categorie == 'Applications' && showApps || project.categorie == 'Web' && showWeb ? 'block' : 'none') }}>
                             <a
-                                onClick={() => showModal(project.title, project.image)}
+                                onClick={() => showModal(project.title, project.image, project.subtitle)}
                                 key={project.thumbnail}>
                                 <div className="project-box flex relative">
                                     <img
@@ -93,7 +98,7 @@ function Projects() {
                                     </div>
                                 </div>
                             </a>
-                            <Modal isVisible={show} title={title} image={image} close={hideModal}/>
+                            <Modal isVisible={show} title={title} image={image} subtitle={subtitle} close={hideModal}/>
                         </div>
                     ))}
                 </div>

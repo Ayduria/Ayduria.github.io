@@ -16,7 +16,7 @@ function Landing() {
                     <div className="flex justify-center">
                         <Link
                             id="projects-btn"
-                            className="about-btn inline-flex text-white border-0 py-2 px-6 focus:outline-none rounded hover:text-white text-lg hover:cursor-pointer"
+                            className="about-btn inline-flex text-white bg-green-700 hover:bg-green-800 border-0 py-2 px-6 focus:outline-none rounded hover:text-white text-lg hover:cursor-pointer"
                             activeClass="active"
                             to="projects"
                             spy={true}

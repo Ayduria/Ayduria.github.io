@@ -2,14 +2,6 @@
    background-color: rgb(13, 18, 29);;
 }
 
-#projects-btn {
-    background-color: #1d8d87
-}
-
-#projects-btn:hover {
-    background-color: #13635f
-}
-
 .about-btn {
     transition: background-color 0.3s ease, color 0.3s ease;
 }

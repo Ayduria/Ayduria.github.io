@@ -8,7 +8,7 @@ import FeatureHunter from "./FeatureHunter"
 import AsteroidField from "./AsteroidField"
 import GamersGuess from "./GamersGuess"
 import LocationFilm from "./LocationFilm"
-import YesMan from "./YesMan"
+import LoadingGif from '../../../../Assets/img/loading-gif.gif'
 
 const projects = {
     'Lux': Lux,
@@ -20,7 +20,10 @@ const projects = {
     'Asteroid Field' : AsteroidField,
     'Gamer\'s Guess' : GamersGuess,
     'Location de films' : LocationFilm,
-    'Yes Man' : YesMan,
 }
 
-export { projects }
+const images = {
+    'LoadingGif': LoadingGif,
+}
+
+export { projects, images }

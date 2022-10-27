@@ -9,15 +9,6 @@ export const projects = [
       categorie: "Jeux",
     },
     {
-      title: "Alka",
-      subtitle: "Unreal Engine et C++ ",
-      description:
-        "Jeu de tir à la première personne multijoueur en ligne sur lequel je vais travailler durant les mois à venir dans le cadre du baccalauréat en développement de jeux vidéo à l'UQAC.",
-      thumbnail: "./img/alka_thumbnail.jpg",
-      image: "/img/alka_thumbnail.jpg",
-      categorie: "Jeux",
-    },
-    {
       title: "Feature Hunter",
       subtitle: "Unity et C#",
       description:
@@ -36,6 +27,15 @@ export const projects = [
       categorie: "Jeux",
     },
     {
+      title: "Potion Frenzy",
+      subtitle: "Unity et C#",
+      description:
+        "Jeu réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2020 selon le thème 'Quand la magie tourne mal'.",
+      thumbnail: "./img/potionfrenzy_thumbnail.jpg",
+      image: "/img/potionfrenzy_thumbnail.jpg",
+      categorie: "Jeux",
+    },
+    {
       title: "Asteroid Field",
       subtitle: "Unity et C#",
       description:
@@ -45,14 +45,15 @@ export const projects = [
       categorie: "Jeux",
     },
     {
-      title: "Potion Frenzy",
-      subtitle: "Unity et C#",
+      title: "Alka",
+      subtitle: "Unreal Engine et C++ ",
       description:
-        "Jeu réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2020 selon le thème 'Quand la magie tourne mal'.",
-      thumbnail: "./img/potionfrenzy_thumbnail.jpg",
-      image: "/img/potionfrenzy_thumbnail.jpg",
+        "Jeu de tir à la première personne multijoueur en ligne sur lequel je vais travailler durant les mois à venir dans le cadre du baccalauréat en développement de jeux vidéo à l'UQAC.",
+      thumbnail: "./img/alka_thumbnail.jpg",
+      image: "/img/alka_thumbnail.jpg",
       categorie: "Jeux",
     },
+
     {
       title: "Gamer's Guess",
       subtitle: "Android Studio et Java",
