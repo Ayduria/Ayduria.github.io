@@ -2,11 +2,10 @@
 import "./index.css"
 import React from "react"
 import { images } from '../Content'
-import { ArrowDownTrayIcon } from "@heroicons/react/24/solid"
 
 function Alka( {} ) {
     return (
-        <div>
+        <div className="project-page">
             <div className="project-section">
                 <blockquote className="w-3/4 lg:w-1/2">
                     <p>Alka est un jeu de tir à la première personne où 4 joueurs coopéreront en ligne contre l’environnement.  Afin de sauver ce qui reste de l’humanité, les joueurs incarneront des drones pour éliminer les tumeurs et leurs sbires qui tentent d’envahir le bunker.</p>
@@ -36,7 +35,7 @@ function Alka( {} ) {
                 <p>Mon arrivée dans l'équipe d'Alka étant très récente, je n'ai pas encore eu l'occasion de faire de contribution majeure. Je vais travailler sur le projet durant les mois à venir.</p>
                 <p>Pour l'instant, le focus est principalement sur l'analyse et la compréhension des éléments déjà existants du projet ainsi que le nettoyage et les préparatifs pour les nouveaux ajouts à venir. J'assiste régulièrement à des rencontres avec les autres programmeurs de mon équipe, durant lesquelles des discussions ont lieu sur l'AI des ennemis existants et à venir ainsi que les nouveaux systèmes qui seront implémentés.</p>
                 <img
-                    className=""
+                    alt="AI behavior plan drawing"
                     src="./img/projects/alka_ai_plan.jpg"
                 />
                 <h2>AI des ennemis</h2>
@@ -50,8 +49,9 @@ function Alka( {} ) {
             </div>
 
             <div className="project-link-section">
-                <a className="link-button" href="https://uqac.itch.io/alka" target="_blank">
+                <a className="link-button" href="https://uqac.itch.io/alka" target="_blank" rel="noopener noreferrer">
                     <img
+                        alt="itch.io logo"
                         className="inline-block w-6 mr-2 mb-1"
                         src="./img/icons/itch-io.png"
                     />

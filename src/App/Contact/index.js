@@ -19,11 +19,11 @@ function Contact() {
                         <a className="mr-5" href="mailto:lapointeannlaurie@gmail.com">
                             <EnvelopeIcon className="w-12 inline-block mb-4 filter-white"/>
                         </a>
-                        <a className="mr-5" href="https://www.linkedin.com/in/annlaurie-lapointe/" target="_blank">
-                            <img className="w-10 inline-block mb-4 filter-white" src="./img/icons/linkedin.svg"/>
+                        <a className="mr-5" href="https://www.linkedin.com/in/annlaurie-lapointe/" target="_blank" rel="noopener noreferrer">
+                            <img className="w-10 inline-block mb-4 filter-white" alt="LinkedIn Logo" src="./img/icons/linkedin.svg"/>
                         </a>
-                        <a href="https://github.com/Ayduria" target="_blank">
-                            <img className="w-10 inline-block mb-4 filter-white" src="./img/icons/github.svg"/>
+                        <a href="https://github.com/Ayduria" target="_blank" rel="noopener noreferrer">
+                            <img className="w-10 inline-block mb-4 filter-white" alt="GitHub Logo" src="./img/icons/github.svg"/>
                         </a>
                     </div>
                 </div>

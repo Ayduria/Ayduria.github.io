@@ -25,9 +25,10 @@ function Navbar() {
                     offset={-70}
                     duration={500}>
                         <img
+                            alt="Portfolio logo"
                             src="./img/icons/logo_blanc.png"
                             className="logo h-full float-left h-8"/>
-                        <a className="ml-3 text-xl">
+                        <a className="ml-3 text-xl" href="javascript:void(0);">
                             Ann-Laurie Lapointe
                         </a>
                 </Link>

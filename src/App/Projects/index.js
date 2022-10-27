@@ -75,8 +75,9 @@ function Projects() {
                 </div>
                 <div className="flex flex-wrap -m-4 justify-center">
                     {projects.map((project) => (
-                        <div className="sm:w-1/2 w-100 p-4" style={{ display: (project.categorie == 'Jeux'  && showGames || project.categorie == 'Applications' && showApps || project.categorie == 'Web' && showWeb ? 'block' : 'none') }}>
+                        <div className="sm:w-1/2 w-100 p-4" style={{ display: (((project.categorie == 'Jeux')  && showGames) || ((project.categorie == 'Applications') && showApps) || ((project.categorie == 'Web') && showWeb) ? 'block' : 'none') }}>
                             <a
+                                href="javascript:void(0);"
                                 onClick={() => showModal(project.title, project.image, project.subtitle)}
                                 key={project.thumbnail}>
                                 <div className="project-box flex relative">

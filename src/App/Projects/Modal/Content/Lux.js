@@ -4,7 +4,7 @@ import React from "react"
 
 function Lux( {} ) {
     return (
-    <div>
+    <div className="project-page">
         <div className="project-section">
             <h1>Description du projet</h1>
             

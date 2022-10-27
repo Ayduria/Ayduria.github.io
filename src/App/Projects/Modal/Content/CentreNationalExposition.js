@@ -5,7 +5,7 @@ import { GlobeAltIcon, DocumentTextIcon } from "@heroicons/react/24/outline"
 
 function CentreNationalExposition( {} ) {
     return (
-        <div>
+        <div className="project-page">
             <div className="project-section">
                 <h1>Description du projet</h1>
                 <p>Le projet de fin d'études en Techniques d'intégration multimédia au Cégep de Jonquière implique de réaliser, en équipe, un site web complet pour un organisme à but non lucratif. Nous devions également réaliser un panneau administratif complet, un guide d'utilisation de ce panneau ainsi que des vidéos promotionnelles pour l'organisme.</p>
@@ -29,7 +29,7 @@ function CentreNationalExposition( {} ) {
                 </ul>
 
                 <div className="project-link-section">
-                    <a className="file-button" href="./files/rapport-preproduction.pdf" target="_blank">
+                    <a className="file-button" href="./files/rapport-preproduction.pdf" target="_blank" rel="noopener noreferrer">
                         <DocumentTextIcon className="w-7 inline-block mb-1 mr-2"/>
                         Rapport de préproduction
                     </a>
@@ -39,7 +39,7 @@ function CentreNationalExposition( {} ) {
                 <p>La phase de production a débuté à la session suivante, durant laquelle nous avons entamé et complété le site web et son panneau administratif ainsi que les vidéos promotionnelles. Une fois le tout terminé, le nouveau site a officiellement été mis en ligne et le client a reçu tout les documents nécessaires pour continuer à l'entretenir.</p>
 
                 <div className="project-link-section">
-                    <a className="link-button" href="https://www.centrenationalexposition.com/" target="_blank">
+                    <a className="link-button" href="https://www.centrenationalexposition.com/" target="_blank" rel="noopener noreferrer">
                         <GlobeAltIcon className="w-7 inline-block mb-1 mr-2"/>
                         Visiter le site web
                     </a>
