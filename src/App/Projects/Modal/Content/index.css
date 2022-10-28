@@ -123,3 +123,7 @@ ul li {
   border: none;
   padding: 0px;
 }
+
+.project-link-section img {
+  filter: brightness(0) invert(1);
+}

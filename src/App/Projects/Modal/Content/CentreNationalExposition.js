@@ -113,7 +113,7 @@ function CentreNationalExposition( {} ) {
 
                 <h2>Designer</h2>
                 <p>Stéphane Hoarau</p>
-        </div>
+            </div>
 
         </div>
     )

@@ -19,6 +19,17 @@ function LocationFilm( {} ) {
                 <h1>Défis de conception</h1>
             
             </div>
+
+            <div className="project-link-section">
+                <a className="link-button" href="https://github.com/Ayduria/LocationFilm" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    Voir le répertoire
+                </a>
+            </div>
         </div>
     )
 }
