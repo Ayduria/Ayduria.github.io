@@ -69,6 +69,8 @@ function Lux( {} ) {
                     className="w-24 mb-5"
                     src="./img/projects/lux-sentinels.gif"
             />
+
+            <p>Si le drone est suffisamment près de Lux, il va attaquer, ramenant Lux à son dernier checkpoint. Le comportement d'attaque n'est pas terminé et est pour l'instant très basique.</p>
             
         </div>
 
@@ -79,7 +81,7 @@ function Lux( {} ) {
             <p>Avant de commencer ce projet, je n'avais jamais fait de projet C++ dans Unreal ni utilisé Perforce. J'ai donc dû apprendre à mesure que je travaillais. Les autres programmeurs étaient d'ailleurs majoritairement dans la même situation, et nous avons rencontré beaucoup de problèmes dans les débuts du projet. Nous sommes à présent beaucoup plus à l'aise et efficaces.</p>
 
             <h2>Grande équipe multidisciplinaire</h2>
-            <p>Ce projet est ma première expérience de travail non seulement dans une si grande équipe, mais aussi une équipe multidiscplinaire. En effet, elle est constituée de programmeurs du DIM à Chicoutimi et d'artistes du NAD à Montréal. Une bonne communication est essentielle pour coordonner notre travail et bien se comprendre.</p>
+            <p>Ce projet est ma première expérience d'un travail non seulement dans une si grande équipe, mais aussi une équipe multidiscplinaire. En effet, elle est constituée de programmeurs du DIM à Chicoutimi et d'artistes du NAD à Montréal. Une bonne communication est essentielle pour coordonner notre travail et bien se comprendre.</p>
         </div>
 
         <div className="project-section project-credits">
