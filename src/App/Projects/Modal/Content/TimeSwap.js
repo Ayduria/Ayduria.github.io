@@ -43,11 +43,6 @@ function TimeSwap( {} ) {
                 
             </div>
 
-            <div className="project-section">
-                <h1>Défis de conception</h1>
-            
-            </div>
-
             <div className="project-link-section">
                 <a className="link-button mr-4" href="https://original-crab-interactive.itch.io/timeswap" target="_blank" rel="noopener noreferrer">
                     <img
