@@ -46,6 +46,9 @@ function Alka( {} ) {
                 <h1>Défis de conception</h1>
                 <h2>Jeu multijoueur</h2>
                 <p>Alka est ma première expérience de programmation de jeu multijoueur en ligne. Comme j'ai pu le constater, cela augmente la complexité du développement, exigant plusieurs éléments à mettre en place pour un fonctionnement fluide et optimal. Je devrai donc apprendre à mesure que je travaille sur le projet, ce qui prouvera être un défi de taille mais aussi très instructif. Dans le contexte de mon travail sur l'AI, il sera notamment très important que les actions des différents ennemis soient correctement reflétées dans les instances de jeu de chaque joueur.</p>
+
+                <h2>Adaptation à un projet déjà entamé</h2>
+                <p>À mon arrivée dans l'équipe, le projet était déjà bien entamé. De plus, la grande majorité des programmeurs qui étaient sur le projet la session précédente n'y sont plus. Il y a donc une certaine période d'ajustement où je dois analyser le code et le fonctionnement du projet afin d'y faire des ajouts et modifications.</p>
             </div>
 
             <div className="project-link-section">

@@ -113,3 +113,13 @@ ul {
 ul li {
   margin-bottom: 5px;
 }
+
+.project-credits {
+  text-align:center;
+}
+
+.project-credits h1, .project-credits h2 {
+  text-align:center;
+  border: none;
+  padding: 0px;
+}

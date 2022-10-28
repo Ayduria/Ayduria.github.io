@@ -9,6 +9,15 @@ export const projects = [
       categorie: "Jeux",
     },
     {
+      title: "Alka",
+      subtitle: "Unreal Engine et C++ ",
+      description:
+        "Jeu de tir à la première personne multijoueur en ligne sur lequel je vais travailler durant les mois à venir dans le cadre du baccalauréat en développement de jeux vidéo à l'UQAC.",
+      thumbnail: "./img/alka_thumbnail.jpg",
+      image: "/img/alka_thumbnail.jpg",
+      categorie: "Jeux",
+    },
+    {
       title: "Feature Hunter",
       subtitle: "Unity et C#",
       description:
@@ -44,16 +53,6 @@ export const projects = [
       image: "/img/asteroid_field_thumbnail.png",
       categorie: "Jeux",
     },
-    {
-      title: "Alka",
-      subtitle: "Unreal Engine et C++ ",
-      description:
-        "Jeu de tir à la première personne multijoueur en ligne sur lequel je vais travailler durant les mois à venir dans le cadre du baccalauréat en développement de jeux vidéo à l'UQAC.",
-      thumbnail: "./img/alka_thumbnail.jpg",
-      image: "/img/alka_thumbnail.jpg",
-      categorie: "Jeux",
-    },
-
     {
       title: "Gamer's Guess",
       subtitle: "Android Studio et Java",
