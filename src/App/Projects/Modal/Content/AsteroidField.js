@@ -49,6 +49,19 @@ function AsteroidField( {} ) {
                 />
 
                 <p>Ainsi, les calculs et transformations se produisant simultanément sur deux threads différents, 5000 astéroïdes se déplacent à l'écran en même temps de façon non-uniforme et le jeu reste tout de même fluide.</p>
+
+                <h2>Destruction des astéroïdes</h2>
+
+                <p>Je n'ai pas implémenté le système de tir, mais j'ai implémenté le système de vie dont chaque astéroïde dispose.</p>
+
+                <img
+                    alt="Asteroids shooting"
+                    className="w-24 mb-5"
+                    src="./img/projects/asteroid-shooting.gif"
+                />
+
+                <p>De base, la barre de vie est cachée. Lorsqu'un astéroïde est atteint par un projectile, elle apparaît. Après deux projectiles, l'astéroïde est détruit dans une explosion, faisant baisser le nombre total d'astéroïde dans la scène tel qu'indiqué au haut de l'écran.</p>
+
                 
             </div>
 

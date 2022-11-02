@@ -36,21 +36,21 @@ export const projects = [
       categorie: "Jeux",
     },
     {
-      title: "Potion Frenzy",
-      subtitle: "Unity et C#",
-      description:
-        "Jeu réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2020 selon le thème 'Quand la magie tourne mal'.",
-      thumbnail: "./img/potionfrenzy_thumbnail.jpg",
-      image: "/img/potionfrenzy_thumbnail.jpg",
-      categorie: "Jeux",
-    },
-    {
       title: "Asteroid Field",
       subtitle: "Unity et C#",
       description:
         "Jeu de vol spatial et de tir au travers un champ de milliers d'astéroides en mouvement réalisé dans le cadre d'un cours de moteur de jeu à l'UQAC.",
       thumbnail: "./img/asteroid_field_thumbnail.png",
       image: "/img/asteroid_field_thumbnail.png",
+      categorie: "Jeux",
+    },
+    {
+      title: "Potion Frenzy",
+      subtitle: "Unity et C#",
+      description:
+        "Jeu réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2020 selon le thème 'Quand la magie tourne mal'.",
+      thumbnail: "./img/potionfrenzy_thumbnail.jpg",
+      image: "/img/potionfrenzy_thumbnail.jpg",
       categorie: "Jeux",
     },
     {
