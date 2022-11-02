@@ -32,11 +32,23 @@ function GamersGuess( {} ) {
                 <h2>Mécanique de quiz</h2>
                 <p>J'ai implémenté la mécanique principale de quiz. Cela impliquait d'abord d'aller chercher les bonnes questions selon la difficulté choisie ainsi que leurs choix de réponse. Ensuite, j'ai programmé le système permettant d'afficher toutes les questions de la difficulté dans un ordre aléatoire, la prochaine question s'affichant soit quand le joueur appuie sur une réponse ou lorsque le temps pour la question est écoulé.</p>
 
+                <img
+                    alt="Gamers Guess quiz"
+                    className="w-24 mb-5"
+                    src="./img/projects/gg-answers.jpg"
+                />
+
                 <p>J'ai d'ailleurs aussi mis en place une vérification de réponse afin de déterminer si la réponse que le joueur a choisie est la bonne ou la mauvaise.</p>
 
                 <h2>Score et leaderboard</h2>
 
                 <p>J'ai mis en place un système calculant le score à mesure que le joueur progresse dans un quiz. Différents facteurs entrent en jeu dont le nombre de mauvaises réponses, le nombre de bonnes réponses consécutives et le temps pour répondre à chaque question.</p>
+
+                <img
+                    alt="Gamers Guess leaderboard"
+                    className="w-24 mb-5"
+                    src="./img/projects/gg-leaderboard.jpg"
+                />
 
                 <p>À la fin du quiz, j'ai conçu un écran de score indiquant au joueur son score final ainsi que s'il s'agit d'un nouveau highscore. Le joueur y a alors l'option d'entrer son nom pour ajouter son score au leaderboard, ce qui l'ajoute dynamiquement dans la base de données.</p>
 

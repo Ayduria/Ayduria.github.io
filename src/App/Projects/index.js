@@ -14,8 +14,8 @@ function Projects() {
     const [subtitle, setSubtitle] = useState(null);
 
     const [showGames, setShowGames] = useState(true);
-    const [showApps, setShowApps] = useState(false);
-    const [showWeb, setShowWeb] = useState(false);
+    const [showApps, setShowApps] = useState(true);
+    const [showWeb, setShowWeb] = useState(true);
 
     function showModal(title, image, subtitle) {
         setShow(true);

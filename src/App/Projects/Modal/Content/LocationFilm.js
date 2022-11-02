@@ -92,8 +92,6 @@ function LocationFilm( {} ) {
                     </a>
                 </div>
 
-
-                
             </div>
 
             <div className="project-section">
