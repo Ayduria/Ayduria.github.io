@@ -27,19 +27,42 @@ function Alka( {} ) {
                 </div>
 
                 <p>Le jeu a débuté son développement durant la session d'hiver 2022. Bon nombre d'étudiants de différentes disciplines se sont joints au projet, dont plusieurs programmeurs de l'UQAC. À la fin de cette session, un prototype a été rendu, dont la bande-annonce se trouve ci-dessus. Toutefois, ce n'était pas terminé pour Alka; le jeu a repris son développement en automne 2022. C'est à ce moment qu'on m'a demandé si je voulais me joindre au projet, ce que j'ai accepté avec enthousiasme.</p>
-                <p>Sortant de sa phase de prototypage, le projet est présentement dans sa phase de préproduction, qui s'étendra jusqu'à la fin de la session. Il se poursuivra par la suite en production durant la session d'hiver 2023.</p>
+                <p>Suivant sa phase de prototypage, le projet a récemment terminé sa phase de préproduction, sur laquelle j'ai travaillé pendant une session. Il se poursuivra par la suite en production.</p>
             </div>
 
             <div className="project-section">
                 <h1>Mon implication</h1>
-                <p>Mon arrivée dans l'équipe d'Alka étant très récente, je n'ai pas encore eu l'occasion de faire de contribution majeure. Je vais travailler sur le projet durant les mois à venir.</p>
-                <p>Pour l'instant, le focus est principalement sur l'analyse et la compréhension des éléments déjà existants du projet ainsi que le nettoyage et les préparatifs pour les nouveaux ajouts à venir. J'assiste régulièrement à des rencontres avec les autres programmeurs de mon équipe, durant lesquelles des discussions ont lieu sur l'AI des ennemis existants et à venir ainsi que les nouveaux systèmes qui seront implémentés.</p>
+                <p>Le projet étant déjà bien entamé à mon arrivée, une bonne partie du début de la préproduction a consisté à explorer et analyser les systèmes déjà en place. Il a ensuite été décidé que je travaillerais sur l'AI, ayant déjà de l'intérêt et de l'expérience en ce sens sur d'autres projets.</p>
+
+                <h2>AI des snipers</h2>
+                
+                <p>J'ai assisté à plusieurs rencontres avec les autres programmeurs de mon équipe. Ensemble, nous avons d'abord brainstormé différentes façons d'améliorer l'AI des ennemis déjà présents dans le jeu et réalisé des schémas représentant les comportements souhaités. Je me suis porté volontaire à travailler sur un ennemi en particulier, le sniper.</p>
+
                 <img
                     alt="AI behavior plan drawing"
                     src="./img/projects/alka_ai_plan.jpg"
                 />
-                <h2>AI des ennemis</h2>
-                <p>Au cours du projet, je vais surtout travailler sur l'AI des ennemis. Cela implique d'abord l'amélioration de l'AI des ennemis déjà existants, soit un sniper attaquant les joueurs de loin et un petit ennemi flottant pourchassant les joueurs. Plus tard durant le développement, un ennemi tank sera ajouté dans le jeu.</p>
+
+                <p>Le comportement de base du sniper peut être expliqué simplement: il ne se déplace pas sur un navmesh, mais se téléporte plutôt de zones en zones, placées à la main dans les niveaux, en calculant la priorité de chaque zone proche de lui selon des critères appropriés à la situation. Lorsqu'il repère le joueur, il l'attaque avec des projectiles.</p>
+
+                <p>À mon arrivée dans le projet, le système de base était déjà bien implémenté, mais le sniper n'avait pas beaucoup de variété dans son comportement: après avoir spawn près d'un node, il s'éloignait du node et demeurait dans cette nouvelle zone, s'engageant dans un duel jusqu'à la mort avec le joueur lorsque ce dernier s'approchait. J'ai donc travaillé à diversifier son comportement selon ce qui avait été établi dans l'équipe.</p>
+
+                <video className="mt-8 mb-8" controls>
+                    <source src="./img/projects/sniper-ai-gym.mp4" type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
+
+                <p>J'ai amélioré certains comportements déjà présents en plus d'en ajouter des nouveaux. Ces comportements peuvent tous être paramétrés avec des distances maximales/minimales selon le cas.</p>
+
+                <h3>Répartition initiale</h3>
+                <p>Le sniper avait déjà un comportement consistant à s'éloigner du node après avoir spawn en début de partie. Cependant, son choix de zone était plutôt aléatoire. J'ai amélioré ce comportement en ajoutant un calcul de distance qui donne plus de priorité aux zones atteignables les plus éloignées de la zone actuelle du sniper.</p>
+
+                <h3>Traquage</h3>
+                <p>J'ai ajouté au sniper un comportement de traquage afin de rendre plus dynamique le combat contre cet ennemi. Lorsque le sniper repère un joueur, il rentre dans le sol et se téléporte à proximité de ce denier sans toutefois aller trop près. Il répète ce comportement après un certain moment, se déplaçant ainsi pour attaquer le joueur à partir de différentes positions.</p>
+
+                <h3>Fuite</h3>
+                <p>J'ai également ajouté au sniper un comportement de fuite. Lorsque le sniper est suffisamment blessé, il rentre dans le sol et se téléporte à une zone éloignée du joueur. Le système de blessure était déjà partiellement implémenté mais non utilisé; je l'ai donc rendu fonctionnel et m'en suis servi comme base pour la fuite.</p>
+
             </div>
 
             <div className="project-section">
@@ -49,6 +72,7 @@ function Alka( {} ) {
 
                 <h2>Adaptation à un projet déjà entamé</h2>
                 <p>À mon arrivée dans l'équipe, le projet était déjà bien entamé. De plus, la grande majorité des programmeurs qui étaient sur le projet la session précédente n'y sont plus. Il y a donc une certaine période d'ajustement où je dois analyser le code et le fonctionnement du projet afin d'y faire des ajouts et modifications.</p>
+
             </div>
 
             <div className="project-link-section">
