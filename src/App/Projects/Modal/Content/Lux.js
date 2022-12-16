@@ -6,6 +6,12 @@ function Lux( {} ) {
     return (
     <div className="project-page">
         <div className="project-section">
+                <blockquote className="w-3/4 lg:w-1/2">
+                    <p>Tu es notre espoir de retrouver une vie normale, notre lumière.</p>
+                </blockquote>
+            </div>
+
+        <div className="project-section">
             <h1>Description du projet</h1>
             <p>Lux est un jeu platformer 3D à la troisième personne dans lequel le joueur incarne un chat humanoïde ayant pour mission de sauver les animaux sauvages de la ville des éclairages néfastes. Il s'agit d'un jeu sérieux ayant pour objectif de sensibiliser les joueurs au phénomène de la pollution lumineuse.</p>
 
@@ -19,9 +25,7 @@ function Lux( {} ) {
             </ul>
 
             <h2>Production</h2>
-            <p>La phase de production est en cours et le jeu n'est pas terminé encore.</p>
-                
-            <p>Le cheminement se fait par sprints de deux semaines, parsemés de rencontres scrum et de sprints review dans lesquels sont évalués le progrès sur nos histoires utilisateurs.</p>
+            <p>La phase de production, durant laquelle nous avons réalisé le jeu complet, s'est déroulée durant la deuxième session de travail sur le projet. Le cheminement s'est fait par sprints de deux semaines parsemés de rencontres scrum et de sprints review dans lesquels était évalué le progrès sur nos histoires utilisateurs.</p>
             
         </div>
 
@@ -62,15 +66,23 @@ function Lux( {} ) {
                     src="./img/projects/lux-sentinel-patrol.gif"
             />
 
-            <p>Je me suis ensuite attaquée à leur perception et comportement de pourchasse. Si les drones détectent Lux, ils se mettent en mode alerte, puis rapidement en mode de pourchasse si le joueur ne se cache pas assez vite. Si le joueur réussit à s'échapper, le drone va demeurer en mode alerte un moment avant de résumer sa patrouille.</p>
+            <p>Je me suis ensuite attaquée à leur perception et comportement de pourchasse. Si les drones détectent Lux, ils se mettent en mode alerte, puis rapidement en mode de pourchasse si le joueur ne se cache pas assez vite. Si le joueur réussit à s'échapper, le drone va demeurer en mode alerte et chercher Lux autour de lui un moment avant de résumer sa patrouille.</p>
 
             <img
                     alt="Drones chasing"
                     className="w-24 mb-5"
-                    src="./img/projects/lux-sentinels.gif"
+                    src="./img/projects/lux-sentinel-alert.gif"
             />
 
-            <p>Si le drone est suffisamment près de Lux, il va attaquer, ramenant Lux à son dernier checkpoint. Le comportement d'attaque n'est pas terminé et est pour l'instant très basique.</p>
+            <p>Si le drone est suffisamment près de Lux et l'a dans son champ de vision, il va commencer à charger son attaque, figeant Lux en place brièvement. Une fois l'attaque chargée, le drone attaque d'un bref rayon de lumière puissant, ramenant Lux à son dernier checkpoint (le système de checkpoint a été programmé par un autre membre de l'équipe). Le drone poursuit ensuite sa patrouille.</p>
+
+            <img
+                    alt="Drones chasing"
+                    className="w-24 mb-5"
+                    src="./img/projects/lux-sentinel-attack.gif"
+            />
+
+            <p>En plus d'une perception visuelle, j'ai aussi implémenté sur les drones une perception auditive. Si Lux approche un drone par l'arrière de trop près, ce dernier va l'entendre et immédiatement se retourner en alerte.</p>
             
         </div>
 
@@ -86,7 +98,7 @@ function Lux( {} ) {
 
         <div className="project-section project-credits">
             <h1>Crédits</h1>
-            <h2>Artistes</h2>
+            <h2>Artistes du NAD</h2>
             <p>Virginie Juteau<br/>
                 François Chiasson<br/>
                 Marie-Ève Côté<br/>
@@ -97,11 +109,17 @@ function Lux( {} ) {
                 Karîm Désir<br/>
                 Alexandre Ruel<br/>
             </p>
-            <h2>Programmeurs</h2>
+            <h2>Programmeurs du DIM</h2>
             <p>Thomas Bergeron<br/>
                 Patrick McRea-Desjardins<br/>
                 Ann-Laurie Lapointe<br/>
                 Félix Brassard<br/>
+            </p>
+            <h2>Musiciens de l'UdeM</h2>
+            <p>Frédérique Le Duc-Moreau<br/>
+                Agathe Lavarel<br/>
+                David Caron-Proulx<br/>
+                Edouard Morcellet<br/>
             </p>
         </div>
     </div>
