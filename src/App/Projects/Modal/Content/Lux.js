@@ -1,6 +1,7 @@
 // src/components/Projects.js
 import "./index.css"
 import React from "react"
+import { images } from '../Content'
 
 function Lux( {} ) {
     return (
@@ -14,6 +15,16 @@ function Lux( {} ) {
         <div className="project-section">
             <h1>Description du projet</h1>
             <p>Lux est un jeu platformer 3D à la troisième personne dans lequel le joueur incarne un chat humanoïde ayant pour mission de sauver les animaux sauvages de la ville des éclairages néfastes. Il s'agit d'un jeu sérieux ayant pour objectif de sensibiliser les joueurs au phénomène de la pollution lumineuse.</p>
+
+            <div className="iframe-container">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/FkqtGrqJGW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <style jsx>{`
+                    .iframe-container {
+                        background-image: url(${ images.LoadingGif });
+                    }
+                `}</style>
+            </div>
 
             <h2>Préproduction</h2>
             <p>Durant la première session de travail sur le projet, nous avons eu une phase de préproduction durant laquelle nous avons réalisé divers éléments dont:</p>
