@@ -1,0 +1,13 @@
+#contact {
+    padding-top: 10px;
+    background-color: rgb(20, 28, 44);
+}
+
+.filter-white {
+    transition: opacity linear 0.2s;
+    filter: brightness(0) invert(1);
+}
+
+.filter-white:hover {
+    opacity:0.8;
+}

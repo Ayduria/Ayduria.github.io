@@ -42,7 +42,7 @@ function Navbar(props) {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                            À propos
+                            About
                     </Link>
                     <Link
                         className="navlink"
@@ -52,7 +52,7 @@ function Navbar(props) {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                            Projets
+                            Projects
                     </Link>
                     <Link
                         className="navlink"
@@ -62,7 +62,7 @@ function Navbar(props) {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                            Compétences
+                            Skills
                     </Link>
                 </nav>
                 <Link
@@ -84,8 +84,8 @@ function Navbar(props) {
                     smooth={true}
                     offset={-70}
                     duration={500}>
-                        <span className="text-white font-bold">FR</span> | EN
-                        <LanguageIcon className="w-4 h-4 ml-1"/>
+                        FR | <span className="text-white font-bold">EN</span>
+                        <LanguageIcon className="language-icon w-4 h-4 ml-1"/>
                 </Link>
 
             </div>
