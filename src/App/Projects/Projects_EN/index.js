@@ -77,7 +77,9 @@ function Projects() {
                     {projects.map((project) => (
                         <div className="sm:w-1/2 w-100 p-4" style={{ display: (((project.categorie == 'Jeux')  && showGames) || ((project.categorie == 'Applications') && showApps) || ((project.categorie == 'Web') && showWeb) ? 'block' : 'none') }}>
                             <a
-                                href="javascript:void(0);">
+                                href="javascript:void(0);"
+                                onClick={() => showModal(project.title, project.image, project.subtitle)}
+                                key={project.thumbnail}>
                                 <div className="project-box flex relative">
                                     <img
                                         alt="gallery"

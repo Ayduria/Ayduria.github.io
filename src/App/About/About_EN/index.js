@@ -17,7 +17,7 @@ function About() {
                     <p className="mb-8 leading-relaxed">I am currently in the last year of my bachelor's degree in game development at UQAC. Before starting university, I completed my collegial studies in the field of web design in Multimedia Integration Techniques at Cégep de Jonquière, where I developed an interest in programming.</p>
                     <p className="mb-10">Being a <b>big video game enthusiast</b> since as long as I can remember, the decision of pursuing my studies in a field that combines my interests in such a way was not very hard.</p>
                     <a
-                        href="./files/portfolio-resume.pdf"
+                        href="./files/portfolio-resume-en.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         id="cv-btn"
