@@ -1,9 +1,18 @@
 export const projects = [
     {
+      title: "Droid Rush",
+      subtitle: "Unreal Engine et C++",
+      description:
+        "Jeu top-down d'infiltration et de stratégie multijoueur en cours de réalisation selon les thèmes 'Dungeons' et 'Pocket Sized' comme préparation au Concours Ubisoft 2023.",
+      thumbnail: "./img/droidrush-thumbnail.jpg",
+      image: "/img/droidrush-banner.jpg",
+      categorie: "Jeux",
+    },
+    {
       title: "Lux",
       subtitle: "Unreal Engine et C++",
       description:
-        "Jeu sérieux de platforming sur le sujet de la pollution lumineuse en cours de réalisation dans le cadre du cours d'atelier du baccalauréat en développement de jeux vidéo à l'UQAC.",
+        "Jeu sérieux de platforming sur le sujet de la pollution lumineuse réalisé dans le cadre du cours d'atelier du baccalauréat en développement de jeux vidéo à l'UQAC.",
       thumbnail: "./img/lux-thumbnail.jpg",
       image: "/img/lux-banner.jpg",
       categorie: "Jeux",
@@ -48,10 +57,10 @@ export const projects = [
       title: "Asteroid Field",
       subtitle: "Unity et C#",
       description:
-        "Jeu de vol spatial et de tir au travers un champ de milliers d'astéroides en mouvement réalisé dans le cadre d'un cours de moteur de jeu à l'UQAC.",
+        "Micro-jeu de vol spatial et de tir au travers un champ de milliers d'astéroides en mouvement réalisé dans le cadre d'un cours de moteur de jeu à l'UQAC.",
       thumbnail: "./img/asteroidfield-thumbnail.jpg",
       image: "/img/asteroidfield-thumbnail.jpg",
-      categorie: "Jeux",
+      categorie: "Applications",
     },
     {
       title: "Gamer's Guess",

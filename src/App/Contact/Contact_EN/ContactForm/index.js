@@ -33,7 +33,7 @@ function ContactForm() {
             </div>
             <div className="relative mb-4 text-left">
                 <label htmlFor="email" className="leading-7 text-sm text-gray-400 font-bold">
-                    Email address
+                    Email Address
                 </label>
                 <input
                     type="email"

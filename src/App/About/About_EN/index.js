@@ -9,7 +9,7 @@ function About() {
             <div className="flex flex-col w-full pt-12">
                 <QuestionMarkCircleIcon className="mx-auto inline-block w-10 mb-4"/>
                 <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-10 lg:mb-0">
-                    About me
+                    About Me
                 </h1>
             </div>
             <div className="container mx-auto flex px-10 md:flex-row flex-col items-center pb-10">

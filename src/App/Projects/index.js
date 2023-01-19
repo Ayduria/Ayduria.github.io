@@ -70,8 +70,8 @@ function Projects() {
                 <div className="mb-5">
                     <button id="btn-all" className="btn-category" onClick={showAllProjects}>Tous</button>
                     <button id="btn-games" className="btn-category" onClick={showGameProjects}>Jeux</button>
-                    <button id="btn-apps" className="btn-category" onClick={showAppProjects}>Applications</button>
-                    <button id="btn-web" className="btn-category" onClick={showWebProjects}>Web</button> 
+                    <button id="btn-apps" className="btn-category" onClick={showAppProjects}>Applications / Outils</button>
+                    <button id="btn-web" className="btn-category" onClick={showWebProjects}>Sites web</button> 
                 </div>
                 <div className="flex flex-wrap -m-4 justify-center">
                     {projects.map((project) => (

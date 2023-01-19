@@ -61,7 +61,7 @@ function Projects() {
                 <div className="flex flex-col w-full mb-10">
                     <CodeBracketIcon className="mx-auto inline-block w-10 mb-4"/>
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                        My projects
+                        My Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                         Some computer science projects I realized during my college and university studies.
@@ -70,8 +70,8 @@ function Projects() {
                 <div className="mb-5">
                     <button id="btn-all" className="btn-category" onClick={showAllProjects}>All</button>
                     <button id="btn-games" className="btn-category" onClick={showGameProjects}>Games</button>
-                    <button id="btn-apps" className="btn-category" onClick={showAppProjects}>Apps</button>
-                    <button id="btn-web" className="btn-category" onClick={showWebProjects}>Web</button> 
+                    <button id="btn-apps" className="btn-category" onClick={showAppProjects}>Apps / Tools</button>
+                    <button id="btn-web" className="btn-category" onClick={showWebProjects}>Websites</button> 
                 </div>
                 <div className="flex flex-wrap -m-4 justify-center">
                     {projects.map((project) => (

@@ -111,6 +111,11 @@ function LocationFilm( {} ) {
                     Voir le répertoire
                 </a>
             </div>
+
+            <div className="project-section project-credits">
+            <h1>Crédits</h1>
+                <p>Ann-Laurie Lapointe<br/></p>
+            </div>
         </div>
     )
 }

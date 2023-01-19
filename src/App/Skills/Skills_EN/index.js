@@ -11,7 +11,7 @@ function Skills() {
                 <div className="text-center mb-14">
                     <CpuChipIcon className="w-10 inline-block mb-4"/>
                     <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-                        My skills
+                        My Skills
                     </h1>
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
                        Over the course of my studies and during my projects, I had the opportunity of familiarizing myself with a variety of programming languages and softwares.

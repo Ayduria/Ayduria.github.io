@@ -51,7 +51,7 @@ export const projects = [
         "Jeu de vol spatial et de tir au travers un champ de milliers d'astéroides en mouvement réalisé dans le cadre d'un cours de moteur de jeu à l'UQAC.",
       thumbnail: "./img/asteroidfield-thumbnail.jpg",
       image: "/img/asteroidfield-thumbnail.jpg",
-      categorie: "Jeux",
+      categorie: "Applications",
     },
     {
       title: "Gamer's Guess",

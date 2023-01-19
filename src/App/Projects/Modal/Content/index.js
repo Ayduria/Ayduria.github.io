@@ -8,6 +8,7 @@ import FeatureHunter from "./FeatureHunter"
 import AsteroidField from "./AsteroidField"
 import GamersGuess from "./GamersGuess"
 import LocationFilm from "./LocationFilm"
+import DroidRush from "./DroidRush"
 import LoadingGif from '../../../../Assets/img/loading-gif.gif'
 
 const projects = {
@@ -20,6 +21,7 @@ const projects = {
     'Asteroid Field' : AsteroidField,
     'Gamer\'s Guess' : GamersGuess,
     'Location de films' : LocationFilm,
+    'Droid Rush' : DroidRush,
 }
 
 const images = {
