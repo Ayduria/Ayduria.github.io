@@ -85,6 +85,56 @@ function Alka( {} ) {
                     Voir le prototype
                 </a>
             </div>
+
+            <div className="project-section project-credits">
+            <h1>Crédits</h1>
+            <h2>Artistes du NAD</h2>
+            <p>
+                Alexandre Bonin<br/>
+                Cyril Beze<br/>
+                Émilie Lavoie<br/>
+                Issam Aloulou<br/>
+                Jérémie Auclair<br/>
+                Julien Berthier<br/>
+                Qian Ting Zhang<br/>
+                Vincent Gagnon<br/>
+                Karîm Désir<br/>
+                William van Herck<br/>
+                Laurence Cloutier<br/>
+                Félix Lemonde-Champagne<br/>
+                Hugo Babin<br/>
+                Alexandre Mignot<br/>
+                Vincent Dupéron<br/>
+                Virginie Juteau<br/>
+                François Chiasson<br/>
+                Samuel Gauthier Cyr<br/>
+                Natalya Fedorenko<br/>
+                Nickolas Ménard<br/>
+                Alexandre Ruel<br/>
+            </p>
+            <h2>Programmeurs du DIM</h2>
+            <p>
+                Adrien Garbani<br/>
+                Clément Chastaingt<br/>
+                Jean-Sébastien Boutin<br/>
+                Léonard Rizzo<br/>
+                Marc-Antoine Lebel<br/>
+                Samuel Potvin<br/>
+                Thomas Bergeron<br/>
+                Patrick McRea-Desjardins<br/>
+                Ann-Laurie Lapointe<br/>
+                Minh-Qhan Bui<br/>
+                Pierre-Jean Morel<br/>
+                
+            </p>
+            <h2>Musiciens de l'UdeM</h2>
+            <p>
+                Eliazer Kramer<br/>
+                Evan Burman<br/>
+                Antoine Lussier<br/>
+                Tyrai Laughton<br/>
+            </p>
+        </div>
         </div>
     )
 }

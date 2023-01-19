@@ -64,7 +64,7 @@ function Projects() {
                         My Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Some computer science projects I realized during my college and university studies.
+                        Some computer science projects I worked on during my college and university studies.
                     </p>
                 </div>
                 <div className="mb-5">
@@ -77,9 +77,7 @@ function Projects() {
                     {projects.map((project) => (
                         <div className="sm:w-1/2 w-100 p-4" style={{ display: (((project.categorie == 'Jeux')  && showGames) || ((project.categorie == 'Applications') && showApps) || ((project.categorie == 'Web') && showWeb) ? 'block' : 'none') }}>
                             <a
-                                href="javascript:void(0);"
-                                onClick={() => showModal(project.title, project.image, project.subtitle)}
-                                key={project.thumbnail}>
+                                href="javascript:void(0);">
                                 <div className="project-box flex relative">
                                     <img
                                         alt="gallery"
