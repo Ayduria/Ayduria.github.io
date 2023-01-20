@@ -2,14 +2,15 @@
 import "./index.css"
 import React from "react"
 import { Link } from "react-scroll"
+import BackgroundImage from '../../../Assets/img/stardust.png'
 
 function Landing() {
     return (
         <section id="landing">
-            <div class="video-wrap">
-                <video src="./img/landing-video.mp4" autoplay="true" loop="true" muted="true"></video>
+            <div className="video-wrap">
+                <video src="./img/landing-video.mp4" autoPlay loop muted></video>
             </div>
-            <div class="overlay"></div>
+            <div className="overlay"></div>
             <div className="container mx-auto flex px-10 h-screen md:flex-row flex-col items-center">
                 <div className="landing-text flex-grow flex flex-col mb-16 md:mb-0 items-center text-center justify-center">
                     <h1 className="title-font text-5xl lg:text-6xl mb-5 font-medium text-white">
@@ -41,6 +42,11 @@ function Landing() {
                     </div>
                 </div>
             </div>
+            <style jsx>{`
+                #landing {
+                    background-image: url(${BackgroundImage});
+                }
+            `}</style>
         </section>
     );
 }

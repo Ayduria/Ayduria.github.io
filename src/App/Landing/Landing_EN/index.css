@@ -1,3 +1,7 @@
+#landing {
+    background-color: rgb(13, 18, 29);
+}
+
 #landing .about-btn {
     transition: background-color 0.3s ease, color 0.3s ease;
     box-shadow: 2px 2px  rgba(253, 251, 251, 0.5);
@@ -10,6 +14,7 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    visibility: hidden;
 }
 
 #landing .video-wrap video {
@@ -26,8 +31,19 @@
     background-color: rgb(13, 18, 29);
     position: absolute;
     opacity: .7;
+    visibility: hidden;
 }
 
 #landing .landing-text {
     z-index: 2;
+}
+
+@media (min-width: 1024px){
+    #landing .video-wrap {
+        visibility: visible;
+    }
+
+    #landing .overlay {
+        visibility: visible;
+    }
 }
