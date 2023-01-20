@@ -97,7 +97,7 @@ function LocationFilm( {} ) {
             <div className="project-section">
                 <h1>Défis de conception</h1>
                 <h2>Outils et langages non familiers</h2>
-                <p>Tout ce que j'ai eu à utiliser dans ce projet, soit Java, Netbeans et Oracle, ne m'étaient pas très familiers, n'ayant jamais vraiment eu l'occasion de les utiliser dans d'autres projets. J'ai donc eu une période d'adaptation où j'ai appris à les utiliser, ce qui a ralenti mes débuts.</p>
+                <p>Tout ce que j'ai eu à utiliser dans ce projet, soit Java, NetBeans et Oracle, ne m'étaient pas très familiers, n'ayant jamais vraiment eu l'occasion de les utiliser dans d'autres projets. J'ai donc eu une période d'adaptation où j'ai appris à les utiliser, ce qui a ralenti mes débuts.</p>
             
             </div>
 

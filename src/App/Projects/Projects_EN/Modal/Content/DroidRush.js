@@ -6,24 +6,24 @@ function DroidRush( {} ) {
     return (
         <div className="project-page">
             <div className="project-section">
-                <h1>Description du projet</h1>
-                <p>Droid Rush est un jeu top-down de stratégie et d'infiltration où deux joueurs doivent coopérer afin de compléter des niveaux sans se faire repérer par les gardes de sécurité patrouillant les lieux. Des objets peuvent être utilisés afin d'activer des abiletés spéciales, et chaque personnage possède une abileté unique qui lui est propre. Toutefois, un joueur ne peut transporter qu'un objet à la fois !</p>
+                <h1>Project description</h1>
+                <p>Droid Rush is a top-down stragery and stealth game where two players must work together to complete levels without being spotted by patrolling security guards. Items can be used to activate special abilities, and each character has their own unique ability. However, a player can only carry one item at a time !</p>
 
-                <p>Initialement, Droid Rush a commencé en jeu de jam non-officielle de 48 heures avec les thèmes 'Dungeons' et 'Pocket Sized' mais, à la fin de ce jam, nous avons vu du potentiel et convenu de continuer à travailler dessus. Le jeu est présentement toujours en réalisation et sert à l'équipe de préparation pour notre participation au <b>Concours Ubisoft 2023</b> qui débutera bientôt.</p>
+                <p>Initially, Droid Rush started as an unofficial 48 hour jam game with the themes "Dungeons" and "Pocket Sized" but, at the end of this jam, we saw potential and agreed to continue working on it. The game is currently still in development and serves as preparation for the team for our participation in the upcoming <b><a className="text-white" href="https://montreal.ubisoft.com/en/our-commitments/education/game-lab-competition/" target="_blank">Ubisoft 2023 Game Lab Competition</a></b>.</p>
                 
             </div>
 
             <div className="project-section">
-                <h1>Mon implication</h1>
-                <h2>Gardes de sécurité</h2>
-                <p>Dans ce projet, je me consacre entièrement aux gardes de sécurité et à leur AI. J'ai réutilisé le système de détection et de patrouille que j'ai conçu dans un autre de mes projets (Lux), mais je les ai adaptés et améliorés en plus d'ajouter de nouveaux comportements.</p>
+                <h1>My involvement</h1>
+                <h2>Security Guards</h2>
+                <p>In this project, I am fully dedicated to security guards and their AI. I reused the detection and patrol system I designed in another of my projects (Lux), but I adapted and improved it in addition to adding new behaviors.</p>
 
                 <video className="mt-8 mb-8" controls>
                     <source src="./img/projects/droidrush-detection.mp4" type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
 
-                <p>Essentiellement, le comportement des gardiens de sécurité peut être résumé ainsi: de base, ils patrouillent ou sont stationnaires. S'ils entendent un bruit, ils deviennent suspicieux et se dirigent vers la source, y restant un moment avant de retourner à leur occupation. Si un joueur rentre dans leur champ de vision, délimité par un cône coloré bloqué par les obstacles généré via un EQS, le joueur est repéré et le niveau recommence.</p>
+                <p>Essentially, the behavior of security guards can be summarized as follows: by default, they patrol or are stationary. If they hear a noise, they become suspicious and head for the source, staying there for a while before returning to their business. If a player enters their field of vision, delimited by a colored cone blocked by obstacles genered via EQS, the player is spotted and the level starts again.</p>
 
                 <img
                     alt="Guards resuming their watch duty"
@@ -31,7 +31,7 @@ function DroidRush( {} ) {
                     src="./img/projects/droidrush-guards-resuming.gif"
                 />
 
-                <p>Un garde peut être paramétré soit en mode stationnaire ou en mode patrouille. En mode stationnaire, il demeure à un endroit fixe et reprend exactement cette position et orientation au retour d'une investigation de bruit. En mode patrouille, il continue sa patrouille au point où il était avant d'être interrompu.</p>
+                <p>A guard can be set to either stationary mode or patrol mode. In stationary mode, it remains in a fixed location and resumes exactly that position and orientation upon return from a noise investigation. In patrol mode, it continues its patrol at the point where it was before being interrupted.</p>
 
                 <img
                     alt="Guards resuming their watch duty"
@@ -39,19 +39,33 @@ function DroidRush( {} ) {
                     src="./img/projects/droidrush-guards-stealth.gif"
                 />
 
-                <p>Parmis les bruits auxquels les gardes peuvent réagir se trouvent les bruits de pas. Si le joueur court, ses pas sont plus forts, alertant les gardes autour sur une plus grande zone. Toutefois, si le joueur s'accroupit, ses pas sont moins bruyants et il lui est alors possible d'être à proximité d'un garde sans être détecté.</p>
+                <p>Among the noises guards can react to are footsteps. If the player is running, their footsteps are louder, alerting surrounding guards in a larger radius. However, if the player is crouching, their footsteps are quieter and it is then possible for them to be near a guard without being detected.</p>
 
+                <h2>Stealth Enemy AI Plugin</h2>
+
+                <p>As part of additional preparation for the upcoming Ubisoft Game Lab, I am currently working on turning this AI work into a modular plugin that allows for easy integration into other projects.</p>
+            </div>
+
+            <div className="project-link-section">
+                <a className="link-button" href="https://github.com/Ayduria/LocationFilm" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    View the repository
+                </a>
             </div>
 
             <div className="project-section">
-                <h1>Défis de conception</h1>
-                <h2>Réplication</h2>
-                <p>Le jeu étant multijoueur en ligne, une couche de difficulté s'ajoute avec la réplication, surtout lorsque le jeu est réalisé sur une courte période de temps. Particulièrement durant la partie jam du développement, il nous est souvent arrivé d'avoir des fonctionnalités fonctionnant parfaitement du côté serveur, mais posant problème du côté client, par exemple la génération des cônes de vision des gardes.</p>
+                <h1>Design challenges</h1>
+                <h2>Replication</h2>
+                <p>Because the game is online multiplayer, a layer of difficulty is added with replication, especially when the game is developed over a short period of time. During the jam part of development in particular, we often had features working perfectly on the server side, but causing problems on the client side, the generation of the guards' vision cone being one of them.</p>
 
             </div>
 
             <div className="project-section project-credits">
-            <h1>Crédits</h1>
+            <h1>Credits</h1>
             <p>
                 Clémence Clavel<br/>
                 Laurianna Ferra<br/>

@@ -8,13 +8,13 @@ function Alka( {} ) {
         <div className="project-page">
             <div className="project-section">
                 <blockquote className="w-3/4 lg:w-1/2">
-                    <p>Alka est un jeu de tir à la première personne où 4 joueurs coopéreront en ligne contre l’environnement.  Afin de sauver ce qui reste de l’humanité, les joueurs incarneront des drones pour éliminer les tumeurs et leurs sbires qui tentent d’envahir le bunker.</p>
+                    <p>Alka is a first person shooter where 4 players cooperate online against the environment. In order to save what is left of humanity, players will embody drones to eliminate the tumors and their minions trying to invade the bunker.</p>
                 </blockquote>
             </div>
 
             <div className="project-section">
-                <h1>Description du projet</h1>
-                <p>Alka est un jeu multijoueur en ligne où de 2 à 4 joueurs incarnent des drones armés ayant pour mission d'éliminer une infection se propageant dans un bunker. Pour s'y faire, des nodes doivent être détruits, lesquels sont protégés par divers ennemis.</p>
+                <h1>Project description</h1>
+                <p>ALKA is an online multiplayer game where 2 to 4 players embody armed drones whose mission is to eliminate an infection spreading in a bunger. To do so, nodes must be destroyed, which are protected by various enemies.</p>
 
                 <div className="iframe-container">
                     <iframe width="800" height="450" src="https://www.youtube.com/embed/_pX1EpqLWC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -26,52 +26,52 @@ function Alka( {} ) {
                     `}</style>
                 </div>
 
-                <p>Le jeu a débuté son développement durant la session d'hiver 2022. Bon nombre d'étudiants de différentes disciplines se sont joints au projet, dont plusieurs programmeurs de l'UQAC. À la fin de cette session, un prototype a été rendu, dont la bande-annonce se trouve ci-dessus. Toutefois, ce n'était pas terminé pour Alka; le jeu a repris son développement en automne 2022. C'est à ce moment qu'on m'a demandé si je voulais me joindre au projet, ce que j'ai accepté avec enthousiasme.</p>
-                <p>Suivant sa phase de prototypage, le projet a récemment terminé sa phase de préproduction, sur laquelle j'ai travaillé pendant une session. Il se poursuivra par la suite en production.</p>
+                <p>The game began its development during the winter 2022 semester. A good number of students from various disciplines joined the project, including several UQAC programmers. By the end of this semester, a prototype was delivered, the trailer of which can be found above. However, it was not over for ALKA; the game resumed development in the fall of 2022. That is when I was asked if I wanted to join the project, whieh I enthusiastically accepted.</p>
+                <p>Following its prototyping phase, the project recently completed its pre=production phase, which I worked on for a whole semester. It is currently in its production phase.</p>
             </div>
 
             <div className="project-section">
-                <h1>Mon implication</h1>
-                <p>Le projet étant déjà bien entamé à mon arrivée, une bonne partie du début de la préproduction a consisté à explorer et analyser les systèmes déjà en place. Il a ensuite été décidé que je travaillerais sur l'AI, ayant déjà de l'intérêt et de l'expérience en ce sens sur d'autres projets.</p>
+                <h1>My involvement</h1>
+                <p>Since the project was already well underway when I arrived, a good chunk of pre-production consisted of exploring and analyzing the systems already in place. It was then decided that I would work on AI, having already had interest and experience in this direction on other projects.</p>
 
-                <h2>AI des snipers</h2>
+                <h2>Sniper AI</h2>
                 
-                <p>J'ai assisté à plusieurs rencontres avec les autres programmeurs de mon équipe. Ensemble, nous avons d'abord brainstormé différentes façons d'améliorer l'AI des ennemis déjà présents dans le jeu et réalisé des schémas représentant les comportements souhaités. Je me suis porté volontaire à travailler sur un ennemi en particulier, le sniper.</p>
+                <p>I attended several meetings with the other programmers on my team. Together, we first brainstormed different ways to improve the AI of enemies already in the game and then made some schematics representing the desired behaviors. I volunteered to work on an enemy in particular, the sniper.</p>
 
                 <img
                     alt="AI behavior plan drawing"
                     src="./img/projects/alka_ai_plan.jpg"
                 />
 
-                <p>Le comportement de base du sniper peut être expliqué simplement: il ne se déplace pas sur un navmesh, mais se téléporte plutôt de zones en zones, placées à la main dans les niveaux, en calculant la priorité de chaque zone proche de lui selon des critères appropriés à la situation. Lorsqu'il repère le joueur, il l'attaque avec des projectiles.</p>
+                <p>The basic behavior of the sniper can be explained simply: it does not move on a navmesh, but rather teleports from areas to areas, placed by hand in the levels, calculating the priority of each area nearby according to criteria appropriate to the situation. When it spots a player, it attacks them with projectiles.</p>
 
-                <p>À mon arrivée dans le projet, le système de base était déjà bien implémenté, mais le sniper n'avait pas beaucoup de variété dans son comportement: après avoir spawn près d'un node, il s'éloignait du node et demeurait dans cette nouvelle zone, s'engageant dans un duel jusqu'à la mort avec le joueur lorsque ce dernier s'approchait. J'ai donc travaillé à diversifier son comportement selon ce qui avait été établi dans l'équipe.</p>
+                <p>When I joined the project, the basic system was already well implemented, but the sniper did not have much variety in its behavior: after spawning near a node, it would move away from it and then remain in this new area, engaging in a duel to the death with the player when the latter approached. So I worked on diversifying its behavior according to what had been established in the team.</p>
 
                 <video className="mt-8 mb-8" controls>
                     <source src="./img/projects/sniper-ai-gym.mp4" type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
 
-                <p>J'ai amélioré certains comportements déjà présents en plus d'en ajouter des nouveaux. Ces comportements peuvent tous être paramétrés avec des distances maximales/minimales selon le cas.</p>
+                <p>I improved some behaviors already present in addition to adding new ones. These behaviors can be configured with maximum/minimum distances as appropriate.</p>
 
-                <h3>Répartition initiale</h3>
-                <p>Le sniper avait déjà un comportement consistant à s'éloigner du node après avoir spawn en début de partie. Cependant, son choix de zone était plutôt aléatoire. J'ai amélioré ce comportement en ajoutant un calcul de distance qui donne plus de priorité aux zones atteignables les plus éloignées de la zone actuelle du sniper.</p>
+                <h3>Initial distribution</h3>
+                <p>The sniper already had a behavior that consisted of moving away from the node after spawning at the start of the game. However, its choice of area was rather random. I improved this behavior by adding a distance calculation that gives more priority to reacheable areas furthest from the current area of the sniper.</p>
 
-                <h3>Traquage</h3>
-                <p>J'ai ajouté au sniper un comportement de traquage afin de rendre plus dynamique le combat contre cet ennemi. Lorsque le sniper repère un joueur, il rentre dans le sol et se téléporte à proximité de ce denier sans toutefois aller trop près. Il répète ce comportement après un certain moment, se déplaçant ainsi pour attaquer le joueur à partir de différentes positions.</p>
+                <h3>Stalking</h3>
+                <p>I added a stalking behavior to the sniper to make the fight against this enemy more dynamic. When the sniper spots a player, it enters the ground and teleports close to that player without going too close. It repeats this behavior after a while, thus moving to attack the player from different positions.</p>
 
-                <h3>Fuite</h3>
-                <p>J'ai également ajouté au sniper un comportement de fuite. Lorsque le sniper est suffisamment blessé, il rentre dans le sol et se téléporte à une zone éloignée du joueur. Le système de blessure était déjà partiellement implémenté mais non utilisé; je l'ai donc rendu fonctionnel et m'en suis servi comme base pour la fuite.</p>
+                <h3>Fleeing</h3>
+                <p>I also added a fleeing behavior to the sniper. When the sniper is sufficiently injured, it re-enters the ground and teleports to an area away from the player. The injury system was already partially implemented but unused, so I made it functional and used it as a basis for the behavior.</p>
 
             </div>
 
             <div className="project-section">
-                <h1>Défis de conception</h1>
-                <h2>Jeu multijoueur</h2>
-                <p>Alka est ma première expérience de programmation de jeu multijoueur en ligne. Comme j'ai pu le constater, cela augmente la complexité du développement, exigant plusieurs éléments à mettre en place pour un fonctionnement fluide et optimal. Je devrai donc apprendre à mesure que je travaille sur le projet, ce qui prouvera être un défi de taille mais aussi très instructif. Dans le contexte de mon travail sur l'AI, il sera notamment très important que les actions des différents ennemis soient correctement reflétées dans les instances de jeu de chaque joueur.</p>
+                <h1>Design challenges</h1>
+                <h2>Online multiplayer game</h2>
+                <p>ALKA was my first online multiplayer game programming experience. As I could see, this increases the complexity of development, requiring several elements to be put in place for smooth and optimal functioning. Thus, I had to learn as I worked on the project, which proved to be quite a challenge but also very instructive. In the context of my AI work, it was particularly important that the actions of the various enemies were correctly reflected in the game instances of each player.</p>
 
-                <h2>Adaptation à un projet déjà entamé</h2>
-                <p>À mon arrivée dans l'équipe, le projet était déjà bien entamé. De plus, la grande majorité des programmeurs qui étaient sur le projet la session précédente n'y sont plus. Il y a donc une certaine période d'ajustement où je dois analyser le code et le fonctionnement du projet afin d'y faire des ajouts et modifications.</p>
+                <h2>Adaptation to a project already started</h2>
+                <p>When I joined the team, the project was already well under way. Also, the vast majority of programmers who were on the project the previous semester were no longer there. So there was a certain period of adjusment where I had to analyze the code and the funcioning of the project in order to make additions and modifications.</p>
 
             </div>
 
@@ -82,13 +82,13 @@ function Alka( {} ) {
                         className="inline-block w-6 mr-2 mb-1"
                         src="./img/icons/itch-io.png"
                     />
-                    Voir le prototype
+                    Check out the first prototype
                 </a>
             </div>
 
             <div className="project-section project-credits">
-            <h1>Crédits</h1>
-            <h2>Artistes du NAD</h2>
+            <h1>Credits</h1>
+            <h2>NAD Artists</h2>
             <p>
                 Alexandre Bonin<br/>
                 Cyril Beze<br/>
@@ -112,7 +112,7 @@ function Alka( {} ) {
                 Nickolas Ménard<br/>
                 Alexandre Ruel<br/>
             </p>
-            <h2>Programmeurs du DIM</h2>
+            <h2>DIM Programmers</h2>
             <p>
                 Adrien Garbani<br/>
                 Clément Chastaingt<br/>
@@ -127,7 +127,7 @@ function Alka( {} ) {
                 Pierre-Jean Morel<br/>
                 
             </p>
-            <h2>Musiciens de l'UdeM</h2>
+            <h2>UdeM Musicians</h2>
             <p>
                 Eliazer Kramer<br/>
                 Evan Burman<br/>

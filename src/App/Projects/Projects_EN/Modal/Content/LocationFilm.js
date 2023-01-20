@@ -7,19 +7,19 @@ function LocationFilm( {} ) {
     return (
         <div className="project-page">
             <div className="project-section">
-                <h1>Description du projet</h1>
-                <p>Ce projet était mon projet de session dans un cours de Base de données avancées. Il consistait en la création d'une application Java fictive utilisant une base de données Oracle pour présenter à un utilisateur une interface interactive de location de films.</p>
+                <h1>Project description</h1>
+                <p>This project was my semester's final project in an Advanced Database course. It consisted of creating a fictitious Java application using an Oracle database to present an interactive movie rental interface to a user.</p>
 
-                <p>Le projet s'est étendu sur la majorité de la session et était séparé en différentes parties, les principales étant la schématisation, la construction de la base de données et la conception de l'application.</p>
+                <p>The project spanned the majority of the semester and was separated into different parts, the main ones being schematization, database building and application development.</p>
                 
             </div>
 
             <div className="project-section">
-                <h1>Mon implication</h1>
-                <p>Le projet n'étant pas en équipe, je l'ai réalisé au complet par moi-même.</p>
+                <h1>My involvement</h1>
+                <p>The project not being a team project, I worked on it entirely by myself.</p>
 
-                <h2>Schématisation</h2>
-                <p>La première étape du projet consistait à réaliser des schémas conceptuels et relationnels pour la base de données de l'application selon les informations devant s'y retrouver par rapport aux utilisateurs, aux films et aux copies à louer de ces films.</p>
+                <h2>Schematization</h2>
+                <p>The first stage of the project consisted of creating conceptual and relational diagrams for the database of the application according to the information to be found there in relation to the users, the films and the copies of those films to be rented.</p>
 
                 <img
                     alt="Schema conceptuel"
@@ -27,7 +27,7 @@ function LocationFilm( {} ) {
                     src="./img/projects/database-schema.jpg"
                 />
 
-                <p>Pour le schéma conceptuel, j'ai séparé toutes les informations en tables distinctes avec leurs champs et leurs types génériques. J'ai aussi défini les relations entre ces tables.</p>
+                <p>For the conceptual schema, I separated all the information into separate tables with their fields and generic types. I also defined the relationships betwen these tables.</p>
 
                 <img
                     alt="Schema relationnel"
@@ -35,18 +35,18 @@ function LocationFilm( {} ) {
                     src="./img/projects/database-schema2.jpg"
                 />
 
-                <p>Quant au schéma relationnel, je l'ai pensé en fonction de comment ma base de données serait construite dans Oracle. Durant cette étape, j'ai également défini les contraintes de champs que j'aurais besoin d'implémenter. J'étais alors complètement préparée à construire ma base de données.</p>
+                <p>As for the relational schema, I thought of it based on how my database would be built in Oracle. During this step, I also defined the field constraints that I would need to implement. I was then fully prepared to build my database.</p>
 
                 <div className="project-link-section">
                     <a className="file-button" href="./files/RapportFilm1.pdf" target="_blank">
                         <DocumentTextIcon className="w-7 inline-block mb-1 mr-2"/>
-                        Rapport de schématisation
+                        Schematization report
                     </a>
                 </div>
 
-                <h2>Construction de la base de données</h2>
+                <h2>Building the database</h2>
 
-                <p>Après avoir réalisé mes schémas, je me suis attaquée à la construction de ma base de données Oracle. Me fiant à mon schéma relationnel, j'ai rédigé tout le code SQL nécessaire pour construire mes tables, prenant soin de préciser les contraintes spécifiques pour certains champs si nécessaire.</p>
+                <p>After making my diagrams, I tackled the construction of my Oracle database. Relying on my relational schema, I wrote all the SQL code necessary to build my tables, taking care to specify the constraints for certain fields if necessary.</p>
 
                 <img
                     alt="Database procedures code"
@@ -54,7 +54,7 @@ function LocationFilm( {} ) {
                     src="./img/projects/cretab-procedures.jpg"
                 />
 
-                <p>En plus de créer les tables, j'ai défini toutes les procédures dont j'allais avoir besoin dans mon application, par exemple pour ajouter des employés ou des films. Via des appels de procédure bien simples, celles-ci font toutes les opérations nécessaires pour insérer, modifier ou supprimer toutes les informations dans les tables nécessaires.</p>
+                <p>In addition to creating the tables, I defined all the procedures that I was going to need in my application, for example to add employees or films. Via very simple procedure calls, these perform all the operations necessary to insert, modify or delete all the information in the necessary tables.</p>
 
                 <img
                     alt="Database"
@@ -63,15 +63,15 @@ function LocationFilm( {} ) {
                 />
 
 
-                <p>Finalement, j'ai ajouté quelques données dans ma base de données afin de pouvoir faire mes tests.</p>
+                <p>Finally, I added some data in my database in order to be able to do my tests.</p>
 
-                <h2>Conception de l'application</h2>
+                <h2>App development</h2>
 
-                <p>Une fois ma base de données construite et remplie, j'ai commencé la conception et la programmation de mon application sur NetBeans. Grâce au framework Hibernate, j'ai adapté la structure de ma base de données à une structure de classe Java, chaque table étant associée à sa propre classe.</p>
+                <p>Once my database was built and populated, I started designing and programming my application on NetBeans. Thanks to the Hibernate framework, I adapted the structure of my database to a Java class structure, each table being associated with its own class.</p>
 
-                <p>J'ai ensuite construit des interfaces bien simples dotées de champs avec lequel un utilisateur doit interagir pour utiliser l'application.</p>
+                <p>I then built very simple interfaces with fields with which a user must interact to use the application.</p>
 
-                <p>J'ai commencé par mettre en place l'écran de connexion, dans lequel l'utilisateur doit entrer son adresse courriel et son mot de passe. Ces identifiants sont ensuite recherchés dans la base de données, dans laquelle les mots de passe sont encryptés. Si l'utilisateur existe et a entré le bon mot de passe, il accède à l'interface de location de films.</p>
+                <p>I started by setting up the login screen, where the user must enter their email address and password. These identifiers are then searched in the database, in which the passwords are encrypted. If the user exists and has entered the correct password, they access the movie rental interface.</p>
 
                 <img
                     alt="Main app interface"
@@ -79,25 +79,25 @@ function LocationFilm( {} ) {
                     src="./img/projects/film-recherche.jpg"
                 />
 
-                <p>Sur cet écran, j'ai implémenté de nombreux champs de recherche dans lequel l'utilisateur peut entrer des termes pour chercher des films dans la base de données. Il peut entrer n'importe quelle combination d'informations, ce qui peut inclure seulement une partie d'un titre de film, et la liste à droite va alors afficher tous les films correspondant à tous les critères de recherche.</p>
+                <p>On this screen, I implemented many search fields in which the user can enter terms to search for movies in the database. They can enter any combination of information, which may include only part of a movie title, and the list to the right will then display all movies matching all search criteria.</p>
 
-                <p>Lorsque l'utilisateur clique sur un film, je fais apparaître une autre interface au bas de l'écran qui présente toutes les informations reliées au film. L'utilisateur peut alors cliquer sur le nom d'un des acteurs ou réalisateurs pour afficher des informations par rapport à cette personne.</p>
+                <p>When the user clicks on a film, I bring up another interface at the bottom of the screen which presents all information pertaining to the film. The user can then click on the name of one of the actors or directors to display information relating to this person.</p>
 
-                <p>Finalement, j'ai implémenté la location de film. Après avoir cliqué sur un film, l'utilisateur peut appuyer sur le bouton Louer le film et, si son nombre de locations maximales n'est pas excédé et que le film a encore des copies de disponibles, une copie du film en question va lui être louée.</p>
+                <p>Finally, I implemented the renting of movies. After clicking on a movie, the user can press the Rent movie button and, if its maximum number of rentals is not exceeded and the movie still has copies available, a copy of the movie in question will be rented to the user.</p>
 
                 <div className="project-link-section">
                     <a className="file-button" href="./files/RapportFilm2.pdf" target="_blank">
                         <DocumentTextIcon className="w-7 inline-block mb-1 mr-2"/>
-                        Rapport de conception
+                        Development report
                     </a>
                 </div>
 
             </div>
 
             <div className="project-section">
-                <h1>Défis de conception</h1>
-                <h2>Outils et langages non familiers</h2>
-                <p>Tout ce que j'ai eu à utiliser dans ce projet, soit Java, Netbeans et Oracle, ne m'étaient pas très familiers, n'ayant jamais vraiment eu l'occasion de les utiliser dans d'autres projets. J'ai donc eu une période d'adaptation où j'ai appris à les utiliser, ce qui a ralenti mes débuts.</p>
+                <h1>Design challenges</h1>
+                <h2>Unfamiliar tools and languages</h2>
+                <p>Everything I had to use in this project, namely Java, NetBeans and Oracle, were not very familiar to me, having never really had the opportunity to use them in other projects. I had a period of adaptation where I learned to use them, which slowed me down at the beginning.</p>
             
             </div>
 
@@ -108,12 +108,12 @@ function LocationFilm( {} ) {
                         className="inline-block w-6 mr-2 mb-1"
                         src="./img/icons/github.svg"
                     />
-                    Voir le répertoire
+                    View the repository
                 </a>
             </div>
 
             <div className="project-section project-credits">
-            <h1>Crédits</h1>
+            <h1>Credits</h1>
                 <p>Eli Lapointe<br/></p>
             </div>
         </div>

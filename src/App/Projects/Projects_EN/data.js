@@ -18,7 +18,7 @@ export const projects = [
       categorie: "Jeux",
     },
     {
-      title: "Alka",
+      title: "ALKA",
       subtitle: "Unreal Engine and C++ ",
       description:
         "Online multiplayer first-person shooter game I will be working on for the following months developed as part of the UQAC game development bachelor's degree.",
@@ -39,7 +39,7 @@ export const projects = [
       title: "Time Swap",
       subtitle: "Unity and C#",
       description:
-        "Fast-paced arcade game developed in 48 hours as part of the Autumn 2021 UQAC WonderJam following the theme 'Connection'.",
+        "Fast-paced arcade game developed in 48 hours as part of the Autumn 2021 UQAC WonderJam following the theme 'Connection'. Winner of second place and People's Choice.",
       thumbnail: "./img/timeswap-thumbnail.jpg",
       image: "/img/timeswap-banner.jpg",
       categorie: "Jeux",

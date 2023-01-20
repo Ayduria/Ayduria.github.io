@@ -28,15 +28,15 @@ function App() {
 
   return (
     <div className="App text-gray-400 bg-gray-900 body-font">
-      { !frenchToggled ? <Navbar toggleLanguage={toggleFrench} /> : <Navbar_EN toggleLanguage={toggleFrench}/> }
+      { frenchToggled ? <Navbar toggleLanguage={toggleFrench} /> : <Navbar_EN toggleLanguage={toggleFrench}/> }
         <main>
-        { !frenchToggled ? <Landing /> : <Landing_EN /> }
-        { !frenchToggled ? <About /> : <About_EN /> }
-        { !frenchToggled ? <Projects /> : <Projects_EN /> }
-        { !frenchToggled ? <Skills /> : <Skills_EN /> }
-        { !frenchToggled ? <Contact /> : <Contact_EN /> }
+        { frenchToggled ? <Landing /> : <Landing_EN /> }
+        { frenchToggled ? <About /> : <About_EN /> }
+        { frenchToggled ? <Projects /> : <Projects_EN /> }
+        { frenchToggled ? <Skills /> : <Skills_EN /> }
+        { frenchToggled ? <Contact /> : <Contact_EN /> }
         </main> 
-        { !frenchToggled ? <Copyright /> : <Copyright_EN /> }
+        { frenchToggled ? <Copyright /> : <Copyright_EN /> }
     </div>
   );
 }

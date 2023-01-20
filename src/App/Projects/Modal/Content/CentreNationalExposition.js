@@ -54,7 +54,7 @@ function CentreNationalExposition( {} ) {
                 <h2>Design d'interfaces</h2>
                 <p>Après le départ de notre designer, j'ai continué le travail qu'il avait entamé et conçu de nombreux designs d'interfaces pour les différentes pages du site.</p>
                 <h2>Intégration et interaction utilisateur</h2>
-                <p>L'un de mes plus grands rôle dans ce projet fut celui d'intégratrice: j'ai pris les designs réalisés durant la préproduction et je leur ai donné vie. La structure et le visuel du site web ont presque entièrement été programmés par moi en utilisant du HTML, CSS et jQuery.</p>
+                <p>L'un de mes plus grands rôle dans ce projet fut celui d'intégratrice: j'ai pris les designs réalisés durant la préproduction et je leur ai donné vie. La structure et le visuel du front-end du site web ont presque entièrement été programmés par moi en utilisant du HTML, CSS et jQuery.</p>
                 <img
                     alt="Scrolling on CNE website"
                     className="w-24 mb-5"

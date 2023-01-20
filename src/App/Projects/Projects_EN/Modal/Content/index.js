@@ -13,14 +13,14 @@ import LoadingGif from '../../../../../Assets/img/loading-gif.gif'
 
 const projects = {
     'Lux': Lux,
-    'Alka': Alka,
+    'ALKA': Alka,
     'Centre national d\'exposition' : CentreNationalExposition,
     'Feature Hunter' : FeatureHunter,
     'Potion Frenzy' : PotionFrenzy,
     'Time Swap' : TimeSwap,
     'Asteroid Field' : AsteroidField,
     'Gamer\'s Guess' : GamersGuess,
-    'Location de films' : LocationFilm,
+    'Movie Renting' : LocationFilm,
     'Droid Rush' : DroidRush,
 }
 

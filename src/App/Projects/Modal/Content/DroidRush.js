@@ -41,6 +41,20 @@ function DroidRush( {} ) {
 
                 <p>Parmis les bruits auxquels les gardes peuvent réagir se trouvent les bruits de pas. Si le joueur court, ses pas sont plus forts, alertant les gardes autour sur une plus grande zone. Toutefois, si le joueur s'accroupit, ses pas sont moins bruyants et il lui est alors possible d'être à proximité d'un garde sans être détecté.</p>
 
+                <h2>Stealth Enemy AI Plugin</h2>
+
+                <p>Comme préparation supplémentaire pour le Concours Ubisoft qui commence bientôt, je travaille présentement à transformer mon travail d'AI en plugin modulaire qui permettra l'intégration facile dans d'autres projets.</p>
+            </div>
+
+            <div className="project-link-section">
+                <a className="link-button" href="https://github.com/Ayduria/LocationFilm" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    Voir le répertoire
+                </a>
             </div>
 
             <div className="project-section">

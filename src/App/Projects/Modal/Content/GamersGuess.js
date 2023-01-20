@@ -9,7 +9,7 @@ function GamersGuess( {} ) {
             <div className="project-section">
                 <h1>Description du projet</h1>
 
-                <p>Réslisée en équipe de deux dans le cadre d'un cours d'informatique mobile, Gamer's Guess est une application mobile Android qui teste les connaissances des joueurs sur les jeux vidéo via des quiz de connaissances de difficulté variée.</p>
+                <p>Réalisée en équipe de deux dans le cadre d'un cours d'informatique mobile, Gamer's Guess est une application mobile Android qui teste les connaissances des joueurs sur les jeux vidéo via des quiz de difficulté variée.</p>
                 <p>La vidéo ci-dessous démontre en détail le fonctionnement de l'application.</p>
 
                 <div className="iframe-container">

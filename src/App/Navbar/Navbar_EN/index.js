@@ -84,7 +84,7 @@ function Navbar(props) {
                     smooth={true}
                     offset={-70}
                     duration={500}>
-                        FR | <span className="text-white font-bold">EN</span>
+                        <span className="text-white font-bold">EN</span> | FR
                         <LanguageIcon className="language-icon w-4 h-4 ml-1"/>
                 </Link>
 

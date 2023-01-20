@@ -1,6 +1,7 @@
 // src/components/Projects.js
 import "./index.css"
 import React from "react"
+import { TrophyIcon } from "@heroicons/react/24/solid"
 
 function TimeSwap( {} ) {
     return (
@@ -9,6 +10,9 @@ function TimeSwap( {} ) {
                 <blockquote className="w-3/4 lg:w-1/2">
                     <p>Dans un futur distant, deux amis décident de s'éloigner de la ville et de faire une petite escapade de camping sauvage. Cependant, un être avec des intentions mystérieuses les envoie de force dans un autre monde avec un artefact de sablier magique.</p>
                 </blockquote>
+            </div>
+            <div className="project-section">
+               
             </div>
             <div className="project-section">
                 <h1>Description du projet</h1>

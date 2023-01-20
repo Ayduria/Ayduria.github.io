@@ -6,18 +6,18 @@ function AsteroidField( {} ) {
     return (
         <div className="project-page">
             <div className="project-section">
-                <h1>Description du projet</h1>
-                <p>Réalisé dans le cadre d'un exercice de cours, Asteroid Field, sous son nom non-officiel, est un micro-jeu dans lequel le joueur contrôle un vaisseau spatial dans l'espace.</p>
+                <h1>Project description</h1>
+                <p>Made as part of a course exercise, Asteroid Field, under its unofficial name, is a microgame in which the player controls a spaceship in space</p>
 
-                <p>Le vaisseau se déplace au travers un immense champ de milliers d'astéroïdes en mouvement et doit tirer sur ces derniers pour les détruire.</p>
+                <p>The ship moves through a huge field of thousands of moving asteroids and must shoot at them to destroy them.</p>
                 
             </div>
 
             <div className="project-section">
-                <h1>Mon implication</h1>
+                <h1>My involvement</h1>
 
-                <h2>Instanciateur d'objets</h2>
-                <p>J'ai implémenté une fenêtre d'inspecteur personnalisé dans l'engine permettant d'instancier dans la scène un certain nombre d'un objet, à la racine ou enfants d'un parent donné.</p>
+                <h2>Object instantiator</h2>
+                <p>I implemented a custom inspector window in the engine allowing to instantiate in the scene a certain number of an object, at the root or children of a given parent.</p>
 
                 <img
                     alt="Object spawner window"
@@ -25,14 +25,14 @@ function AsteroidField( {} ) {
                     src="./img/projects/object-spawner-window.jpg"
                 />
 
-                <p>Autre que le nombre d'objets, cette fenêtre permet également de modifier d'autres paramètres de spawn dont le préfixe des objets instanciés, la distance maximale à laquelle ils peuvent être instanciés et un intervalle déterminant leur taille minimale et maximale.</p>
+                <p>Other than the number of objects, this window also allows to modify other spawn parameters including the prefix of the instantiated objects, the maximum distance at which they can be instantiated and an interval determining their minimum and maximum size.</p>
 
-                <p>On peut également consulter le nombre d'objects ayant déjà été instanciés et réinitialiser ce nombre, supprimant tous les objets déjà instanciés dans la scène.</p>
+                <p>It is also possible to consult the number of objects that have already been instantiated and reset this number, deleting all the objects already instantiated in the scene.</p>
 
-                <p>C'est via cette fenêtre que j'ai instancié les 5000 astéroïdes se trouvant dans le jeu.</p>
+                <p>It is via this window that I instantiated the 5000 asteroids found in the game.</p>
 
-                <h2>Implémentation du Job System</h2>
-                <p>Une partie importante de cet exercice était de nous familiariser avec le Unity Job System. Le jeu comportant 5000 astéroïdes se déplaçant indépendamment les uns des autres, cela était essentiel pour conserver une performance acceptable.</p>
+                <h2>Job System implementation</h2>
+                <p>An important part of this exercise was to familiarize outselves with the Unity Job System. As the game features 5000 asteroids moving independently of each other, this was essential to maintain acceptable performance and framerate.</p>
 
                 <img
                     alt="Asteroids moving"
@@ -40,7 +40,7 @@ function AsteroidField( {} ) {
                     src="./img/projects/asteroids-rising.gif"
                 />
 
-                <p>Le mouvement des astéroïdes est donc effectué sur deux threads différents; l'un se charge des calculs de vélocité, accélération et rotation de chaque astéroïde, alors que l'autre se charge de mettre à jour la position des astéroïdes en leur appliquant des transformations.</p>
+                <p>The asteroids' movement is therefore carried out on two different threads; one is reponsible for calculating the velocity, acceleration and rotation of each asteroid, while the other is responsible for updating the position of the asteroids by applying transformations to them.</p>
 
                 <img
                     alt="Asteroids moving"
@@ -48,11 +48,11 @@ function AsteroidField( {} ) {
                     src="./img/projects/asteroid-jobs.jpg"
                 />
 
-                <p>Ainsi, les calculs et transformations se produisant simultanément sur deux threads différents, 5000 astéroïdes se déplacent à l'écran en même temps de façon non-uniforme et le jeu reste tout de même fluide.</p>
+                <p>Thus ,the calculations and transformations occuring simultaneously on two different threads, 5000 adteroids move on the screen as the same time in a non-uniform way and the game remains fluid all the same.</p>
 
-                <h2>Destruction des astéroïdes</h2>
+                <h2>Destruction of asteroids</h2>
 
-                <p>Je n'ai pas implémenté le système de tir, mais j'ai implémenté le système de vie dont chaque astéroïde dispose.</p>
+                <p>I did not implement the shooting system, however I implemented the health system that every asteroid has.</p>
 
                 <img
                     alt="Asteroids shooting"
@@ -60,15 +60,15 @@ function AsteroidField( {} ) {
                     src="./img/projects/asteroid-shooting.gif"
                 />
 
-                <p>De base, la barre de vie est cachée. Lorsqu'un astéroïde est atteint par un projectile, elle apparaît. Après deux projectiles, l'astéroïde est détruit dans une explosion, faisant baisser le nombre total d'astéroïde dans la scène tel qu'indiqué au haut de l'écran.</p>
+                <p>By default, the health bar is hidden. When an asteroid is hit by a projectile, it appears. After two projectiles, the asteroid is destroyed in an explosion, lowering the total number of asteroids in the scene as indicated at the top of the screen.</p>
 
                 
             </div>
 
             <div className="project-section">
-                <h1>Défis de conception</h1>
+                <h1>Design challenges</h1>
                 <h2>Performance</h2>
-                <p>Conserver une bonne framerate n'a pas été facile durant cet exercice. En plus de l'implémentation de multithreading, j'ai dû optimiser au maximum les modèles et textures des astéroïdes afin que ces derniers affectent le moins possible la performance.</p>
+                <p>Maintaining a good framerate was not easy during this exercise. In addition to the implementation of multithreading, I had to optimize the models and textures of the asteroids as much as possible so that they affected performance as little as possible.</p>
             
             </div>
 
@@ -79,12 +79,12 @@ function AsteroidField( {} ) {
                         className="inline-block w-6 mr-2 mb-1"
                         src="./img/icons/github.svg"
                     />
-                    Voir le répertoire
+                    View the repository
                 </a>
             </div>
 
             <div className="project-section project-credits">
-            <h1>Crédits</h1>
+            <h1>Credits</h1>
                 <p>Eli Lapointe<br/>
                 Patrick McRea-Desjardins</p>
             </div>

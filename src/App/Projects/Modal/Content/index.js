@@ -13,7 +13,7 @@ import LoadingGif from '../../../../Assets/img/loading-gif.gif'
 
 const projects = {
     'Lux': Lux,
-    'Alka': Alka,
+    'ALKA': Alka,
     'Centre national d\'exposition' : CentreNationalExposition,
     'Feature Hunter' : FeatureHunter,
     'Potion Frenzy' : PotionFrenzy,

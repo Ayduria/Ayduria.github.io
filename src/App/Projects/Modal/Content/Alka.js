@@ -8,13 +8,13 @@ function Alka( {} ) {
         <div className="project-page">
             <div className="project-section">
                 <blockquote className="w-3/4 lg:w-1/2">
-                    <p>Alka est un jeu de tir à la première personne où 4 joueurs coopéreront en ligne contre l’environnement.  Afin de sauver ce qui reste de l’humanité, les joueurs incarneront des drones pour éliminer les tumeurs et leurs sbires qui tentent d’envahir le bunker.</p>
+                    <p>ALKA est un jeu de tir à la première personne où 4 joueurs coopéreront en ligne contre l’environnement.  Afin de sauver ce qui reste de l’humanité, les joueurs incarneront des drones pour éliminer les tumeurs et leurs sbires qui tentent d’envahir le bunker.</p>
                 </blockquote>
             </div>
 
             <div className="project-section">
                 <h1>Description du projet</h1>
-                <p>Alka est un jeu multijoueur en ligne où de 2 à 4 joueurs incarnent des drones armés ayant pour mission d'éliminer une infection se propageant dans un bunker. Pour s'y faire, des nodes doivent être détruits, lesquels sont protégés par divers ennemis.</p>
+                <p>ALKA est un jeu multijoueur en ligne où de 2 à 4 joueurs incarnent des drones armés ayant pour mission d'éliminer une infection se propageant dans un bunker. Pour s'y faire, des nodes doivent être détruits, lesquels sont protégés par divers ennemis.</p>
 
                 <div className="iframe-container">
                     <iframe width="800" height="450" src="https://www.youtube.com/embed/_pX1EpqLWC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -26,8 +26,8 @@ function Alka( {} ) {
                     `}</style>
                 </div>
 
-                <p>Le jeu a débuté son développement durant la session d'hiver 2022. Bon nombre d'étudiants de différentes disciplines se sont joints au projet, dont plusieurs programmeurs de l'UQAC. À la fin de cette session, un prototype a été rendu, dont la bande-annonce se trouve ci-dessus. Toutefois, ce n'était pas terminé pour Alka; le jeu a repris son développement en automne 2022. C'est à ce moment qu'on m'a demandé si je voulais me joindre au projet, ce que j'ai accepté avec enthousiasme.</p>
-                <p>Suivant sa phase de prototypage, le projet a récemment terminé sa phase de préproduction, sur laquelle j'ai travaillé pendant une session. Il se poursuivra par la suite en production.</p>
+                <p>Le jeu a débuté son développement durant la session d'hiver 2022. Bon nombre d'étudiants de différentes disciplines se sont joints au projet, dont plusieurs programmeurs de l'UQAC. À la fin de cette session, un prototype a été rendu, dont la bande-annonce se trouve ci-dessus. Toutefois, ce n'était pas terminé pour ALKA; le jeu a repris son développement en automne 2022. C'est à ce moment qu'on m'a demandé si je voulais me joindre au projet, ce que j'ai accepté avec enthousiasme.</p>
+                <p>Suivant sa phase de prototypage, le projet a récemment terminé sa phase de préproduction, sur laquelle j'ai travaillé pendant une session. Il se poursuit présentement en production.</p>
             </div>
 
             <div className="project-section">
@@ -68,10 +68,10 @@ function Alka( {} ) {
             <div className="project-section">
                 <h1>Défis de conception</h1>
                 <h2>Jeu multijoueur</h2>
-                <p>Alka est ma première expérience de programmation de jeu multijoueur en ligne. Comme j'ai pu le constater, cela augmente la complexité du développement, exigant plusieurs éléments à mettre en place pour un fonctionnement fluide et optimal. Je devrai donc apprendre à mesure que je travaille sur le projet, ce qui prouvera être un défi de taille mais aussi très instructif. Dans le contexte de mon travail sur l'AI, il sera notamment très important que les actions des différents ennemis soient correctement reflétées dans les instances de jeu de chaque joueur.</p>
+                <p>ALKLA était ma première expérience de programmation de jeu multijoueur en ligne. Comme j'ai pu le constater, cela augmente la complexité du développement, exigant plusieurs éléments à mettre en place pour un fonctionnement fluide et optimal. Je devais donc apprendre à mesure que je travaillais sur le projet, ce qui a prouvé être un défi de taille mais aussi très instructif. Dans le contexte de mon travail sur l'AI, il était notamment très important que les actions des différents ennemis soient correctement reflétées dans les instances de jeu de chaque joueur.</p>
 
                 <h2>Adaptation à un projet déjà entamé</h2>
-                <p>À mon arrivée dans l'équipe, le projet était déjà bien entamé. De plus, la grande majorité des programmeurs qui étaient sur le projet la session précédente n'y sont plus. Il y a donc une certaine période d'ajustement où je dois analyser le code et le fonctionnement du projet afin d'y faire des ajouts et modifications.</p>
+                <p>À mon arrivée dans l'équipe, le projet était déjà bien entamé. De plus, la grande majorité des programmeurs qui étaient sur le projet la session précédente n'y étaient plus. Il y a donc eu une certaine période d'ajustement où j'ai dû analyser le code et le fonctionnement du projet afin d'y faire des ajouts et modifications.</p>
 
             </div>
 

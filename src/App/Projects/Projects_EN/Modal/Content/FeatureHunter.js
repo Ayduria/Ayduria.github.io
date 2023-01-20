@@ -7,22 +7,22 @@ function FeatureHunter( {} ) {
         <div className="project-page">
             <div className="project-section">
                 <blockquote className="w-3/4 lg:w-1/2">
-                    <p>Un groupe de hacker international a pris contrôle du web et a infecté l’ensemble des jeux hébergés sur itch.io avec des « features » indésirables. Vous aurez comme mission de parcourir ces jeux afin d’identifier et d’éliminer ces ajouts malveillants.</p>
+                    <p>An international hacker group has taken over the web and infected all games hosted on itch.io with unwanted "features". Your mission will be to go through these games in order to identify and eliminate these malicious additions.</p>
                 </blockquote>
             </div>
             <div className="project-section">
-                <h1>Description du projet</h1>
-                <p>Feature Hunter est un jeu de tir à la première personne réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2022. Le thème de cette édition était "It's not a bug, it's a feature". Notre équipe était hors-concours.</p>
+                <h1>Project description</h1>
+                <p>Feature Hunter is a first-person shooter made in 48 hours as part of WonderJam UQAC Autumn 2022. The theme of this edition was "It's not a bug, it's a feature". Since our team had members experienced in game programming, we participated out of the competition.</p>
 
-                <p>Nous avons opté pour un jeu où le joueur incarne un agent ayant pour mission de trouver et d'identifier des objets aux comportements inhabituels et de les éliminer.</p>
+                <p>We opted for a game where the player embodies an agent whose mission is to find and idenfity objects with unusual behavior and eliminate them.</p>
                 
             </div>
 
             <div className="project-section">
-                <h1>Mon implication</h1>
-                <h2>Glitch visuel</h2>
+                <h1>My involvement</h1>
+                <h2>Visual glitch</h2>
 
-                <p>Les objets peuvent effectuer divers glitch, et j'ai implémenté deux d'entre eux. Le premier consiste en l'objet devenant "invalide" et se transformant, pour une durée aléatoire, en un gros symbole ERROR.</p>
+                <p>Objects can perform various glitches, of which I implemented two. The first consists of the object becoming "invalid" and transforming, for a random duration, into a large ERROR symbol.</p>
 
                 <img
                     alt="Error glitch"
@@ -30,7 +30,7 @@ function FeatureHunter( {} ) {
                     src="./img/projects/fh-error.gif"
                 />
 
-                <p>Le deuxième consiste en l'objet perdant sa texture, qui est remplacée brièvement par une autre texture aléatoire parmis un array associé à ce glitch.</p>
+                <p>The second consists of the object losing its texture, which is briefly replaced by another random texture from an array attached to this glitch.</p>
 
                 <img
                     alt="Missing texture glitch"
@@ -38,24 +38,24 @@ function FeatureHunter( {} ) {
                     src="./img/projects/glitch2.jpg"
                 />
 
-                <h2>Boss final</h2>
+                <h2>Final boss</h2>
 
-                <p>Dans le dernier niveau du jeu, un mannequin peut être trouvé à l'intérieur du château. Ce dernier se déplace et glitch lorsque le joueur ne le regarde pas et cesse de bouger dans le cas contraire.</p>
+                <p>In the last level of the game, a mannequin can be found inside the castle. The latter moves and glitches when the player is not looking at it and stops moving otherwise.</p>
                 <img
                     alt="King feature"
                     className="w-24 mb-5"
                     src="./img/projects/king-feature.gif"
                 />
-                <p>Après avoir attaqué le mannequin, ce dernier disparaît. Il est en fait téléporté à un point aléatoire sur la map et commence immédiatement à pourchasser le joueur lorsque ce dernier ne le regarde pas. À chaque tir, cela se répète, la vitesse du mannequin augmentant à chaque fois. Après cinq tirs, le boss est vaincu.</p>
+                <p>After attacking the mannequin, it disappears. It is actually teleported to a random point on the map and immediately starts chasing the player when the player isn't looking in its direction. With each shotgun shot, this repeats, with the mannequin's speed increasing each time. After five shots, the boss is defeated.</p>
 
-                <p>Si le mannequin arrive suffisamment près du joueur, il va l'attaquer et immédiatement se téléporter à nouveau.</p>
+                <p>If the mannequin gets close enough to the player, it will attack them and immediately teleport again.</p>
                 
             </div>
 
             <div className="project-section">
-                <h1>Défis de conception</h1>  
-                <h2>Imprévisibilité</h2>
-                <p>Vu le principe de base de notre jeu, c'est-à-dire des objets qui glitch aléatoirement, plusieurs problèmes récurrents revenaient, par exemple des objets qui bloquent des portes, ou alors des objets emboîtés l'un dans l'autre. Considérant le thème de la jam, ce n'était généralement pas un problème majeur. Il a tout de même fallu, tout au long de la jam, ajuster les glitch pour atteindre une bonne balance entre chaos et fun.</p>
+                <h1>Design challenges</h1>  
+                <h2>Unpredictability</h2>
+                <p>Given the basic principle of our game, that is to say objects that glitch randomly, several recurring problems came up, for example objects that block doors, or objects nested inside one another. Considering the theme of the gam, that wasn't usually a major issue. All the same, throughout the jam, we had to adjust the glitches to achieve a good balance between chaos and fun.</p>
             </div>
 
             <div className="project-link-section">
@@ -65,7 +65,7 @@ function FeatureHunter( {} ) {
                         className="inline-block w-6 mr-2 mb-1"
                         src="./img/icons/itch-io.png"
                     />
-                   Voir le jeu
+                   Check out the game
                 </a>
                 <a className="link-button" href="https://github.com/Maxime26s/WonderJam-A2022" target="_blank" rel="noopener noreferrer">
                     <img
@@ -73,12 +73,12 @@ function FeatureHunter( {} ) {
                         className="inline-block w-6 mr-2 mb-1"
                         src="./img/icons/github.svg"
                     />
-                    Voir le répertoire
+                    View the repository
                 </a>
             </div>
 
             <div className="project-section project-credits">
-            <h1>Crédits</h1>
+            <h1>Credits</h1>
                 <p>Eli Lapointe<br/>
                 Maxime Simard<br/>
                 Simon Belley<br/>

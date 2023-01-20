@@ -61,7 +61,7 @@ function Lux( {} ) {
             <p>Cette table de donnés contient toutes les lignes de dialogues ainsi que la partie de dialogue à laquelle elles appartiennent. Il est également possible d'assigner un événement à chaque ligne de dialogue, lequel est appelé lorsque cette ligne apparaît; par exemple, dans le dialogue plus haut, la seconde ligne révèle le nom de Candela dans la boîte de dialogue.</p>
 
             <h2>Drones</h2>
-            <p>Dans les zones où Lux doit faire du platforming, des drones patrouillent les rues afin de décourager quiconque de passer par là. Je suis en charge de l'AI de ces drones.</p>
+            <p>Dans les zones où Lux doit faire du platforming, des drones patrouillent les rues afin de décourager quiconque de passer par là. J'étais en charge de l'AI de ces drones.</p>
 
             <img
                     alt="Drones behavior tree"
@@ -85,7 +85,7 @@ function Lux( {} ) {
                     src="./img/projects/lux-sentinel-alert.gif"
             />
 
-            <p>Si le drone est suffisamment près de Lux et l'a dans son champ de vision, il va commencer à charger son attaque, figeant Lux en place brièvement. Une fois l'attaque chargée, le drone attaque d'un bref rayon de lumière puissant, ramenant Lux à son dernier checkpoint (le système de checkpoint a été programmé par un autre membre de l'équipe). Le drone poursuit ensuite sa patrouille.</p>
+            <p>Si le drone est suffisamment près de Lux et l'a dans son champ de vision, il va commencer à charger son attaque, figeant Lux en place brièvement. Une fois l'attaque chargée, le drone attaque d'un bref rayon de lumière puissant, ramenant Lux à son dernier checkpoint. Le drone poursuit ensuite sa patrouille.</p>
 
             <img
                     alt="Drones chasing"
@@ -101,10 +101,10 @@ function Lux( {} ) {
 
             <h1>Défis de conception</h1>
             <h2>Apprentissage rapide</h2>
-            <p>Avant de commencer ce projet, je n'avais jamais fait de projet C++ dans Unreal ni utilisé Perforce. J'ai donc dû apprendre à mesure que je travaillais. Les autres programmeurs étaient d'ailleurs majoritairement dans la même situation, et nous avons rencontré beaucoup de problèmes dans les débuts du projet. Nous sommes à présent beaucoup plus à l'aise et efficaces.</p>
+            <p>Avant de commencer ce projet, je n'avais jamais fait de projet C++ dans Unreal ni utilisé Perforce. J'ai donc dû apprendre à mesure que je travaillais. Les autres programmeurs étaient d'ailleurs majoritairement dans la même situation, et nous avons rencontré beaucoup de problèmes dans les débuts du projet. Nous sommes éventuellement devenus beaucoup plus à l'aise et efficaces.</p>
 
             <h2>Grande équipe multidisciplinaire</h2>
-            <p>Ce projet est ma première expérience d'un travail non seulement dans une si grande équipe, mais aussi une équipe multidiscplinaire. En effet, elle est constituée de programmeurs du DIM à Chicoutimi et d'artistes du NAD à Montréal. Une bonne communication est essentielle pour coordonner notre travail et bien se comprendre.</p>
+            <p>Ce projet était ma première expérience d'un travail non seulement dans une si grande équipe, mais aussi une équipe multidiscplinaire. En effet, elle était constituée de programmeurs du DIM à Chicoutimi et d'artistes du NAD à Montréal. Une bonne communication était essentielle pour coordonner notre travail et bien se comprendre.</p>
         </div>
 
         <div className="project-section project-credits">

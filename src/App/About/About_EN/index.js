@@ -22,7 +22,7 @@ function About() {
                         rel="noopener noreferrer"
                         id="cv-btn"
                         className="about-btn inline-flex text-gray-100 bg-green-800 hover:bg-green-900 border-0 py-2 px-6 focus:outline-none hover:text-white rounded text-lg">
-                        View my CV
+                        Consult my CV
                     </a>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 p-10">

@@ -12,7 +12,7 @@ function FeatureHunter( {} ) {
             </div>
             <div className="project-section">
                 <h1>Description du projet</h1>
-                <p>Feature Hunter est un jeu de tir à la première personne réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2022. Le thème de cette édition était "It's not a bug, it's a feature". Notre équipe était hors-concours.</p>
+                <p>Feature Hunter est un jeu de tir à la première personne réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2022. Le thème de cette édition était "It's not a bug, it's a feature". Notre équipe ayant des membres possédant beaucoup d'expérience en programmation de jeux, nous avons participé hors-concours.</p>
 
                 <p>Nous avons opté pour un jeu où le joueur incarne un agent ayant pour mission de trouver et d'identifier des objets aux comportements inhabituels et de les éliminer.</p>
                 
