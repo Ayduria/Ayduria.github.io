@@ -30,7 +30,7 @@ function Navbar(props) {
                             src="./img/icons/logo_blanc.png"
                             className="logo h-full float-left h-8"/>
                         <a className="ml-3 text-xl" href="javascript:void(0);">
-                            Ann-Laurie Lapointe
+                            Eli Lapointe
                         </a>
                 </Link>
                 <nav className="mainnav md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
@@ -42,7 +42,7 @@ function Navbar(props) {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                            About
+                            About me
                     </Link>
                     <Link
                         className="navlink"

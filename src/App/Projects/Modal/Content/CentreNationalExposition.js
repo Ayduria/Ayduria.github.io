@@ -103,7 +103,7 @@ function CentreNationalExposition( {} ) {
             <div className="project-section project-credits">
             <h1>Crédits</h1>
                 <h2>Chargée de projet, designer et intégratrice</h2>
-                <p>Ann-Laurie Lapointe</p>
+                <p>Eli Lapointe</p>
 
                 <h2>Programmeur</h2>
                 <p>Jean-Christophe Tremblay</p>

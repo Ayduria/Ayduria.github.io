@@ -122,7 +122,7 @@ function Alka( {} ) {
                 Samuel Potvin<br/>
                 Thomas Bergeron<br/>
                 Patrick McRea-Desjardins<br/>
-                Ann-Laurie Lapointe<br/>
+                Eli Lapointe<br/>
                 Minh-Qhan Bui<br/>
                 Pierre-Jean Morel<br/>
                 

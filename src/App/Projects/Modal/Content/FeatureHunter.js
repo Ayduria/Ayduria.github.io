@@ -79,7 +79,7 @@ function FeatureHunter( {} ) {
 
             <div className="project-section project-credits">
             <h1>Crédits</h1>
-                <p>Ann-Laurie Lapointe<br/>
+                <p>Eli Lapointe<br/>
                 Maxime Simard<br/>
                 Simon Belley<br/>
                 Jean-Christophe Tremblay<br/>

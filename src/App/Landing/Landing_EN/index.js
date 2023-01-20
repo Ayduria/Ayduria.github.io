@@ -2,17 +2,20 @@
 import "./index.css"
 import React from "react"
 import { Link } from "react-scroll"
-import BackgroundImage from '../../../Assets/img/stardust.png'
 
 function Landing() {
     return (
         <section id="landing">
+            <div class="video-wrap">
+                <video src="./img/landing-video.mp4" autoplay="true" loop="true" muted="true"></video>
+            </div>
+            <div class="overlay"></div>
             <div className="container mx-auto flex px-10 h-screen md:flex-row flex-col items-center">
-                <div className="flex-grow flex flex-col mb-16 md:mb-0 items-center text-center justify-center">
+                <div className="landing-text flex-grow flex flex-col mb-16 md:mb-0 items-center text-center justify-center">
                     <h1 className="title-font text-5xl lg:text-6xl mb-5 font-medium text-white">
-                        Ann-Laurie Lapointe
+                        Eli Lapointe
                     </h1>
-                    <h2 className="title-font text-2xl lg:text-3xl mb-12 font-medium text-white">Game development student</h2>
+                    <h2 className="title-font text-2xl lg:text-3xl mb-12 font-medium text-white">Hi ! I am wrapping up my last year of game development studies.<br/>I am looking for an internship or job as a junior programmer.</h2>
                     <div className="flex justify-center">
                         <Link
                             id="projects-btn"
@@ -38,12 +41,6 @@ function Landing() {
                     </div>
                 </div>
             </div>
-
-            <style jsx>{`
-                #landing {
-                    background-image: url(${BackgroundImage});
-                }
-            `}</style>
         </section>
     );
 }

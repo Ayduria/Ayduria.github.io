@@ -7,12 +7,16 @@ import BackgroundImage from '../../Assets/img/stardust.png'
 function Landing() {
     return (
         <section id="landing">
+             <div class="video-wrap">
+                <video src="./img/landing-video.mp4" autoplay="true" loop="true" muted="true"></video>
+            </div>
+            <div class="overlay"></div>
             <div className="container mx-auto flex px-10 h-screen md:flex-row flex-col items-center">
-                <div className="flex-grow flex flex-col mb-16 md:mb-0 items-center text-center justify-center">
+                <div className="landing-text flex-grow flex flex-col mb-16 md:mb-0 items-center text-center justify-center">
                     <h1 className="title-font text-5xl lg:text-6xl mb-5 font-medium text-white">
-                        Ann-Laurie Lapointe
+                        Eli Lapointe
                     </h1>
-                    <h2 className="title-font text-2xl lg:text-3xl mb-12 font-medium text-white">Étudiante en développement de jeux vidéo</h2>
+                    <h2 className="title-font text-2xl lg:text-3xl mb-12 font-medium text-white">Salut ! Je termine présentement mes études en développement de jeux vidéo.<br/>Je suis à la recherche d'un stage ou emploi en tant que programmeur junior.</h2>
                     <div className="flex justify-center">
                         <Link
                             id="projects-btn"

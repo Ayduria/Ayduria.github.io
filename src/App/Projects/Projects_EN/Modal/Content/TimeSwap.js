@@ -64,7 +64,7 @@ function TimeSwap( {} ) {
 
             <div className="project-section project-credits">
             <h1>Crédits</h1>
-                <p>Ann-Laurie Lapointe<br/>
+                <p>Eli Lapointe<br/>
                 Vivianne Tremblay<br/>
                 Christopher Tremblay<br/>
                 Lionel Blanchis</p>

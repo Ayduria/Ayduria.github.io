@@ -123,7 +123,7 @@ function Lux( {} ) {
             <h2>Programmeurs du DIM</h2>
             <p>Thomas Bergeron<br/>
                 Patrick McRea-Desjardins<br/>
-                Ann-Laurie Lapointe<br/>
+                Eli Lapointe<br/>
                 Félix Brassard<br/>
             </p>
             <h2>Musiciens de l'UdeM</h2>

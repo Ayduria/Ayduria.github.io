@@ -56,7 +56,7 @@ function DroidRush( {} ) {
                 Clémence Clavel<br/>
                 Laurianna Ferra<br/>
                 Jean-Félix Girard<br/>
-                Ann-Laurie Lapointe<br/>
+                Eli Lapointe<br/>
                 Lori Lou<br/>
                 Patrick McRea Desjardins<br/>
                 Enzo Medina<br/>

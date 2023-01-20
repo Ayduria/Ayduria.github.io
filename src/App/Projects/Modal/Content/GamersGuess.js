@@ -76,7 +76,7 @@ function GamersGuess( {} ) {
 
             <div className="project-section project-credits">
             <h1>Crédits</h1>
-                <p>Ann-Laurie Lapointe<br/>
+                <p>Eli Lapointe<br/>
                 Patrick McRea-Desjardins</p>
             </div>
         </div>
