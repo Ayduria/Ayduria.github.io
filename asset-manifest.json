@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.470a1dad.css",
-    "main.js": "/static/js/main.525db92e.js",
+    "main.css": "/static/css/main.d99118fd.css",
+    "main.js": "/static/js/main.68320ffd.js",
     "static/js/787.865a5c9e.chunk.js": "/static/js/787.865a5c9e.chunk.js",
     "static/media/LeagueSpartan-Bold.svg": "/static/media/LeagueSpartan-Bold.161900dee6e373c457a9.svg",
     "static/media/OpenSans-SemiBold.woff": "/static/media/OpenSans-SemiBold.7a0e987325a2c03b9d13.woff",
@@ -14,12 +14,12 @@
     "static/media/LeagueSpartan-Bold.woff": "/static/media/LeagueSpartan-Bold.e9a41a40ce992c08edd8.woff",
     "static/media/LeagueSpartan-Bold.woff2": "/static/media/LeagueSpartan-Bold.3e338b55ac25ec6b0196.woff2",
     "index.html": "/index.html",
-    "main.470a1dad.css.map": "/static/css/main.470a1dad.css.map",
-    "main.525db92e.js.map": "/static/js/main.525db92e.js.map",
+    "main.d99118fd.css.map": "/static/css/main.d99118fd.css.map",
+    "main.68320ffd.js.map": "/static/js/main.68320ffd.js.map",
     "787.865a5c9e.chunk.js.map": "/static/js/787.865a5c9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.470a1dad.css",
-    "static/js/main.525db92e.js"
+    "static/css/main.d99118fd.css",
+    "static/js/main.68320ffd.js"
   ]
 }
