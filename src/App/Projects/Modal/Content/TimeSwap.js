@@ -12,13 +12,12 @@ function TimeSwap( {} ) {
                 </blockquote>
             </div>
             <div className="project-section">
-               
+                <p className="text-white text-center"><TrophyIcon className="contact-icon text-neutral-300 w-6 h-6 m-auto mt-5 mb-5"/><b>Gagnant de la deuxième position ainsi que du choix du public dans le WonderJam UQAC Automne 2021</b></p>
             </div>
             <div className="project-section">
                 <h1>Description du projet</h1>
                 <p>Time Swap est un jeu réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2021. Le thème de cette édition était "Connexion".</p>
                 <p>Ce que nous avons produit est un jeu d'arcade fast-paced dans lequel le joueur doit constamment alterner entre deux personnages dans deux mondes parallèles défilant à l'infini.</p>
-                <p>Notre jeu a remporté la deuxième position ainsi que le choix du public.</p>
             </div>
 
             <div className="project-section">

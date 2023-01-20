@@ -12,7 +12,7 @@ function TimeSwap( {} ) {
                 </blockquote>
             </div>
             <div className="project-section">
-                <p className="text-white text-center"><TrophyIcon className="contact-icon text-neutral-300 w-6 h-6 m-auto mt-5 mb-5"/><b>Our game won second position as well as People's Choice.</b></p>
+                <p className="text-white text-center"><TrophyIcon className="contact-icon text-neutral-300 w-6 h-6 m-auto mt-5 mb-5"/><b>Winner of second position as well as People's Choice in WonderJam UQAC Autumn 2021</b></p>
             </div>
             <div className="project-section">
                 <h1>Project description</h1>
