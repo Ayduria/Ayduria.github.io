@@ -41,6 +41,11 @@ function Landing() {
                         </Link>
                     </div>
                 </div>
+                <div className="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
             <style jsx>{`
                 #landing {
