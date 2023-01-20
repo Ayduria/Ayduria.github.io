@@ -13,7 +13,7 @@ function PotionFrenzy( {} ) {
             <div className="project-section">
                 
                 <h1>Project description</h1>
-                <p>Potion Frenzy is a game made in 48 hours as part of the WonderJam UQAC Autumn 2020. The theme of this edition was "When magic goes wrong".</p>
+                <p>Potion Frenzy is a game made in 48 hours as part of WonderJam UQAC Autumn 2020. The theme of this edition was "When magic goes wrong".</p>
 
                 <p>In this game, the player must, on each level, read and memorize a potion recipe, then make that potion by throwing ingredients into a pot from an ever-growing pile. The less the recipe is followed, the more the character will have to fight powerful enemies at the end of the timer.</p>
             </div>

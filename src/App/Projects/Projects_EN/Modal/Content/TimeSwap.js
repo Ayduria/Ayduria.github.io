@@ -16,7 +16,7 @@ function TimeSwap( {} ) {
             </div>
             <div className="project-section">
                 <h1>Project description</h1>
-                <p>Time Swap is a game made in 48 hours as part of the WonderJam UQAC Autumn 2021. The theme of this edition was "Connection".</p>
+                <p>Time Swap is a game made in 48 hours as part of WonderJam UQAC Autumn 2021. The theme of this edition was "Connection".</p>
                 <p>What we've produced is a fast-paced arcade game in which the player must constantly alternate between two characters in two endlessly scrolling parallel worlds.</p>
             </div>
 

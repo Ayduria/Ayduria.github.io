@@ -30,7 +30,7 @@ export const projects = [
       title: "Feature Hunter",
       subtitle: "Unity and C#",
       description:
-        "First-person shooter developed in 48 hours as part of the Autumn 2022 UQAC WonderJam following the theme 'It's not a bug, it's a feature'.",
+        "First-person shooter developed in 48 hours as part of WonderJam UQAC Autumn 2022 following the theme 'It's not a bug, it's a feature'.",
       thumbnail: "./img/featurehunter-thumbnail.jpg",
       image: "/img/featurehunter-banner.jpg",
       categorie: "Jeux",
@@ -39,7 +39,7 @@ export const projects = [
       title: "Time Swap",
       subtitle: "Unity and C#",
       description:
-        "Fast-paced arcade game developed in 48 hours as part of the Autumn 2021 UQAC WonderJam following the theme 'Connection'. Winner of second place and People's Choice.",
+        "Fast-paced arcade game developed in 48 hours as part of WonderJam UQAC Autumn 2021 following the theme 'Connection'. Winner of second place and People's Choice.",
       thumbnail: "./img/timeswap-thumbnail.jpg",
       image: "/img/timeswap-banner.jpg",
       categorie: "Jeux",
@@ -48,7 +48,7 @@ export const projects = [
       title: "Potion Frenzy",
       subtitle: "Unity and C#",
       description:
-        "Game developed in 48 hours as part of the Autumn 2020 UQAC WonderJam following the theme 'When Magic Goes Wrong'.",
+        "Game developed in 48 hours as part of WonderJam UQAC Autumn 2020 following the theme 'When Magic Goes Wrong'.",
       thumbnail: "./img/potionfrenzy-thumbnail.jpg",
       image: "/img/potionfrenzy-banner.jpg",
       categorie: "Jeux",
