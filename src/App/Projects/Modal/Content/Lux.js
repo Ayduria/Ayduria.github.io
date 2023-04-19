@@ -107,6 +107,17 @@ function Lux( {} ) {
             <p>Ce projet était ma première expérience d'un travail non seulement dans une si grande équipe, mais aussi une équipe multidiscplinaire. En effet, elle était constituée de programmeurs du DIM à Chicoutimi et d'artistes du NAD à Montréal. Une bonne communication était essentielle pour coordonner notre travail et bien se comprendre.</p>
         </div>
 
+        <div className="project-link-section">
+            <a className="link-button" href="https://uqac.itch.io/lux" target="_blank" rel="noopener noreferrer">
+                <img
+                    alt="itch.io logo"
+                    className="inline-block w-6 mr-2 mb-1"
+                    src="./img/icons/itch-io.png"
+                />
+                Voir le jeu
+            </a>
+        </div>
+
         <div className="project-section project-credits">
             <h1>Crédits</h1>
             <h2>Artistes du NAD</h2>

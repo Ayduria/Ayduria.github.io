@@ -1,5 +1,14 @@
 export const projects = [
     {
+      title: "After School",
+      subtitle: "Unreal Engine et C++",
+      description:
+        "Jeu de tir à la troisième personne solo ou split-screen développé en 10 semaines dans le cadre du Concours Universitaire Ubisoft 2023 sous le thème 'Arcade'.",
+      thumbnail: "./img/AfterSchool-thumbnail.png",
+      image: "/img/AfterSchool-thumbnail.png",
+      categorie: "Jeux",
+    },
+    {
       title: "Droid Rush",
       subtitle: "Unreal Engine et C++",
       description:
@@ -42,15 +51,6 @@ export const projects = [
         "Jeu d'arcade fast-paced réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2021 selon le thème 'Connexion'. Gagnant de la deuxième place et du choix du public.",
       thumbnail: "./img/timeswap-thumbnail.jpg",
       image: "/img/timeswap-banner.jpg",
-      categorie: "Jeux",
-    },
-    {
-      title: "Potion Frenzy",
-      subtitle: "Unity et C#",
-      description:
-        "Jeu réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2020 selon le thème 'Quand la magie tourne mal'.",
-      thumbnail: "./img/potionfrenzy-thumbnail.jpg",
-      image: "/img/potionfrenzy-banner.jpg",
       categorie: "Jeux",
     },
     {

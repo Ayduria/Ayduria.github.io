@@ -1,5 +1,14 @@
 export const projects = [
     {
+      title: "After School",
+      subtitle: "Unreal Engine et C++",
+      description:
+        "Solo or split-screen third-person shooter developed in 10 weeks for the 2023 Ubisoft Game Lab Competition under the theme 'Arcade'.",
+      thumbnail: "./img/AfterSchool-thumbnail.png",
+      image: "/img/AfterSchool-thumbnail.png",
+      categorie: "Jeux",
+    },
+    {
       title: "Droid Rush",
       subtitle: "Unreal Engine and C++",
       description:
@@ -42,15 +51,6 @@ export const projects = [
         "Fast-paced arcade game developed in 48 hours as part of WonderJam UQAC Autumn 2021 following the theme 'Connection'. Winner of second place and People's Choice.",
       thumbnail: "./img/timeswap-thumbnail.jpg",
       image: "/img/timeswap-banner.jpg",
-      categorie: "Jeux",
-    },
-    {
-      title: "Potion Frenzy",
-      subtitle: "Unity and C#",
-      description:
-        "Game developed in 48 hours as part of WonderJam UQAC Autumn 2020 following the theme 'When Magic Goes Wrong'.",
-      thumbnail: "./img/potionfrenzy-thumbnail.jpg",
-      image: "/img/potionfrenzy-banner.jpg",
       categorie: "Jeux",
     },
     {
