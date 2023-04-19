@@ -22,8 +22,11 @@ function Contact() {
                         <a className="mr-5" href="https://www.linkedin.com/in/annlaurie-lapointe/" target="_blank" rel="noopener noreferrer">
                             <img className="w-10 inline-block mb-4 filter-white" alt="LinkedIn Logo" src="./img/icons/linkedin.svg"/>
                         </a>
-                        <a href="https://github.com/Ayduria" target="_blank" rel="noopener noreferrer">
+                        <a className="mr-5" href="https://github.com/Ayduria" target="_blank" rel="noopener noreferrer">
                             <img className="w-10 inline-block mb-4 filter-white" alt="GitHub Logo" src="./img/icons/github.svg"/>
+                        </a>
+                        <a href="https://spacymallow.itch.io/" target="_blank" rel="noopener noreferrer">
+                            <img className="w-10 inline-block mb-4 filter-white" alt="itch.io logo" src="./img/icons/itch-io.png"/>
                         </a>
                     </div>
                 </div>
