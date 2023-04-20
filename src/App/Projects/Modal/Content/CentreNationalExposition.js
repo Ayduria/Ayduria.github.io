@@ -46,6 +46,13 @@ function CentreNationalExposition( {} ) {
                     />
             </div>
 
+            <div className="project-link-section">
+                    <a className="link-button" href="https://www.centrenationalexposition.com/" target="_blank" rel="noopener noreferrer">
+                        <GlobeAltIcon className="w-7 inline-block mb-1 mr-2"/>
+                        Visiter le site web
+                    </a>
+            </div>
+
             <div className="project-section">
                 <h1>Mon implication</h1>
                 <p>J'ai occupé de nombreux rôles durant la réalisation de ce projet. Notre équipe comptait au départ quatre membres, ce qui a descendu à trois lorsque notre chargé de projet et designer a malheureusement dû quitter. J'ai alors assumé ces rôles en plus de mon rôle d'intégratrice.</p>
@@ -91,14 +98,6 @@ function CentreNationalExposition( {} ) {
                 <h2>Équipe réduite</h2>
                 <p>Ayant perdu un membre de notre équipe, nous avons dû rapidement nous adapter. Nous étions l'équipe la moins nombreuse de la classe mais avions la même charge de travail, donc il a fallu mettre les bouchées doubles.</p>
             </div>
-
-            
-            <div className="project-link-section">
-                    <a className="link-button" href="https://www.centrenationalexposition.com/" target="_blank" rel="noopener noreferrer">
-                        <GlobeAltIcon className="w-7 inline-block mb-1 mr-2"/>
-                        Visiter le site web
-                    </a>
-                </div>
 
             <div className="project-section project-credits">
             <h1>Crédits</h1>

@@ -26,8 +26,20 @@ function Alka( {} ) {
                     `}</style>
                 </div>
 
-                <p>The game began its development during the winter 2022 semester. A good number of students from various disciplines joined the project, including several UQAC programmers. By the end of this semester, a prototype was delivered, the trailer of which can be found above. However, it was not over for ALKA; the game resumed development in the fall of 2022. That is when I was asked if I wanted to join the project, whieh I enthusiastically accepted.</p>
-                <p>Following its prototyping phase, the project recently completed its pre=production phase, which I worked on for a whole semester. It is currently in its production phase.</p>
+                <p>The game began its development during the winter 2022 semester. A good number of students from various disciplines joined the project, including several UQAC programmers. By the end of this semester, a prototype was delivered, the trailer of which can be found above. However, it was not over for ALKA; the game resumed development in the fall of 2022. That is when I was asked if I wanted to join the project, which I enthusiastically accepted.</p>
+
+                <p>Following its prototyping phase, the project completed its pre-production phase, which I worked on for a whole semester. I then embarked on the project for another semester in spring of 2023, during which the production phase began.</p>
+            </div>
+
+            <div className="project-link-section">
+                <a className="link-button" href="https://uqac.itch.io/alka" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/itch-io.png"
+                    />
+                    Check out the first prototype
+                </a>
             </div>
 
             <div className="project-section">
@@ -64,11 +76,30 @@ function Alka( {} ) {
                 <p>I also added a fleeing behavior to the sniper. When the sniper is sufficiently injured, it re-enters the ground and teleports to an area away from the player. The injury system was already partially implemented but unused, so I made it functional and used it as a basis for the behavior.</p>
                         
                 <h2>Tank AI</h2>
+
+                <p>During the initial enemy brainstorm phase, we had also drafted out the behavior for a new enemy : the tank. This huge beast would protect the node and charge at any player attempting to approach. This enemy remained nothing but an idea during the prototyping phase, however.</p>
+
+                <img
+                    alt="AI behavior plan drawing"
+                    src="./img/projects/alka_tank_ai.jpg"
+                />
+
+                <p>The implementation of the tank began in the production phase, during my second semester on the project. I took on the task, eager to start working on something new.</p>
                 
                 <video className="mt-8 mb-8" controls>
                     <source src="./img/projects/TankVideo.mp4" type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
+
+                <h3>Guarding</h3>
+
+                <p>When no player is in proximity of the node, I implemented a guarding behavior on the tank. It heads for the spot in front of the node's weakpoint and then lays down, protecting both the node's weakpoint as well as its own : during this phase, the tank is invulnerable and cannot be killed.</p>
+
+                <h3>Attacking</h3>
+
+                <p>As soon as a player gets within a certain range of the node, the tank wakes up from its slumber and switches to another behavior I implemented, which is the attack. It locks onto its target and charges towards it, attacking with a goo splatter as soon as it gets in range. If the player wanders too far from the node, the tank abandons the chase and returns to its guarding behavior.</p>
+
+                <p>During this phase, the tank is no longer invulnerable. However, the only way to kill it is by shooting the weakpoint on its back. This requires cooperation from the players, as one has to draw its attention for another player to go behind it and shoot at its vulnerable spot.</p>
 
             </div>
 
@@ -80,17 +111,6 @@ function Alka( {} ) {
                 <h2>Adaptation to a project already started</h2>
                 <p>When I joined the team, the project was already well under way. Also, the vast majority of programmers who were on the project the previous semester were no longer there. So there was a certain period of adjusment where I had to analyze the code and the funcioning of the project in order to make additions and modifications.</p>
 
-            </div>
-
-            <div className="project-link-section">
-                <a className="link-button" href="https://uqac.itch.io/alka" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/itch-io.png"
-                    />
-                    Check out the first prototype
-                </a>
             </div>
 
             <div className="project-section project-credits">

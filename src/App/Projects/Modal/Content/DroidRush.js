@@ -13,6 +13,25 @@ function DroidRush( {} ) {
                 
             </div>
 
+            <div className="project-link-section">
+                <a className="link-button mr-4" href="https://zaksley.itch.io/droid-rush" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/itch-io.png"
+                    />
+                    Voir le prototype
+                </a>
+                <a className="link-button" href="https://github.com/Ayduria/LocationFilm" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    Voir le répertoire
+                </a>
+            </div>
+
             <div className="project-section">
                 <h1>Mon implication</h1>
                 <h2>Gardes de sécurité</h2>
@@ -46,33 +65,11 @@ function DroidRush( {} ) {
                 <p>Comme préparation supplémentaire pour le Concours Ubisoft qui commence bientôt, je travaille présentement à transformer mon travail d'AI en plugin modulaire qui permettra l'intégration facile dans d'autres projets.</p>
             </div>
 
-            <div className="project-link-section">
-                <a className="link-button" href="https://github.com/Ayduria/LocationFilm" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/github.svg"
-                    />
-                    Voir le répertoire
-                </a>
-            </div>
-
             <div className="project-section">
                 <h1>Défis de conception</h1>
                 <h2>Réplication</h2>
                 <p>Le jeu étant multijoueur en ligne, une couche de difficulté s'ajoute avec la réplication, surtout lorsque le jeu est réalisé sur une courte période de temps. Particulièrement durant la partie jam du développement, il nous est souvent arrivé d'avoir des fonctionnalités fonctionnant parfaitement du côté serveur, mais posant problème du côté client, par exemple la génération des cônes de vision des gardes.</p>
 
-            </div>
-
-            <div className="project-link-section">
-                <a className="link-button" href="https://zaksley.itch.io/droid-rush" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/itch-io.png"
-                    />
-                    Voir le prototype
-                </a>
             </div>
 
             <div className="project-section project-credits">

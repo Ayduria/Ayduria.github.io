@@ -46,6 +46,13 @@ function CentreNationalExposition( {} ) {
                     />
             </div>
 
+            <div className="project-link-section">
+                    <a className="link-button" href="https://www.centrenationalexposition.com/" target="_blank" rel="noopener noreferrer">
+                        <GlobeAltIcon className="w-7 inline-block mb-1 mr-2"/>
+                        Visit the website
+                    </a>
+                </div>
+
             <div className="project-section">
                 <h1>My involvement</h1>
                 <p>I held many roles over the course of this project. Our team started out with four members, which went down to three when our project manager and designer unfortunately had to leave. I then took on these roles in addition to my role of integrator.</p>
@@ -91,14 +98,6 @@ function CentreNationalExposition( {} ) {
                 <h2>Reduced team</h2>
                 <p>Having lost a member of our team, we had to adapt quickly. We were the smallest team in the class but had the same workload, so we had to work twice as hard.</p>
             </div>
-
-            
-            <div className="project-link-section">
-                    <a className="link-button" href="https://www.centrenationalexposition.com/" target="_blank" rel="noopener noreferrer">
-                        <GlobeAltIcon className="w-7 inline-block mb-1 mr-2"/>
-                        Visit the website
-                    </a>
-                </div>
 
             <div className="project-section project-credits">
             <h1>Credits</h1>

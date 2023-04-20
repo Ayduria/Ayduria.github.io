@@ -15,7 +15,7 @@ function About() {
             <div className="container mx-auto flex px-10 md:flex-row flex-col items-center pb-10">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
                     <p className="mb-8 leading-relaxed">I am currently in the last year of my bachelor's degree in game development at UQAC. Before starting university, I completed my collegial studies in the field of web design in Multimedia Integration Techniques at Cégep de Jonquière, where I developed an interest in programming.</p>
-                    <p className="mb-10">As a <b>huge video game enthusiast</b> for as long as I can remember, the decision of pursuing my studies in a field that combines my interests in such a way was not very hard.</p>
+                    <p className="mb-10">As a <b>huge video game enthusiast</b> for as long as I can remember, the decision of pursuing my studies in a field that combines my interests in such a way was a no-brainer.</p>
                     <a
                         href="./files/portfolio-resume-en3.pdf"
                         target="_blank"

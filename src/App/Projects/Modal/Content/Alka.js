@@ -30,6 +30,17 @@ function Alka( {} ) {
                 <p>Suivant sa phase de prototypage, le projet a récemment terminé sa phase de préproduction, sur laquelle j'ai travaillé pendant une session. Il se poursuit présentement en production.</p>
             </div>
 
+            <div className="project-link-section">
+                <a className="link-button" href="https://uqac.itch.io/alka" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/itch-io.png"
+                    />
+                    Voir le premier prototype
+                </a>
+            </div>
+
             <div className="project-section">
                 <h1>Mon implication</h1>
                 <p>Le projet étant déjà bien entamé à mon arrivée, une bonne partie du début de la préproduction a consisté à explorer et analyser les systèmes déjà en place. Il a ensuite été décidé que je travaillerais sur l'AI, ayant déjà de l'intérêt et de l'expérience en ce sens sur d'autres projets.</p>
@@ -64,11 +75,30 @@ function Alka( {} ) {
                 <p>J'ai également ajouté au sniper un comportement de fuite. Lorsque le sniper est suffisamment blessé, il rentre dans le sol et se téléporte à une zone éloignée du joueur. Le système de blessure était déjà partiellement implémenté mais non utilisé; je l'ai donc rendu fonctionnel et m'en suis servi comme base pour la fuite.</p>
 
                 <h2>AI des tanks</h2>
+
+                <p>Durant la phase de brainstorm des ennemis initiale, nous avons également pensé au comportement d'un nouvel enemy : le tank. Cette bête gigantesque protègerait le node et chargerait tout joueur tentant d'approcher. Toutefois, cet ennemi n'est resté qu'une idée durant la phase de prototypage.</p>
+
+                <img
+                    alt="AI behavior plan drawing"
+                    src="./img/projects/alka_tank_ai.jpg"
+                />
+
+                 <p>L'implémentation du tank a débuté dans la phase de production, durant mon second trimestre sur le projet. J'ai embarqué sur la tâche, enthousiaste à l'idée de travailler sur quelque chose de nouveau.</p>
                 
                 <video className="mt-8 mb-8" controls>
                     <source src="./img/projects/TankVideo.mp4" type="video/mp4"/>
                     Your browser does not support the video tag.
                 </video>
+
+                <h3>Défense</h3>
+
+                <p>Quand aucun joueur n'est à proximité du node, j'ai implémenté un comportement de défense sur le tank. Il se déplace en avant du point vulnérable du node et entre dans un mode de sommeil, protégeant le point vulnérable du node autant que le sien : durant cette phase, le tank est invulnérable et ne peut pas être tué.</p>
+
+                <h3>Attaque</h3>
+
+                <p>Aussitôt qu'un joueur est à une certaine portée du node, le tank se réveille de son sommeil et adopte un autre comportement que j'ai implémenté, qui est l'attaque. Il charge sur sa cible, l'attaquant avec une éclaboussure aussitôt qu'il est à portée de celle-ci. Si le joueur s'éloigne trop du node, le tank abandonne la poursuite et retourne à son comportement de défense.</p>
+
+                <p>Durant cette phase, le tank n'est plus invulnérable. Toutefois, la seule façon de le tuer est de tirer sur son point vulnérable sur son dos. Cela nécessite de la coopération de la part des joueurs, puisqu'il y en a un qui doit attirer l'attention du tank pour qu'un autre puisse aller derrière lui et attaquer son point vulnérable.</p>
 
             </div>
 
@@ -80,17 +110,6 @@ function Alka( {} ) {
                 <h2>Adaptation à un projet déjà entamé</h2>
                 <p>À mon arrivée dans l'équipe, le projet était déjà bien entamé. De plus, la grande majorité des programmeurs qui étaient sur le projet la session précédente n'y étaient plus. Il y a donc eu une certaine période d'ajustement où j'ai dû analyser le code et le fonctionnement du projet afin d'y faire des ajouts et modifications.</p>
 
-            </div>
-
-            <div className="project-link-section">
-                <a className="link-button" href="https://uqac.itch.io/alka" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/itch-io.png"
-                    />
-                    Voir le prototype
-                </a>
             </div>
 
             <div className="project-section project-credits">

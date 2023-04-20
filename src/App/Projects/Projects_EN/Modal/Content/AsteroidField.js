@@ -13,6 +13,17 @@ function AsteroidField( {} ) {
                 
             </div>
 
+            <div className="project-link-section">
+                <a className="link-button" href="https://github.com/Ayduria/UQAC-8PRO135-unity" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    View the repository
+                </a>
+            </div>
+
             <div className="project-section">
                 <h1>My involvement</h1>
 
@@ -70,17 +81,6 @@ function AsteroidField( {} ) {
                 <h2>Performance</h2>
                 <p>Maintaining a good framerate was not easy during this exercise. In addition to the implementation of multithreading, I had to optimize the models and textures of the asteroids as much as possible so that they affected performance as little as possible.</p>
             
-            </div>
-
-            <div className="project-link-section">
-                <a className="link-button" href="https://github.com/Ayduria/UQAC-8PRO135-unity" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/github.svg"
-                    />
-                    View the repository
-                </a>
             </div>
 
             <div className="project-section project-credits">

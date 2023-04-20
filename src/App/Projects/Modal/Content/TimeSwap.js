@@ -20,6 +20,25 @@ function TimeSwap( {} ) {
                 <p>Ce que nous avons produit est un jeu d'arcade fast-paced dans lequel le joueur doit constamment alterner entre deux personnages dans deux mondes parallèles défilant à l'infini.</p>
             </div>
 
+            <div className="project-link-section">
+                <a className="link-button mr-4" href="https://original-crab-interactive.itch.io/timeswap" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/itch-io.png"
+                    />
+                   Voir le jeu
+                </a>
+                <a className="link-button" href="https://github.com/Ayduria/WonderJam-A2021" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    Voir le répertoire
+                </a>
+            </div>
+
             <div className="project-section">
                 <h1>Mon implication</h1>
                 <h2>Système de score</h2>
@@ -44,25 +63,6 @@ function TimeSwap( {} ) {
                     src="./img/projects/time-swap-cutscene.gif"
                 />
                 
-            </div>
-
-            <div className="project-link-section">
-                <a className="link-button mr-4" href="https://original-crab-interactive.itch.io/timeswap" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/itch-io.png"
-                    />
-                   Voir le jeu
-                </a>
-                <a className="link-button" href="https://github.com/Ayduria/WonderJam-A2021" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/github.svg"
-                    />
-                    Voir le répertoire
-                </a>
             </div>
 
             <div className="project-section project-credits">

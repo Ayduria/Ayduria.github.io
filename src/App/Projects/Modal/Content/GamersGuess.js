@@ -24,6 +24,17 @@ function GamersGuess( {} ) {
                 
             </div>
 
+            <div className="project-link-section">
+                <a className="link-button" href="https://github.com/Ayduria/GamersGuess" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    Voir le répertoire
+                </a>
+            </div>
+
             <div className="project-section">
                 <h1>Mon implication</h1>
                 <h2>Création de la base de données</h2>
@@ -61,17 +72,6 @@ function GamersGuess( {} ) {
                 <h2>Environnements de test différents</h2>
                 <p>Alors que je testais sur mon vrai téléphone Android, mon coéquipier testait sur un émulateur Android. Cela nous a, à quelques reprises, causé des difficultés, l'émulateur présentant des problèmes que mon téléphone ne montrait pas et vice-versa. Nous avons effectué de très nombreux tests dans les deux environnements ainsi que sur différents émulateurs pour être certains que l'application fonctionnait comme il se doit.</p>
             
-            </div>
-
-            <div className="project-link-section">
-                <a className="link-button" href="https://github.com/Ayduria/GamersGuess" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/github.svg"
-                    />
-                    Voir le répertoire
-                </a>
             </div>
 
             <div className="project-section project-credits">

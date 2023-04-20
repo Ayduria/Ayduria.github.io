@@ -24,6 +24,17 @@ function GamersGuess( {} ) {
                 
             </div>
 
+            <div className="project-link-section">
+                <a className="link-button" href="https://github.com/Ayduria/GamersGuess" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    View the repository
+                </a>
+            </div>
+
             <div className="project-section">
                 <h1>My involvement</h1>
                 <h2>Creation of the database</h2>
@@ -61,17 +72,6 @@ function GamersGuess( {} ) {
                 <h2>Different test environments</h2>
                 <p>While I was testing on my real Android phone, my teammate was testing on an Android emulator. This has, on a few occasions, given us trouble with the emulator showing issues that my phone was not showing and vice versa. We did a lot of testing in both environments as well as on different emulators to make sure the app worked as it should.</p>
             
-            </div>
-
-            <div className="project-link-section">
-                <a className="link-button" href="https://github.com/Ayduria/GamersGuess" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/github.svg"
-                    />
-                    View the repository
-                </a>
             </div>
 
             <div className="project-section project-credits">

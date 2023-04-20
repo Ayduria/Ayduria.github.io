@@ -64,7 +64,7 @@ function Projects() {
                         My Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Some computer science projects I worked on during my college and university studies.
+                        Some of the projects I worked on during my college and university studies.
                     </p>
                 </div>
                 <div className="mb-5">

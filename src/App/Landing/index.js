@@ -8,7 +8,7 @@ function Landing() {
     return (
         <section id="landing">
              <div class="video-wrap">
-                <video src="./img/landing-video.mp4" autoplay="true" loop="true" muted="true"></video>
+                <video src="./img/landing-demo-video.mp4" autoplay="true" loop="true" muted="true"></video>
             </div>
             <div class="overlay"></div>
             <div className="container mx-auto flex px-10 h-screen md:flex-row flex-col items-center">

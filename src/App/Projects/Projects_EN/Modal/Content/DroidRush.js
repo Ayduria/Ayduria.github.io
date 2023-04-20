@@ -13,6 +13,25 @@ function DroidRush( {} ) {
                 
             </div>
 
+            <div className="project-link-section">
+                <a className="link-button mr-4" href="https://zaksley.itch.io/droid-rush" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/itch-io.png"
+                    />
+                    Check out the prototype
+                </a>
+                <a className="link-button" href="https://github.com/Ayduria/LocationFilm" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    View the repository
+                </a>
+            </div>
+
             <div className="project-section">
                 <h1>My involvement</h1>
                 <h2>Security Guards</h2>
@@ -46,17 +65,6 @@ function DroidRush( {} ) {
                 <p>As part of additional preparation for the upcoming Ubisoft Game Lab, I am currently working on turning this AI work into a modular plugin that allows for easy integration into other projects.</p>
             </div>
 
-            <div className="project-link-section">
-                <a className="link-button" href="https://github.com/Ayduria/LocationFilm" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/github.svg"
-                    />
-                    View the repository
-                </a>
-            </div>
-
             <div className="project-section">
                 <h1>Design challenges</h1>
                 <h2>Replication</h2>
@@ -65,14 +73,7 @@ function DroidRush( {} ) {
             </div>
 
             <div className="project-link-section">
-                <a className="link-button" href="https://zaksley.itch.io/droid-rush" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/itch-io.png"
-                    />
-                    Check out the prototype
-                </a>
+                
             </div>
 
             <div className="project-section project-credits">

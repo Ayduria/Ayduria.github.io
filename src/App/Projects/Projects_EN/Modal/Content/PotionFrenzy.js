@@ -18,6 +18,25 @@ function PotionFrenzy( {} ) {
                 <p>In this game, the player must, on each level, read and memorize a potion recipe, then make that potion by throwing ingredients into a pot from an ever-growing pile. The less the recipe is followed, the more the character will have to fight powerful enemies at the end of the timer.</p>
             </div>
 
+            <div className="project-link-section">
+                <a className="link-button mr-4" href="https://original-crab-interactive.itch.io/potion-frenzy" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/itch-io.png"
+                    />
+                   Check out the game
+                </a>
+                <a className="link-button" href="https://github.com/Ayduria/WonderJam-A2020" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    View the repository
+                </a>
+            </div>
+
             <div className="project-section">
                 <h1>My involvement</h1>
                 <h2>Shooting mechanics</h2>
@@ -44,25 +63,6 @@ function PotionFrenzy( {} ) {
                 <h2>Lack of experience</h2>
                 <p>This WonderJam was the first one I participated in, and none of my team members had any experience developing games with Unity. Thus, we had to learn as we went.</p>
             
-            </div>
-
-            <div className="project-link-section">
-                <a className="link-button mr-4" href="https://original-crab-interactive.itch.io/potion-frenzy" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/itch-io.png"
-                    />
-                   Check out the game
-                </a>
-                <a className="link-button" href="https://github.com/Ayduria/WonderJam-A2020" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/github.svg"
-                    />
-                    View the repository
-                </a>
             </div>
 
             <div className="project-section project-credits">

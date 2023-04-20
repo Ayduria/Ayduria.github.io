@@ -40,6 +40,17 @@ function Lux( {} ) {
             
         </div>
 
+        <div className="project-link-section">
+            <a className="link-button" href="https://uqac.itch.io/lux" target="_blank" rel="noopener noreferrer">
+                <img
+                    alt="itch.io logo"
+                    className="inline-block w-6 mr-2 mb-1"
+                    src="./img/icons/itch-io.png"
+                />
+                Check out the game
+            </a>
+        </div>
+
         <div className="project-section">
             <h1>My involvement</h1>
             <h2>Dialogue system</h2>
@@ -105,17 +116,6 @@ function Lux( {} ) {
 
             <h2>Large multidisciplinary team</h2>
             <p>This project was my first experience of working not only in such a large team, but also in a multidisciplinary team made: it was made up of programmers from the DIM in Chicoutimi and artists from the NAD in Montreal. Good communication was essential to coordinate our work and understand each others well.</p>
-        </div>
-
-        <div className="project-link-section">
-            <a className="link-button" href="https://uqac.itch.io/lux" target="_blank" rel="noopener noreferrer">
-                <img
-                    alt="itch.io logo"
-                    className="inline-block w-6 mr-2 mb-1"
-                    src="./img/icons/itch-io.png"
-                />
-                Check out the game
-            </a>
         </div>
 
         <div className="project-section project-credits">

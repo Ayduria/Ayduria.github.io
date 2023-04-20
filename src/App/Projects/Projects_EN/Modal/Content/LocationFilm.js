@@ -14,6 +14,17 @@ function LocationFilm( {} ) {
                 
             </div>
 
+            <div className="project-link-section">
+                <a className="link-button" href="https://github.com/Ayduria/LocationFilm" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    View the repository
+                </a>
+            </div>
+
             <div className="project-section">
                 <h1>My involvement</h1>
                 <p>The project not being a team project, I worked on it entirely by myself.</p>
@@ -99,17 +110,6 @@ function LocationFilm( {} ) {
                 <h2>Unfamiliar tools and languages</h2>
                 <p>Everything I had to use in this project, namely Java, NetBeans and Oracle, were not very familiar to me, having never really had the opportunity to use them in other projects. I had a period of adaptation where I learned to use them, which slowed me down at the beginning.</p>
             
-            </div>
-
-            <div className="project-link-section">
-                <a className="link-button" href="https://github.com/Ayduria/LocationFilm" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/github.svg"
-                    />
-                    View the repository
-                </a>
             </div>
 
             <div className="project-section project-credits">

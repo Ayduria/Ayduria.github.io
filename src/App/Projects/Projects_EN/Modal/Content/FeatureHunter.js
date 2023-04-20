@@ -18,6 +18,25 @@ function FeatureHunter( {} ) {
                 
             </div>
 
+            <div className="project-link-section">
+                <a className="link-button mr-4" href="https://choccymilk.itch.io/feature-hunter" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/itch-io.png"
+                    />
+                   Check out the game
+                </a>
+                <a className="link-button" href="https://github.com/Maxime26s/WonderJam-A2022" target="_blank" rel="noopener noreferrer">
+                    <img
+                        alt="itch.io logo"
+                        className="inline-block w-6 mr-2 mb-1"
+                        src="./img/icons/github.svg"
+                    />
+                    View the repository
+                </a>
+            </div>
+
             <div className="project-section">
                 <h1>My involvement</h1>
                 <h2>Visual glitch</h2>
@@ -56,25 +75,6 @@ function FeatureHunter( {} ) {
                 <h1>Design challenges</h1>  
                 <h2>Unpredictability</h2>
                 <p>Given the basic principle of our game, that is to say objects that glitch randomly, several recurring problems came up, for example objects that block doors, or objects nested inside one another. Considering the theme of the gam, that wasn't usually a major issue. All the same, throughout the jam, we had to adjust the glitches to achieve a good balance between chaos and fun.</p>
-            </div>
-
-            <div className="project-link-section">
-                <a className="link-button mr-4" href="https://choccymilk.itch.io/feature-hunter" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/itch-io.png"
-                    />
-                   Check out the game
-                </a>
-                <a className="link-button" href="https://github.com/Maxime26s/WonderJam-A2022" target="_blank" rel="noopener noreferrer">
-                    <img
-                        alt="itch.io logo"
-                        className="inline-block w-6 mr-2 mb-1"
-                        src="./img/icons/github.svg"
-                    />
-                    View the repository
-                </a>
             </div>
 
             <div className="project-section project-credits">
