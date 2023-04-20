@@ -63,6 +63,13 @@ function Alka( {} ) {
                 <h3>Fuite</h3>
                 <p>J'ai également ajouté au sniper un comportement de fuite. Lorsque le sniper est suffisamment blessé, il rentre dans le sol et se téléporte à une zone éloignée du joueur. Le système de blessure était déjà partiellement implémenté mais non utilisé; je l'ai donc rendu fonctionnel et m'en suis servi comme base pour la fuite.</p>
 
+                <h2>AI des tanks</h2>
+                
+                <video className="mt-8 mb-8" controls>
+                    <source src="./img/projects/TankVideo.mp4" type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
+
             </div>
 
             <div className="project-section">

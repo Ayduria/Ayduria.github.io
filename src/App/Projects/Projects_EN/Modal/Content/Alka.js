@@ -62,6 +62,13 @@ function Alka( {} ) {
 
                 <h3>Fleeing</h3>
                 <p>I also added a fleeing behavior to the sniper. When the sniper is sufficiently injured, it re-enters the ground and teleports to an area away from the player. The injury system was already partially implemented but unused, so I made it functional and used it as a basis for the behavior.</p>
+                        
+                <h2>Tank AI</h2>
+                
+                <video className="mt-8 mb-8" controls>
+                    <source src="./img/projects/TankVideo.mp4" type="video/mp4"/>
+                    Your browser does not support the video tag.
+                </video>
 
             </div>
 

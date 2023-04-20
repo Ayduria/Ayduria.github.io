@@ -14,12 +14,28 @@ function AfterSchool( {} ) {
 
         <div className="project-section">
             <h1>Project description</h1>
+
+            <div className="iframe-container">
+            <iframe width="800" height="450" src="https://www.youtube.com/embed/yiSYxplhak0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <style jsx>{`
+                    .iframe-container {
+                        background-image: url(${ images.LoadingGif });
+                    }
+                `}</style>
+            </div>
             
         </div>
 
         <div className="project-section">
             <h1>My involvement</h1>
             <h2>Enemies</h2>
+
+            <img
+                alt="Asteroids moving"
+                className="w-24 mb-5"
+                src="./img/projects/afterschool-strafe.gif"
+            />
 
             <h2>Outlines</h2>
 
