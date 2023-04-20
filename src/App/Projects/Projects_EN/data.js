@@ -1,7 +1,7 @@
 export const projects = [
     {
       title: "After School",
-      subtitle: "Unreal Engine et C++",
+      subtitle: "Unreal Engine and C++",
       description:
         "Solo or split-screen third-person shooter developed in 10 weeks for the 2023 Ubisoft Game Lab Competition under the theme 'Arcade'.",
       thumbnail: "./img/AfterSchool-thumbnail.png",
