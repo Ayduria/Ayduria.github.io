@@ -5,7 +5,7 @@ export const projects = [
       description:
         "Jeu de tir à la troisième personne solo ou split-screen développé en 10 semaines dans le cadre du Concours Universitaire Ubisoft 2023 sous le thème 'Arcade'.",
       thumbnail: "./img/AfterSchool-thumbnail.png",
-      image: "/img/AfterSchool-thumbnail.png",
+      image: "/img/afterschool-banner.jpg",
       categorie: "Jeux",
     },
     {

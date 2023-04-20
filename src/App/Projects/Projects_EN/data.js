@@ -5,7 +5,7 @@ export const projects = [
       description:
         "Solo or split-screen third-person shooter developed in 10 weeks for the 2023 Ubisoft Game Lab Competition under the theme 'Arcade'.",
       thumbnail: "./img/AfterSchool-thumbnail.png",
-      image: "/img/AfterSchool-thumbnail.png",
+      image: "/img/afterschool-banner.jpg",
       categorie: "Jeux",
     },
     {
