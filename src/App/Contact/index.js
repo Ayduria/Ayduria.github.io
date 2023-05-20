@@ -16,7 +16,7 @@ function Contact() {
                         Vous avez une offre à me proposer ou des questions à me poser ? N'hésitez pas à entrer en contact avec moi, il me fera plaisir de discuter avec vous !
                     </p>
                     <div>
-                        <a className="mr-5" href="mailto:lapointeannlaurie@gmail.com">
+                        <a className="mr-5" href="mailto:eli.lapointe7@gmail.com">
                             <EnvelopeIcon className="w-12 inline-block mb-4 filter-white"/>
                         </a>
                         <a className="mr-5" href="https://www.linkedin.com/in/annlaurie-lapointe/" target="_blank" rel="noopener noreferrer">
