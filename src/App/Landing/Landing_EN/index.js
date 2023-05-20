@@ -16,7 +16,7 @@ function Landing() {
                     <h1 className="title-font text-5xl lg:text-6xl mb-5 font-medium text-white">
                         Eli Lapointe
                     </h1>
-                    <h2 className="title-font text-2xl lg:text-3xl mb-12 font-medium text-white">Hi ! I am wrapping up my last year of game development studies.<br/>I am a programmer specializing mainly in gameplay and AI.</h2>
+                    <h2 className="title-font text-2xl lg:text-3xl mb-12 font-medium text-white">Hi ! I have recently graduated in game development.<br/>I am a programmer specializing mainly in gameplay and AI.</h2>
                     <div className="flex justify-center">
                         <Link
                             id="projects-btn"
