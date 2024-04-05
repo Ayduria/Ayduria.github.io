@@ -3,7 +3,7 @@ export const projects_en = [
       title: "Assassin's Creed Codename Red",
       subtitle: "Unreal Engine and C++",
       description:
-        "Solo or split-screen third-person shooter developed in 10 weeks for the 2023 Ubisoft Game Lab Competition under the theme 'Arcade'.",
+        "The next main entry of the Assassin's Creed series.",
         thumbnail: "./img/acred-thumbnail.jpg",
         image: "/img/acred-banner.jpg",
       category: "Games",

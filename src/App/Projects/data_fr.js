@@ -3,7 +3,7 @@ export const projects_fr = [
       title: "Assassin's Creed Codename Red",
       subtitle: "Anvil and C++",
       description:
-        "",
+        "Le prochain jeu de la série Assassin's Creed.",
       thumbnail: "./img/acred-thumbnail.jpg",
       image: "/img/acred-banner.jpg",
       category: "Games",
