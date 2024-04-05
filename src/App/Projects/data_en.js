@@ -1,7 +1,7 @@
 export const projects_en = [
     {
       title: "Assassin's Creed Codename Red",
-      subtitle: "Unreal Engine and C++",
+      subtitle: "Anvil and C++",
       description:
         "The next main entry of the Assassin's Creed series.",
         thumbnail: "./img/acred-thumbnail.jpg",
