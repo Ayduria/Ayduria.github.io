@@ -1,0 +1,37 @@
+{
+    "navbar/item1" : "About me",
+    "navbar/item2" : "Projects",
+    "navbar/item3" : "Skills",
+    
+    "landing/tagline1" : "Hi ! I'm a junior gameplay programmer.",
+    "landing/tagline2" : "I love games and making games. Check out my stuff !",
+    "landing/button1" : "View my projects",
+    "landing/button2" : "Contact me",
+
+    "about/title" : "About Me",
+    "about/paragraph1" : "It is at Cégep de Jonquière, in my hometown of Saguenay, Québec, that I first developed an interest in programming. There, I obtained my college diploma upon completing my studies in the field of web design in Multimedia Integration Techniques.",
+    "about/paragraph2" : "But I wanted to go further. Thus, I enrolled at UQAC, where I obtained my Bachelor's Degree in game development. As a huge video game enthusiast for as long as I can remember, the decision of pursuing my studies in a field that combines my interests in such a way was a no-brainer.",
+    "about/paragraph3" : "At the end of my university studies in 2023, I participated in Ubisoft's Game Lab Competition. This landed me a gameplay programmer internship at Ubisoft Québec and, eventually, a job I now dedicate myself to full-time.",
+
+    "projects/title" : "My Projects",
+    "projects/tagline" : "Some of the projects I worked on during my studies and professional career.",
+    "projects/button1" : "All",
+    "projects/button2" : "Games",
+    "projects/button3" : "Others",
+
+    "skills/title" : "My Skills",
+    "skills/tagline" : "Over the course of my studies and professional career, I had the opportunity of familiarizing myself with a variety of programming languages and softwares.",
+    "skills/category1" : "Programming",
+    "skills/category2" : "Tools",
+
+    "contact/title" : "Contact Me !",
+    "contact/tagline" : "You have an offer for me or questions to ask me ? Do not hesitate to contact me, it will be my pleasure to discuss with you !",
+    "contact/label1" : "Name",
+    "contact/label2" : "Email Address",
+    "contact/button" : "Send",
+    "contact/confirmation" : "Thank you for contacting me !",
+
+    "copyright/section1" : "Hosting via",
+    "copyright/section2" : "Icons from",
+    "copyright/section3" : "and"
+}

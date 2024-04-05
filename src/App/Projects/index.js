@@ -1,12 +1,14 @@
-// src/components/Projects.js
 import "./index.css"
-import { projects } from "./data"
-import React from "react"
-import { useState } from "react"
+import React, { useState, useContext } from "react"
+import { LanguageContext } from "../../Language/languageContext"
+import { projects_fr } from "./data_fr"
+import { projects_en } from "./data_en"
 import { CodeBracketIcon } from "@heroicons/react/24/solid"
 import Modal from "./Modal"
 
 function Projects() {
+    const { language, languageData } = useContext(LanguageContext);
+    const projects = language === 'en' ? projects_en : projects_fr;
 
     const [show, setShow] = useState(false);
     const [title, setTitle] = useState(null);
@@ -14,8 +16,7 @@ function Projects() {
     const [subtitle, setSubtitle] = useState(null);
 
     const [showGames, setShowGames] = useState(true);
-    const [showApps, setShowApps] = useState(false);
-    const [showWeb, setShowWeb] = useState(false);
+    const [showOthers, setShowOthers] = useState(false);
 
     function showModal(title, image, subtitle) {
         setShow(true);
@@ -33,26 +34,17 @@ function Projects() {
 
     function showGameProjects() {
         setShowGames(true);
-        setShowApps(false);
-        setShowWeb(false);
+        setShowOthers(false);
     }
 
-    function showAppProjects() {
+    function showOtherProjects() {
         setShowGames(false);
-        setShowApps(true);
-        setShowWeb(false);
-    }
-
-    function showWebProjects() {
-        setShowGames(false);
-        setShowApps(false);
-        setShowWeb(true);
+        setShowOthers(true);
     }
 
     function showAllProjects() {
         setShowGames(true);
-        setShowApps(true);
-        setShowWeb(true);
+        setShowOthers(true);
     }
 
     return (
@@ -61,21 +53,20 @@ function Projects() {
                 <div className="flex flex-col w-full mb-10">
                     <CodeBracketIcon className="mx-auto inline-block w-10 mb-4"/>
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                        Mes projets
+                        { languageData["projects/title"] }
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Divers projets que j'ai réalisés au cours de mes études collégiales et universitaires.
+                        { languageData["projects/tagline"] }
                     </p>
                 </div>
                 <div className="mb-5">
-                    <button id="btn-all" className="btn-category" onClick={showAllProjects}>Tous</button>
-                    <button id="btn-games" className="btn-category" onClick={showGameProjects}>Jeux</button>
-                    <button id="btn-apps" className="btn-category" onClick={showAppProjects}>Applications / Outils</button>
-                    <button id="btn-web" className="btn-category" onClick={showWebProjects}>Sites web</button> 
+                    <button id="btn-all" className="btn-category" onClick={showAllProjects}>{ languageData["projects/button1"] }</button>
+                    <button id="btn-games" className="btn-category" onClick={showGameProjects}>{ languageData["projects/button2"] }</button>
+                    <button id="btn-others" className="btn-category" onClick={showOtherProjects}>{ languageData["projects/button3"] }</button>
                 </div>
                 <div className="flex flex-wrap -m-4 justify-center">
                     {projects.map((project) => (
-                        <div className="sm:w-1/2 w-100 p-4" style={{ display: (((project.categorie == 'Jeux')  && showGames) || ((project.categorie == 'Applications') && showApps) || ((project.categorie == 'Web') && showWeb) ? 'block' : 'none') }}>
+                        <div className="sm:w-1/2 w-100 p-4" style={{ display: (((project.category == 'Games')  && showGames) || ((project.category == 'Others') && showOthers) ? 'block' : 'none') }}>
                             <a
                                 href="javascript:void(0);"
                                 onClick={() => showModal(project.title, project.image, project.subtitle)}
@@ -109,27 +100,21 @@ function Projects() {
 
             
                 #btn-all {
-                    color: ${ showGames && showApps && showWeb ? 'white' : 'gray'};
-                    border-color: ${ showGames && showApps && showWeb ? 'white' : 'gray'};
-                    background-color : ${ showGames && showApps && showWeb ? 'rgba(34, 137, 137, 0.5)' : 'transparent'};
+                    color: ${ showGames && showOthers ? 'white' : 'gray'};
+                    border-color: ${ showGames && showOthers ? 'white' : 'gray'};
+                    background-color : ${ showGames && showOthers ? 'rgba(34, 137, 137, 0.5)' : 'transparent'};
                 }
 
                 #btn-games {
-                    color: ${ showGames && !showApps && !showWeb ? 'white' : 'gray'};
-                    border-color: ${ showGames && !showApps && !showWeb ? 'white' : 'gray'};
-                    background-color: ${ showGames && !showApps && !showWeb ? 'rgba(34, 137, 137, 0.5)' : 'transparent'};
+                    color: ${ showGames && !showOthers ? 'white' : 'gray'};
+                    border-color: ${ showGames && !showOthers ? 'white' : 'gray'};
+                    background-color: ${ showGames && !showOthers ? 'rgba(34, 137, 137, 0.5)' : 'transparent'};
                 }
 
-                #btn-apps {
-                    color: ${ !showGames && showApps && !showWeb ? 'white' : 'gray'};
-                    border-color: ${ !showGames && showApps && !showWeb ? 'white' : 'gray'};
-                    background-color: ${ !showGames && showApps && !showWeb ? 'rgba(34, 137, 137, 0.5)' : 'transparent'};
-                }
-
-                #btn-web {
-                    color: ${ !showGames && !showApps && showWeb ? 'white' : 'gray'};
-                    border-color: ${ !showGames && !showApps && showWeb ? 'white' : 'gray'};
-                    background-color: ${ !showGames && !showApps && showWeb ? 'rgba(34, 137, 137, 0.5)' : 'transparent'};
+                #btn-others {
+                    color: ${ !showGames && showOthers ? 'white' : 'gray'};
+                    border-color: ${ !showGames && showOthers ? 'white' : 'gray'};
+                    background-color: ${ !showGames && showOthers ? 'rgba(34, 137, 137, 0.5)' : 'transparent'};
                 }
 
             `}</style>

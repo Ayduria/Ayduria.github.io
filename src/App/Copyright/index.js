@@ -1,11 +1,13 @@
-// src/components/Contact.js
 import "./index.css"
-import React from "react"
+import React, { useContext } from "react"
+import { LanguageContext } from "../../Language/languageContext"
 
 function Copyright() {
+    const { languageData } = useContext(LanguageContext);
+  
     return(
         <footer className="text-gray-400 bg-gray-800 py-5">
-          <b>© Eli Lapointe, 2023</b> | Hébergement via <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">Github Pages</a> | Icônes provenant de <a href="https://heroicons.com/" target="_blank" rel="noopener noreferrer">Heroicons</a> et <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">Flaticon</a>
+          <b>© Eli Lapointe, 2024</b> | { languageData["copyright/section1"] } <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">Github Pages</a> | { languageData["copyright/section2"] } <a href="https://heroicons.com/" target="_blank" rel="noopener noreferrer">Heroicons</a> { languageData["copyright/section3"] } <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer">Flaticon</a>
         </footer>
     );
 }

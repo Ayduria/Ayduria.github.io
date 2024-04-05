@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import "./index.css"
 import React from "react"
 

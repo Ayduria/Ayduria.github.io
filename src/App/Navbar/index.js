@@ -1,13 +1,17 @@
-// src/components/Navbar.js
 import "./index.css"
-import React from "react"
-import { useState } from "react"
+import React, { useState, useContext }from "react"
+import { LanguageContext } from "../../Language/languageContext"
 import { Link } from "react-scroll"
 import { EnvelopeIcon, LanguageIcon } from "@heroicons/react/24/solid"
 import Hamburger from "./Hamburger"
 
-function Navbar(props) {
-    const {toggleLanguage} = props;
+function Navbar() {
+    const { language, languageData, setLanguage } = useContext(LanguageContext);
+    const handleToggleLanguage = () => {
+        const newLanguage = language === 'en' ? 'fr' : 'en';
+        setLanguage(newLanguage);
+    };
+
     const [hamburgerOpen, setHamburgerOpen] = useState(false);
 
     const toggleHamburger = () =>{
@@ -25,10 +29,6 @@ function Navbar(props) {
                     smooth={true}
                     offset={-70}
                     duration={500}>
-                        <img
-                            alt="Portfolio logo"
-                            src="./img/icons/logo_blanc.png"
-                            className="logo h-full float-left h-8"/>
                         <a className="ml-3 text-xl" href="javascript:void(0);">
                             Eli Lapointe
                         </a>
@@ -42,7 +42,7 @@ function Navbar(props) {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                            À propos de moi
+                            { languageData["navbar/item1"] }
                     </Link>
                     <Link
                         className="navlink"
@@ -52,7 +52,7 @@ function Navbar(props) {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                            Projets
+                            { languageData["navbar/item2"] }
                     </Link>
                     <Link
                         className="navlink"
@@ -62,7 +62,7 @@ function Navbar(props) {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                            Compétences
+                            { languageData["navbar/item3"] }
                     </Link>
                 </nav>
                 <Link
@@ -79,13 +79,13 @@ function Navbar(props) {
                 <Link
                     className="navlink"
                     activeClass="active"
-                    onClick ={toggleLanguage}
+                    onClick ={handleToggleLanguage}
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}>
-                         EN | <span className="text-white font-bold">FR</span>
-                        <LanguageIcon className="w-4 h-4 ml-1"/>
+                        <p className="uppercase text-white font-bold">{language}</p>
+                        <LanguageIcon className="contact-icon text-white font-bold w-4 h-4 ml-1"/>
                 </Link>
 
             </div>

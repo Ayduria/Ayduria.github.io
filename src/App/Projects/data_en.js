@@ -1,4 +1,13 @@
-export const projects = [
+export const projects_en = [
+    {
+      title: "Assassin's Creed Codename Red",
+      subtitle: "Unreal Engine and C++",
+      description:
+        "Solo or split-screen third-person shooter developed in 10 weeks for the 2023 Ubisoft Game Lab Competition under the theme 'Arcade'.",
+        thumbnail: "./img/acred-thumbnail.jpg",
+        image: "/img/acred-banner.jpg",
+      category: "Games",
+    },
     {
       title: "After School",
       subtitle: "Unreal Engine and C++",
@@ -6,7 +15,7 @@ export const projects = [
         "Solo or split-screen third-person shooter developed in 10 weeks for the 2023 Ubisoft Game Lab Competition under the theme 'Arcade'.",
       thumbnail: "./img/AfterSchool-thumbnail.png",
       image: "/img/afterschool-banner.jpg",
-      categorie: "Jeux",
+      category: "Games",
     },
     {
       title: "Droid Rush",
@@ -15,7 +24,7 @@ export const projects = [
         "Top-down stealth and strategy online multiplayer game currently in development following the themes 'Dungeons' and 'Pocket Sized' as preparation for the Ubisoft 2023 Game Lab Competition.",
       thumbnail: "./img/droidrush-thumbnail.jpg",
       image: "/img/droidrush-banner.jpg",
-      categorie: "Jeux",
+      category: "Games",
     },
     {
       title: "Lux",
@@ -24,7 +33,7 @@ export const projects = [
         "Serious platforming game about light pollution developed as part of the UQAC game development bachelor's degree's workshop course.",
       thumbnail: "./img/lux-thumbnail.jpg",
       image: "/img/lux-banner.jpg",
-      categorie: "Jeux",
+      category: "Games",
     },
     {
       title: "ALKA",
@@ -33,16 +42,7 @@ export const projects = [
         "Online multiplayer first-person shooter game I will be working on for the following months developed as part of the UQAC game development bachelor's degree.",
       thumbnail: "./img/alka-thumbnail.jpg",
       image: "/img/alka-banner.jpg",
-      categorie: "Jeux",
-    },
-    {
-      title: "Feature Hunter",
-      subtitle: "Unity and C#",
-      description:
-        "First-person shooter developed in 48 hours as part of WonderJam UQAC Autumn 2022 following the theme 'It's not a bug, it's a feature'.",
-      thumbnail: "./img/featurehunter-thumbnail.jpg",
-      image: "/img/featurehunter-banner.jpg",
-      categorie: "Jeux",
+      category: "Games",
     },
     {
       title: "Time Swap",
@@ -51,34 +51,7 @@ export const projects = [
         "Fast-paced arcade game developed in 48 hours as part of WonderJam UQAC Autumn 2021 following the theme 'Connection'. Winner of second place and People's Choice.",
       thumbnail: "./img/timeswap-thumbnail.jpg",
       image: "/img/timeswap-banner.jpg",
-      categorie: "Jeux",
-    },
-    {
-      title: "Asteroid Field",
-      subtitle: "Unity and C#",
-      description:
-        "Space flight and shooter micro-game taking place in a field of thousands of asteroids developed as part of a UQAC game engine course.",
-      thumbnail: "./img/asteroidfield-thumbnail.jpg",
-      image: "/img/asteroidfield-thumbnail.jpg",
-      categorie: "Applications",
-    },
-    {
-      title: "Gamer's Guess",
-      subtitle: "Android Studio and Java",
-      description:
-        "Android mobile quiz game on the topic of video games developed as part of a UQAC mobile computing course.",
-      thumbnail: "./img/gamersguess-thumbnail.jpg",
-      image: "/img/gamersguess-thumbnail.jpg",
-      categorie: "Applications",
-    },
-    {
-      title: "Movie Renting",
-      subtitle: "Netbeans, Oracle and Java",
-      description:
-        "Fictional Windows app allowing users to search for movies using many criterias and to rent them developed as part of a UQAC advanced database course.",
-      thumbnail: "./img/locationfilm-thumbnail.jpg",
-      image: "/img/locationfilm-thumbnail.jpg",
-      categorie: "Applications",
+      category: "Games",
     },
     {
       title: "Centre national d'exposition",
@@ -87,6 +60,6 @@ export const projects = [
         "New dynamic website for the Centre National d'Exposition developed as part of my final project of Multimedia Integration Techniques at Cégep de Jonquière.",
       thumbnail: "./img/cne-thumbnail.jpg",
       image: "/img/cne-banner.jpg",
-      categorie: "Web",
+      category: "Others",
     },
   ];

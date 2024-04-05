@@ -1,0 +1,37 @@
+{
+    "navbar/item1" : "À propos de moi",
+    "navbar/item2" : "Projets",
+    "navbar/item3" : "Compétences",
+
+    "landing/tagline1" : "Salut ! Je suis un programmeur gameplay junior.",
+    "landing/tagline2" : "J'adore les jeux et créer des jeux. Je vous invite à les découvrir !",
+    "landing/button1" : "Voir mes projets",
+    "landing/button2" : "Me contacter",
+
+    "about/title" : "À propos de moi",
+    "about/paragraph1" : "C'est au Cégep de Jonquière, dans ma ville natale de Saguenay, Québec, que j'ai commencé à m'intéresser à la programmation. J'y ai obtenu mon diplôme d'études collégiales en terminant mes études dans le domaine de la conception web en Techniques d'Intégration Multimédia.",
+    "about/paragraph2" : "Mais je voulais aller plus loin. Je me suis donc inscrit à l'UQAC, où j'ai obtenu un baccalauréat en développement de jeux vidéo. En tant que passionné de jeux vidéo depuis mon enfance, la décision de poursuivre mes études dans un domaine qui combine mes intérêts d'une telle façon fût une décision facile.",
+    "about/paragraph3" : "À la fin de mes études universitaires, en 2023, j'ai participé au Concours Universitaire Ubisoft. Cela m'a permis de décrocher un stage en tant que programmeur gameplay chez Ubisoft Québec et, par la suite, un emploi auquel je me consacre maintenant à temps plein.",
+
+    "projects/title" : "Mes projets",
+    "projects/tagline" : "Divers projets que j'ai réalisés au cours de mes études et parcours professionnel.",
+    "projects/button1" : "Tous",
+    "projects/button2" : "Jeux",
+    "projects/button3" : "Autres",
+
+    "skills/title" : "Mes compétences",
+    "skills/tagline" : "Au cours de mes études et carrière professionnelle, j'ai eu l'occasion de me familiariser avec une variété de langages de programmation et de logiciels.",
+    "skills/category1" : "Programmation",
+    "skills/category2" : "Outils",
+
+    "contact/title" : "Contactez-moi !",
+    "contact/tagline" : "Vous avez une offre à me proposer ou des questions à me poser ? N'hésitez pas à entrer en contact avec moi, il me fera plaisir de discuter avec vous !",
+    "contact/label1" : "Nom",
+    "contact/label2" : "Adresse courriel",
+    "contact/button" : "Envoyer",
+    "contact/confirmation" : "Merci de m'avoir contacté !",
+
+    "copyright/section1" : "Hébergement via",
+    "copyright/section2" : "Icônes provenant de",
+    "copyright/section3" : "et"
+}

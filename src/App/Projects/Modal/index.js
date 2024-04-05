@@ -1,4 +1,3 @@
-// src/components/Projects.js
 import "./index.css"
 import React from "react"
 import { XMarkIcon, DocumentTextIcon } from "@heroicons/react/24/solid"

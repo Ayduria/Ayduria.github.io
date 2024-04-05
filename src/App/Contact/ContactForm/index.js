@@ -1,13 +1,14 @@
-// src/components/Contact.js
 import "./index.css"
-import React from "react"
+import React, { useContext } from "react"
+import { LanguageContext } from "../../../Language/languageContext"
 import { useForm, ValidationError } from "@formspree/react"
 
 function ContactForm() {
     const [state, handleSubmit] = useForm("mqkjlgbn");
+    const { languageData } = useContext(LanguageContext);
 
     if (state.succeeded) {
-        return <p>Merci de m'avoir contacté !</p>
+        return <p>{ languageData["contact/confirmation"] }</p>
     }
     return (
         <form 
@@ -16,7 +17,7 @@ function ContactForm() {
             onSubmit={handleSubmit}>
             <div className="relative mb-4 text-left">
                 <label htmlFor="name" className="leading-7 text-sm text-gray-400 font-bold">
-                    Nom
+                    { languageData["contact/label1"] }
                 </label>
                 <input
                     type="text"
@@ -33,13 +34,13 @@ function ContactForm() {
             </div>
             <div className="relative mb-4 text-left">
                 <label htmlFor="email" className="leading-7 text-sm text-gray-400 font-bold">
-                    Adresse courriel
+                    { languageData["contact/label2"] }
                 </label>
                 <input
                     type="email"
                     id="email"
                     name="email"
-                    placeholder="exemple@gmail.com"
+                    placeholder="johnsmith@gmail.com"
                     className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                 />
                 <ValidationError 
@@ -55,7 +56,7 @@ function ContactForm() {
                 <textarea
                     id="message"
                     name="message"
-                    placeholder="Votre message ici"
+                    placeholder="Message"
                     className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                 />
                 <ValidationError 
@@ -68,7 +69,7 @@ function ContactForm() {
                 type="submit"
                 disabled={state.submitting}
                 className="send-btn text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">   
-                Envoyer
+                { languageData["contact/button"] }
             </button>
         </form>
     );
