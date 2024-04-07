@@ -18,6 +18,8 @@ function Navbar() {
         setHamburgerOpen(!hamburgerOpen)
     }
 
+    if (!languageData.navbar) return null;
+
     return (
         <header className="bg-gray-800 fixed top-0 z-10 w-full shadow-lg">
             <div className="fullnavbar container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center h-full">
@@ -42,7 +44,7 @@ function Navbar() {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                            { languageData["navbar/item1"] }
+                            { languageData.navbar.item1 }
                     </Link>
                     <Link
                         className="navlink"
@@ -52,7 +54,7 @@ function Navbar() {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                            { languageData["navbar/item2"] }
+                            { languageData.navbar.item2 }
                     </Link>
                     <Link
                         className="navlink"
@@ -62,7 +64,7 @@ function Navbar() {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                            { languageData["navbar/item3"] }
+                            { languageData.navbar.item3 }
                     </Link>
                 </nav>
                 <Link

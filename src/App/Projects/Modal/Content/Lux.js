@@ -108,16 +108,6 @@ function Lux( {} ) {
             
         </div>
 
-        <div className="project-section">
-
-            <h1>Défis de conception</h1>
-            <h2>Apprentissage rapide</h2>
-            <p>Avant de commencer ce projet, je n'avais jamais fait de projet C++ dans Unreal ni utilisé Perforce. J'ai donc dû apprendre à mesure que je travaillais. Les autres programmeurs étaient d'ailleurs majoritairement dans la même situation, et nous avons rencontré beaucoup de problèmes dans les débuts du projet. Nous sommes éventuellement devenus beaucoup plus à l'aise et efficaces.</p>
-
-            <h2>Grande équipe multidisciplinaire</h2>
-            <p>Ce projet était ma première expérience d'un travail non seulement dans une si grande équipe, mais aussi une équipe multidiscplinaire. En effet, elle était constituée de programmeurs du DIM à Chicoutimi et d'artistes du NAD à Montréal. Une bonne communication était essentielle pour coordonner notre travail et bien se comprendre.</p>
-        </div>
-
         <div className="project-section project-credits">
             <h1>Crédits</h1>
             <h2>Artistes du NAD</h2>

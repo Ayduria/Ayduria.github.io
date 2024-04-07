@@ -1,37 +1,71 @@
 {
-    "navbar/item1" : "À propos de moi",
-    "navbar/item2" : "Projets",
-    "navbar/item3" : "Compétences",
-
-    "landing/tagline1" : "Salut ! Je suis un programmeur gameplay junior.",
-    "landing/tagline2" : "J'adore les jeux et créer des jeux. Je vous invite à les découvrir !",
-    "landing/button1" : "Voir mes projets",
-    "landing/button2" : "Me contacter",
-
-    "about/title" : "À propos de moi",
-    "about/paragraph1" : "C'est au Cégep de Jonquière, dans ma ville natale de Saguenay, Québec, que j'ai commencé à m'intéresser à la programmation. J'y ai obtenu mon diplôme d'études collégiales en terminant mes études dans le domaine de la conception web en Techniques d'Intégration Multimédia.",
-    "about/paragraph2" : "Mais je voulais aller plus loin. Je me suis donc inscrit à l'UQAC, où j'ai obtenu un baccalauréat en développement de jeux vidéo. En tant que passionné de jeux vidéo depuis mon enfance, la décision de poursuivre mes études dans un domaine qui combine mes intérêts d'une telle façon fût une décision facile.",
-    "about/paragraph3" : "À la fin de mes études universitaires, en 2023, j'ai participé au Concours Universitaire Ubisoft. Cela m'a permis de décrocher un stage en tant que programmeur gameplay chez Ubisoft Québec et, par la suite, un emploi auquel je me consacre maintenant à temps plein.",
-
-    "projects/title" : "Mes projets",
-    "projects/tagline" : "Divers projets que j'ai réalisés au cours de mes études et parcours professionnel.",
-    "projects/button1" : "Tous",
-    "projects/button2" : "Jeux",
-    "projects/button3" : "Autres",
-
-    "skills/title" : "Mes compétences",
-    "skills/tagline" : "Au cours de mes études et carrière professionnelle, j'ai eu l'occasion de me familiariser avec une variété de langages de programmation et de logiciels.",
-    "skills/category1" : "Programmation",
-    "skills/category2" : "Outils",
-
-    "contact/title" : "Contactez-moi !",
-    "contact/tagline" : "Vous avez une offre à me proposer ou des questions à me poser ? N'hésitez pas à entrer en contact avec moi, il me fera plaisir de discuter avec vous !",
-    "contact/label1" : "Nom",
-    "contact/label2" : "Adresse courriel",
-    "contact/button" : "Envoyer",
-    "contact/confirmation" : "Merci de m'avoir contacté !",
-
-    "copyright/section1" : "Hébergement via",
-    "copyright/section2" : "Icônes provenant de",
-    "copyright/section3" : "et"
+    "navbar" : {
+        "item1" : "À propos de moi",
+        "item2" : "Projets",
+        "item3" : "Compétences"
+    },
+    "landing" : {
+        "tagline1" : "Salut ! Je suis un programmeur gameplay junior.",
+        "tagline2" : "J'adore les jeux et créer des jeux. Je vous invite à les découvrir !",
+        "button1" : "Voir mes projets",
+        "button2" : "Me contacter"
+    },
+    "about" : {
+        "title" : "À propos de moi",
+        "paragraph1" : "C'est au Cégep de Jonquière, dans ma ville natale de Saguenay, Québec, que j'ai commencé à m'intéresser à la programmation. J'y ai obtenu mon diplôme d'études collégiales en terminant mes études dans le domaine de la conception web en Techniques d'Intégration Multimédia.",
+        "paragraph2" : "Mais je voulais aller plus loin. Je me suis donc inscrit à l'UQAC, où j'ai obtenu un baccalauréat en développement de jeux vidéo. En tant que passionné de jeux vidéo depuis mon enfance, la décision de poursuivre mes études dans un domaine qui combine mes intérêts d'une telle façon fût une décision facile.",
+        "paragraph3" : "À la fin de mes études universitaires, en 2023, j'ai participé au Concours Universitaire Ubisoft. Cela m'a permis de décrocher un stage en tant que programmeur gameplay chez Ubisoft Québec et, par la suite, un emploi auquel je me consacre maintenant à temps plein."
+    },
+    "projects" : {
+        "title" : "Mes projets",
+        "tagline" : "Divers projets que j'ai réalisés au cours de mes études et parcours professionnel.",
+        "button1" : "Tous",
+        "button2" : "Jeux",
+        "button3" : "Autres",
+        "section1" : "Description du projet",
+        "section2" : "Mon implication", 
+        "taglines" : [
+            "Le prochain jeu de la série Assassin's Creed.",
+            "Jeu de tir à la troisième personne solo ou split-screen développé en 10 semaines dans le cadre du Concours Universitaire Ubisoft 2023 sous le thème 'Arcade'.",
+            "Jeu top-down d'infiltration et de stratégie multijoueur en cours de réalisation selon les thèmes 'Dungeons' et 'Pocket Sized' comme préparation au Concours Ubisoft 2023.",
+            "Jeu sérieux de platforming sur le sujet de la pollution lumineuse réalisé dans le cadre du cours d'atelier du baccalauréat en développement de jeux vidéo à l'UQAC.",
+            "Jeu de tir à la première personne multijoueur en ligne sur lequel je vais travailler durant les mois à venir dans le cadre du baccalauréat en développement de jeux vidéo à l'UQAC.",
+            "Jeu d'arcade fast-paced réalisé en 48 heures dans le cadre du WonderJam UQAC Automne 2021 selon le thème 'Connexion'. Gagnant de la deuxième place et du choix du public.",
+            "Nouveau site web dynamique du Centre national d'exposition réalisé dans le cadre de mon projet final de Techniques d'intégration multimédia au Cégep de Jonquière."
+        ],
+        "projects" : [
+            {
+                "quote" : "Test",
+                "paragraph1": "Test1",
+                "paragraph2" : "Test2"
+            },
+            {
+                "quote" : "Si tu as toujours rêvé d'affronter ta maîtresse d'école avec ton fusil à eau, After School est pour toi ! Joue en tant qu'un enfant dans son terrain de jeu dans ce jeu de tir à la troisième personne dynamique !",
+                "paragraph1": "After School est un jeu de tir à la troisième personne qui peut être joué en solo ou en coopération sur écran partagé. Le joueur incarne un enfant qui court dans une immense cour de récréation, tirant sur des vagues d'ennemis à l'aide d'un pistolet à eau et accumulant le plus grand nombre de points possible.",
+                "paragraph2" : "Le jeu a été développé en 10 semaines dans le cadre du Concours Ubisoft 2023 sur le thème 'Arcade'. Il devait également respecter les contraintes suivantes :",
+                "list" : "<li>Un tableau de bord en ligne</li><li>Au moins une mécanique de destruction et une mécanique de création</li><li>Au moins un élément interactif de modulation de la gravité</li><li>Deux éléments de concept art</li><li>Au moins 10 minutes de gameplay</li>"
+            }
+        ]
+    },
+    "skills" : {
+        "title" : "Mes compétences",
+        "tagline" : "Au cours de mes études et carrière professionnelle, j'ai eu l'occasion de me familiariser avec une variété de langages de programmation et de logiciels.",
+        "category1" : "Programmation",
+        "category2" : "Outils"
+    },
+    "contact" : {
+        "title" : "Contactez-moi !",
+        "tagline" : "Vous avez une offre à me proposer ou des questions à me poser ? N'hésitez pas à entrer en contact avec moi, il me fera plaisir de discuter avec vous !",
+        "form" : {
+            "label1" : "Nom",
+            "label2" : "Adresse courriel",
+            "button" : "Envoyer",
+            "confirmation" : "Merci de m'avoir contacté !"
+        }
+    },
+    "copyright" : {
+        "section1" : "Hébergement via",
+        "section2" : "Icônes provenant de",
+        "section3" : "et"
+    }
 }

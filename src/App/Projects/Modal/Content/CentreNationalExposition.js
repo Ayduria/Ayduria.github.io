@@ -17,8 +17,6 @@ function CentreNationalExposition( {} ) {
                     src="./img/projects/cne-scroll.gif"
                 />
 
-                <p>Le projet était étendu sur deux sessions et comportait deux phases.</p>
-
                 <h2>Préproduction</h2>
                 <p>Durant la première session, nous étions entièrement consacrés à la préproduction. Durant cette phase, nous avons eu de nombreuses rencontres avec le client et réalisé divers éléments, soit:</p>
                 <ul>
@@ -29,21 +27,8 @@ function CentreNationalExposition( {} ) {
                     <li>Échéancier de production pour la session suivante</li>
                 </ul>
 
-                <div className="project-link-section">
-                    <a className="file-button" href="./files/rapport-preproduction.pdf" target="_blank" rel="noopener noreferrer">
-                        <DocumentTextIcon className="w-7 inline-block mb-1 mr-2"/>
-                        Rapport de préproduction
-                    </a>
-                </div>
-
                 <h2>Production</h2>
                 <p>La phase de production a débuté à la session suivante, durant laquelle nous avons entamé et complété le site web et son panneau administratif ainsi que les trois vidéos promotionnelles. Une fois le tout terminé, le nouveau site a officiellement été mis en ligne et le client a reçu tout les documents nécessaires pour continuer à l'entretenir.</p>
-
-                <img
-                        alt="Team picture"
-                        className="w-24 mb-5"
-                        src="./img/projects/cne_presentation1.jpg"
-                    />
             </div>
 
             <div className="project-link-section">
@@ -70,33 +55,9 @@ function CentreNationalExposition( {} ) {
                 <p>J'ai également programmé une grande partie de l'interactivité et du dynamisme grâce au PHP. Notamment, plusieurs éléments, dont les expositions, les activités et les pages elle-mêmes sont stockés dans une base de données MySQL et affichés dynamiquement. Le site web comporte également deux formulaires que les utilisateurs peuvent remplir pour communiquer avec le CNE.</p>
                 <h2>Rédaction de rapports et guides</h2>
                 <p>J'ai contribué à la rédaction de bon nombres de documents pour le projet dont le rapport de préproduction et les rapports que nous devions rédiger après chaque rencontre client. Le plus gros document que j'ai rédigé est certainement le procédurier, qui indique au client en détails très précis comment utiliser le panneau d'administration de son site web.</p>
-                
-                <div className="project-link-section">
-                    <a className="file-button" href="./files/procedurier.pdf" target="_blank">
-                        <DocumentTextIcon className="w-7 inline-block mb-1 mr-2"/>
-                        Procédurier
-                    </a>
-                </div>
 
                 <h2>Tournage vidéo</h2>
                 <p>Au cours du projet, je me suis fréquemment rendue au CNE avec mon équipe pour des séances de tournage. J'ai filmé une partie des clips se retrouvant dans les vidéos promotionnelles sur la page d'accueil du site.</p>
-            </div>
-
-            <div className="project-section">
-                <h1>Défis de conception</h1>
-
-                <h2>Quantité énorme de contenu</h2>
-                <p>L'un des plus grands défis que nous avons rencontré, et qui nous a suivi presque tout le long du projet, fut l'organisation du contenu sur le site. Il y a énormément de contenu et trouver le classement optimal s'est prouvé être un casse-tête qui a nécessité de nombreuses rencontres avec le client pour se résoudre.</p>
-
-                <div className="project-link-section">
-                    <a className="file-button" href="./files/organigramme-cne.pdf" target="_blank">
-                        <DocumentTextIcon className="w-7 inline-block mb-1 mr-2"/>
-                        Organigramme
-                    </a>
-                </div>
-
-                <h2>Équipe réduite</h2>
-                <p>Ayant perdu un membre de notre équipe, nous avons dû rapidement nous adapter. Nous étions l'équipe la moins nombreuse de la classe mais avions la même charge de travail, donc il a fallu mettre les bouchées doubles.</p>
             </div>
 
             <div className="project-section project-credits">

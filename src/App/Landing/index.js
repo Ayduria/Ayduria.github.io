@@ -7,6 +7,8 @@ import BackgroundImage from '../../Assets/img/stardust.png'
 function Landing() {
     const { languageData } = useContext(LanguageContext);
 
+    if (!languageData.landing) return null;
+
     return (
         <section id="landing">
              <div class="video-wrap">
@@ -18,7 +20,7 @@ function Landing() {
                     <h1 className="title-font text-5xl lg:text-6xl mb-5 font-medium text-white">
                         Eli Lapointe
                     </h1>
-                    <h2 className="title-font text-2xl lg:text-3xl mb-12 font-medium text-white">{ languageData["landing/tagline1"] }<br/>{ languageData["landing/tagline2"] }</h2>
+                    <h2 className="title-font text-2xl lg:text-3xl mb-12 font-medium text-white">{ languageData.landing.tagline1 }<br/>{ languageData.landing.tagline2 }</h2>
                     <div className="flex justify-center">
                         <Link
                             id="projects-btn"
@@ -29,7 +31,7 @@ function Landing() {
                             smooth={true}
                             offset={-70}
                             duration={500}>
-                                { languageData["landing/button1"] }
+                                { languageData.landing.button1 }
                         </Link>
                         <Link
                             className="about-btn ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg hover:cursor-pointer"
@@ -39,7 +41,7 @@ function Landing() {
                             smooth={true}
                             offset={-70}
                             duration={500}>
-                                { languageData["landing/button2"] }
+                                { languageData.landing.button2 }
                         </Link>
                     </div>
                 </div>

@@ -7,8 +7,10 @@ function ContactForm() {
     const [state, handleSubmit] = useForm("mqkjlgbn");
     const { languageData } = useContext(LanguageContext);
 
+    if (!languageData.contact) return null;
+
     if (state.succeeded) {
-        return <p>{ languageData["contact/confirmation"] }</p>
+        return <p>{ languageData.contact.form.confirmation }</p>
     }
     return (
         <form 
@@ -17,7 +19,7 @@ function ContactForm() {
             onSubmit={handleSubmit}>
             <div className="relative mb-4 text-left">
                 <label htmlFor="name" className="leading-7 text-sm text-gray-400 font-bold">
-                    { languageData["contact/label1"] }
+                    { languageData.contact.form.label1 }
                 </label>
                 <input
                     type="text"
@@ -34,7 +36,7 @@ function ContactForm() {
             </div>
             <div className="relative mb-4 text-left">
                 <label htmlFor="email" className="leading-7 text-sm text-gray-400 font-bold">
-                    { languageData["contact/label2"] }
+                    { languageData.contact.form.label2 }
                 </label>
                 <input
                     type="email"
@@ -69,7 +71,7 @@ function ContactForm() {
                 type="submit"
                 disabled={state.submitting}
                 className="send-btn text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">   
-                { languageData["contact/button"] }
+                { languageData.contact.form.button }
             </button>
         </form>
     );

@@ -1,14 +1,12 @@
 import "./index.css"
-import React, { useState, useContext } from "react"
+import React, { useState, useContext, useEffect } from "react"
 import { LanguageContext } from "../../Language/languageContext"
-import { projects_fr } from "./data_fr"
-import { projects_en } from "./data_en"
+import { projects } from "./data"
 import { CodeBracketIcon } from "@heroicons/react/24/solid"
 import Modal from "./Modal"
 
 function Projects() {
-    const { language, languageData } = useContext(LanguageContext);
-    const projects = language === 'en' ? projects_en : projects_fr;
+    const { languageData } = useContext(LanguageContext);
 
     const [show, setShow] = useState(false);
     const [title, setTitle] = useState(null);
@@ -47,25 +45,27 @@ function Projects() {
         setShowOthers(true);
     }
 
+    if (!languageData.projects) return null;
+   
     return (
         <section id="projects" className="text-gray-400 body-font">
             <div className="container px-5 pt-10 pb-16 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-10">
                     <CodeBracketIcon className="mx-auto inline-block w-10 mb-4"/>
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-                        { languageData["projects/title"] }
+                        { languageData.projects.title }
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        { languageData["projects/tagline"] }
+                        { languageData.projects.tagline }
                     </p>
                 </div>
                 <div className="mb-5">
-                    <button id="btn-all" className="btn-category" onClick={showAllProjects}>{ languageData["projects/button1"] }</button>
-                    <button id="btn-games" className="btn-category" onClick={showGameProjects}>{ languageData["projects/button2"] }</button>
-                    <button id="btn-others" className="btn-category" onClick={showOtherProjects}>{ languageData["projects/button3"] }</button>
+                    <button id="btn-all" className="btn-category" onClick={showAllProjects}>{ languageData.projects.button1 }</button>
+                    <button id="btn-games" className="btn-category" onClick={showGameProjects}>{ languageData.projects.button2 }</button>
+                    <button id="btn-others" className="btn-category" onClick={showOtherProjects}>{ languageData.projects.button3 }</button>
                 </div>
                 <div className="flex flex-wrap -m-4 justify-center">
-                    {projects.map((project) => (
+                    {projects.map((project, index) => (
                         <div className="sm:w-1/2 w-100 p-4" style={{ display: (((project.category == 'Games')  && showGames) || ((project.category == 'Others') && showOthers) ? 'block' : 'none') }}>
                             <a
                                 href="javascript:void(0);"
@@ -85,7 +85,7 @@ function Projects() {
                                             {project.title}
                                         </h1>
                                         <p className="leading-relaxed">
-                                            {project.description}
+                                            {languageData.projects.taglines[index]}
                                         </p>
                                     </div>
                                 </div>

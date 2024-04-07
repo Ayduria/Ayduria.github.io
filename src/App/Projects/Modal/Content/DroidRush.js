@@ -65,13 +65,6 @@ function DroidRush( {} ) {
                 <p>Comme préparation supplémentaire pour le Concours Ubisoft qui commence bientôt, je travaille présentement à transformer mon travail d'AI en plugin modulaire qui permettra l'intégration facile dans d'autres projets.</p>
             </div>
 
-            <div className="project-section">
-                <h1>Défis de conception</h1>
-                <h2>Réplication</h2>
-                <p>Le jeu étant multijoueur en ligne, une couche de difficulté s'ajoute avec la réplication, surtout lorsque le jeu est réalisé sur une courte période de temps. Particulièrement durant la partie jam du développement, il nous est souvent arrivé d'avoir des fonctionnalités fonctionnant parfaitement du côté serveur, mais posant problème du côté client, par exemple la génération des cônes de vision des gardes.</p>
-
-            </div>
-
             <div className="project-section project-credits">
             <h1>Crédits</h1>
             <p>

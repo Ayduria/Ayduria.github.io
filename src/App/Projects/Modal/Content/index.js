@@ -13,7 +13,7 @@ const projects = {
     'Droid Rush' : DroidRush,
     'Lux': Lux,
     'ALKA': Alka,
-    'Centre national d\'exposition' : CentreNationalExposition,
+    'Centre National d\'Exposition' : CentreNationalExposition,
     'Time Swap' : TimeSwap,
 }
 

@@ -1,37 +1,71 @@
 {
-    "navbar/item1" : "About me",
-    "navbar/item2" : "Projects",
-    "navbar/item3" : "Skills",
-    
-    "landing/tagline1" : "Hi ! I'm a junior gameplay programmer.",
-    "landing/tagline2" : "I love games and making games. Check out my stuff !",
-    "landing/button1" : "View my projects",
-    "landing/button2" : "Contact me",
-
-    "about/title" : "About Me",
-    "about/paragraph1" : "It is at Cégep de Jonquière, in my hometown of Saguenay, Québec, that I first developed an interest in programming. There, I obtained my college diploma upon completing my studies in the field of web design in Multimedia Integration Techniques.",
-    "about/paragraph2" : "But I wanted to go further. Thus, I enrolled at UQAC, where I obtained my Bachelor's Degree in game development. As a huge video game enthusiast for as long as I can remember, the decision of pursuing my studies in a field that combines my interests in such a way was a no-brainer.",
-    "about/paragraph3" : "At the end of my university studies in 2023, I participated in Ubisoft's Game Lab Competition. This landed me a gameplay programmer internship at Ubisoft Québec and, eventually, a job I now dedicate myself to full-time.",
-
-    "projects/title" : "My Projects",
-    "projects/tagline" : "Some of the projects I worked on during my studies and professional career.",
-    "projects/button1" : "All",
-    "projects/button2" : "Games",
-    "projects/button3" : "Others",
-
-    "skills/title" : "My Skills",
-    "skills/tagline" : "Over the course of my studies and professional career, I had the opportunity of familiarizing myself with a variety of programming languages and softwares.",
-    "skills/category1" : "Programming",
-    "skills/category2" : "Tools",
-
-    "contact/title" : "Contact Me !",
-    "contact/tagline" : "You have an offer for me or questions to ask me ? Do not hesitate to contact me, it will be my pleasure to discuss with you !",
-    "contact/label1" : "Name",
-    "contact/label2" : "Email Address",
-    "contact/button" : "Send",
-    "contact/confirmation" : "Thank you for contacting me !",
-
-    "copyright/section1" : "Hosting via",
-    "copyright/section2" : "Icons from",
-    "copyright/section3" : "and"
+    "navbar" : {
+        "item1" : "About me",
+        "item2" : "Projects",
+        "item3" : "Skills"
+    },
+    "landing" : {
+        "tagline1" : "Hi ! I'm a junior gameplay programmer.",
+        "tagline2" : "I love games and making games. Check out my stuff !",
+        "button1" : "View my projects",
+        "button2" : "Contact me"
+    },
+    "about" : {
+        "title" : "About Me",
+        "paragraph1" : "It is at Cégep de Jonquière, in my hometown of Saguenay, Québec, that I first developed an interest in programming. There, I obtained my college diploma upon completing my studies in the field of web design in Multimedia Integration Techniques.",
+        "paragraph2" : "But I wanted to go further. Thus, I enrolled at UQAC, where I obtained my Bachelor's Degree in game development. As a huge video game enthusiast for as long as I can remember, the decision of pursuing my studies in a field that combines my interests in such a way was a no-brainer.",
+        "paragraph3" : "At the end of my university studies in 2023, I participated in Ubisoft's Game Lab Competition. This landed me a gameplay programmer internship at Ubisoft Québec and, eventually, a job I now dedicate myself to full-time."
+    },
+    "projects" : {
+        "title" : "My Projects",
+        "tagline" : "Some of the projects I worked on during my studies and professional career.",
+        "button1" : "All",
+        "button2" : "Games",
+        "button3" : "Others",
+        "section1" : "Project description",
+        "section2" : "My involvement", 
+        "taglines" : [
+            "The next main entry of the Assassin's Creed series.",
+            "Solo or split-screen third-person shooter developed in 10 weeks for the 2023 Ubisoft Game Lab Competition under the theme 'Arcade'.",
+            "Top-down stealth and strategy online multiplayer game currently in development following the themes 'Dungeons' and 'Pocket Sized' as preparation for the Ubisoft 2023 Game Lab Competition.",
+            "Serious platforming game about light pollution developed as part of the UQAC game development bachelor's degree's workshop course.",
+            "Online multiplayer first-person shooter game I will be working on for the following months developed as part of the UQAC game development bachelor's degree.",
+            "Fast-paced arcade game developed in 48 hours as part of WonderJam UQAC Autumn 2021 following the theme 'Connection'. Winner of second place and People's Choice.",
+            "New dynamic website for the Centre National d'Exposition developed as part of my final project of Multimedia Integration Techniques at Cégep de Jonquière."
+        ],
+        "projects" : [
+            {
+                "quote" : "Test",
+                "paragraph1": "Test1",
+                "paragraph2" : "Test2"
+            },
+            {
+                "quote" : "If you've ever dreamed of taking on your school teacher with your water gun, After School is for you ! Play as a child in his playground in this dynamic third-person shooter !",
+                "paragraph1": "After School is a third-person shooter game that can be played solo or in split-screen co-op. The player plays as a kid running around in a huge playground, shooting waves of enemies with a water gun and accumulating as high a score as possible.",
+                "paragraph2" : "The game was developed over the course of 10 weeks as a submission to the 2023 Ubisoft Game Lab Competition under the theme 'Arcade'. It also had to respect the following constraints : ",
+                "list" : "<li>An online scoreboard</li><li>At least one destruction mechanic and one creation mechanic</li><li>At least one interactive gravity modulation element</li><li>Two concept art elements</li><li>At least 10 minutes of gameplay</li>"
+            }
+        ]
+    },
+    "skills" : {
+        "title" : "My Skills",
+        "tagline" : "Over the course of my studies and professional career, I had the opportunity of familiarizing myself with a variety of programming languages and softwares.",
+        "category1" : "Programming",
+        "category2" : "Tools"
+    },
+    "contact" : {
+        "title" : "Contact Me !",
+        "tagline" : "You have an offer for me or questions to ask me ? Do not hesitate to contact me, it will be my pleasure to discuss with you !",
+        "form" : {
+            "label1" : "Name",
+            "label2" : "Email Address",
+            "button" : "Send",
+            "confirmation" : "Thank you for contacting me !"
+        }
+    },
+    "copyright" : {
+        "section1" : "Hosting via",
+        "section2" : "Icons from",
+        "section3" : "and"
+    }
 }
