@@ -26,7 +26,7 @@ function About() {
                     <img
                         className="object-cover object-center rounded-full"
                         alt="Me smiling"
-                        src="./img/me4.jpg"
+                        src="./img/me5.png"
                     />
                 </div>
             </div>

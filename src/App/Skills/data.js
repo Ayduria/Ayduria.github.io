@@ -8,24 +8,36 @@
     image: "/img/icons/c-sharp.png",
   },
   {
-    title: "Java",
-    image: "/img/icons/java.png",
+    title: "SQL",
+    image: "/img/icons/sql-server.png",
   },
   {
     title: "JavaScript",
     image: "/img/icons/js.png",
   },
   {
-    title: "PHP",
-    image: "/img/icons/php.png",
+    title: "HTML/CSS",
+    image: "/img/icons/html_css.png",
   },
   {
-    title: "SQL",
-    image: "/img/icons/sql-server.png",
+    title: "React",
+    image: "/img/icons/react.png",
   },
 ];
 
 export const toolskills = [
+  {
+    title: "Visual Studio",
+    image: "/img/icons/vs.svg",
+  },
+  {
+    title: "Perforce Helix",
+    image: "/img/icons/helix-core.png",
+  },
+  {
+    title: "Ubisoft Anvil",
+    image: "/img/icons/anvil.png",
+  },
   {
     title: "Unreal Engine",
     image: "/img/icons/unreal.png",
@@ -35,19 +47,7 @@ export const toolskills = [
     image: "/img/icons/unity.png",
   },
   {
-    title: "Rider",
-    image: "/img/icons/rider.png",
-  },
-  {
-    title: "Visual Studio",
-    image: "/img/icons/vs.svg",
-  },
-  {
     title: "Git",
     image: "/img/icons/git.png",
-  },
-  {
-    title: "Perforce Helix",
-    image: "/img/icons/helix-core.png",
   },
 ];

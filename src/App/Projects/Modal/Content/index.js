@@ -8,7 +8,7 @@ import DroidRush from "./DroidRush"
 import LoadingGif from '../../../../Assets/img/loading-gif.gif'
 
 const projects = {
-    'Assassin\'s Creed Codename Red': ACRed,
+    'Assassin\'s Creed Shadows': ACRed,
     'After School': AfterSchool,
     'Droid Rush' : DroidRush,
     'Lux': Lux,
